@@ -57,7 +57,7 @@
       <span class="text-2xl font-bold text-[#ffff85]"> &</span>
       <span class="text-2xl font-bold text-white">Michel</span>
     </div>
-    <div class="-mt-1 -mr-4 text-right text-lg  font-bold text-[#ffff85]">Page Privée de {id}</div>
+    <div class="-mt-1 -mr-4 text-right text-lg  font-bold text-[#ffff85]">Club privé des libertines</div>
   </div>
 
   <!-- Contenu blanc -->
