@@ -66,7 +66,6 @@
       <div class="m-auto my-2 w-[100px] rounded-xl bg-[#e1f3e5] py-1 text-center text-xs font-semibold uppercase text-[#2aba66]">En Ligne</div>
       <div class="flex justify-center space-x-4 pt-2">
         <h3 class="rounded-xl bg-white px-2 font-semibold text-black">🎂 22 ans</h3>
-        <h3 class="rounded-xl bg-white px-2 font-semibold text-black">🔞 Libertine</h3>
         <h3 class="flex items-center rounded-xl bg-white px-2 font-semibold text-black ">📸 53 photos</h3>
       </div>
       <div class="flex justify-center space-x-4 pt-4">
@@ -77,7 +76,7 @@
 
   <a href="/i/{id}"
     ><section class="w-full">
-      <article class="shake m-auto mt-3 flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-gradient-to-r from-[#57cc99] to-[#73db8b] p-4 font-bold text-white shadow-2xl">
+      <article class="shake m-auto mt-3 flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-black p-4 font-bold text-white shadow-2xl">
         <img src="/chat.png" alt="chat" class="w-[30px]" />
         <button class="font-bold tracking-[1px]"> ME CONTACTER MAINTENANT</button>
       </article>
@@ -120,7 +119,7 @@
 
   <a href="/i/{id}"
     ><section class="w-full">
-      <article class="shake m-auto mt-3 flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-gradient-to-r from-[#57cc99] to-[#73db8b] p-4 font-bold text-white shadow-2xl">
+      <article class="shake m-auto mt-3 flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-black p-4 font-bold text-white shadow-2xl">
         <img src="/chat.png" alt="chat" class="w-[30px]" />
         <button class="font-bold tracking-[1px]"> ME CONTACTER MAINTENANT</button>
       </article>
@@ -150,7 +149,7 @@
 
   <a href="/i/{id}"
     ><section class="w-full">
-      <article class="shake m-auto mt-3 flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-gradient-to-r from-[#57cc99] to-[#73db8b] p-4 font-bold text-white shadow-2xl">
+      <article class="shake m-auto mt-3 flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-black p-4 font-bold text-white shadow-2xl">
         <img src="/chat.png" alt="chat" class="w-[30px]" />
         <button class="font-bold tracking-[1px]"> ME CONTACTER MAINTENANT</button>
       </article>
@@ -188,7 +187,7 @@
 
   <a href="/i/{id}"
     ><section class="mt-3 w-full">
-      <article class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-gradient-to-r from-[#57cc99] to-[#73db8b]  p-4 font-bold text-white shadow-2xl">
+      <article class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-black  p-4 font-bold text-white shadow-2xl">
         <img src="/chat.png" alt="chat" class="w-[30px]" />
         <button class="font-bold tracking-[1px]"> ME CONTACTER MAINTENANT</button>
       </article>

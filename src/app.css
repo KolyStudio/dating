@@ -197,10 +197,10 @@ body {
 }
 
 .ptprelinker-contents-register-form-default .ptprelinker-content .ptprelinker-content-inner .ptprelinker-register-form .ptprelinker-buttons .ptprelinker-button {
-    border-radius: 20px !important;
+    border-radius: 10px !important;
     font-weight: bold !important;
     text-transform: uppercase !important;
-    background: linear-gradient(90deg, #57cc99 0%, #73db8b 100%);
+    background: linear-gradient(90deg, #57cc99 0%, #59ce75 100%);
     box-shadow: 0px 4px 10px rgb(156, 156, 156);
     border: none !important;
     color: #ffffff !important;
