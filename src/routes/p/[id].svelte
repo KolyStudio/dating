@@ -41,14 +41,17 @@
 <img src="/flash.svg" alt="heart" class="fixed top-[25%] left-[15%] z-[-1] w-[25px] -rotate-[25deg]" />
 <img src="/flash.svg" alt="heart" class="fixed top-[45%] right-[10%] z-[-1] w-[25px] -rotate-[35deg]" />
 
-<div class="m-auto w-[200px] pt-4">
-  <div class="flex items-center space-x-1">
+<div class="m-auto flex w-[300px] max-w-[400px] flex-col  pt-4">
+  <div class="m-auto flex items-center space-x-1">
     <img src="/chat.png" alt="chat" class="w-[30px]" />
     <span class="text-2xl font-bold text-white">Jacquie</span>
     <span class="text-2xl font-bold text-[#ffff85]"> &</span>
     <span class="text-2xl font-bold text-white">Michel</span>
   </div>
-  <div class="-mt-1 -mr-4 text-right text-lg  font-bold text-[#ffff85]">Page Privée de {id}</div>
+  <div class=" m-auto -mt-1 flex  w-full justify-center space-x-1  text-right text-lg font-bold text-[#ffff85] ">
+    <span>Page Privée de</span>
+    <p class="first-letter:uppercase">{id}</p>
+  </div>
 </div>
 
 <!-- Contenu blanc -->
