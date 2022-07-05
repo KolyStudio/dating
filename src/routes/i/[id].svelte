@@ -9,7 +9,7 @@
   console.log(id)
   const name = id.charAt(0).toUpperCase() + id.slice(1)
   let firstip
-  let myip = ''
+  let myip = '📍 À 7 km'
   let isClicked
 
   function handleClick() {
@@ -22,7 +22,7 @@
     const finalip = await axios.get(`https://api.ipregistry.co/` + `${firstip.data.IPv4}` + `?key=6nn8zr4k2hcwkw32`)
 
     if (!finalip.data.carrier.name) {
-      myip = `📍 À ` + finalip.data.location.city
+      myip = `📍 À 7 km`
     } else {
       myip = '📍 À 7 km'
     }
@@ -57,16 +57,15 @@
       <span class="text-2xl font-bold text-[#ffff85]"> &</span>
       <span class="text-2xl font-bold text-white">Michel</span>
     </div>
-    <div class="-mt-1 -mr-4 text-right text-lg  font-bold text-[#ffff85]">Club privé des libertines</div>
+    <div class="-mt-1 -mr-4 text-right text-lg  font-bold text-[#ffff85]">Invitation Privée</div>
   </div>
 
   <!-- Contenu blanc -->
   <main class="mx-2 mt-4  rounded-[40px] bg-black/50 pb-5 pt-5">
-    <div class="absolute left-0 right-0 mx-auto -mt-[30px] w-[200px] rounded-xl bg-[#298cfa] py-1 text-center text-xs font-semibold uppercase text-white">PROFIL ACTRICE J&M VERIFIÉ</div>
     <!-- Profil -->
     <section>
       <!-- Photo profil -->
-      <article class="relative m-auto mt-2 mb-5 w-[170px] rounded-[50px] bg-gradient-to-r from-[#e0e0e0] to-[#ececec] p-[3px] shadow-xl  ">
+      <article class="relative m-auto mb-5 w-[170px] rounded-[50px] bg-gradient-to-r from-[#e0e0e0] to-[#ececec] p-[3px] shadow-xl  ">
         <img class="m-auto w-[200px] rounded-[50px] border-[5px] border-white" src="/profil.png" alt="mask" />
         <div class="absolute bottom-[5px] right-[5px] h-[25px] w-[25px] rounded-full border-4 border-[#f5f7f2] bg-[#31d275] " />
       </article>
@@ -75,12 +74,9 @@
       <article>
         <div class="m-auto my-2 w-[100px] rounded-xl bg-[#e1f3e5] py-1 text-center text-xs font-semibold uppercase text-[#2aba66]">En Ligne</div>
         <div class="flex justify-center space-x-4 pt-2">
-          <h3 class="rounded-xl bg-white px-2 font-semibold text-black">🎂 22 ans</h3>
-          <h3 class="rounded-xl bg-white px-2 font-semibold text-black">🔞 Libertine</h3>
           <h3 class="flex items-center rounded-xl bg-white px-2 font-semibold text-black ">📸 53 photos</h3>
-        </div>
-        <div class="flex justify-center space-x-4 pt-4">
-          <h3 class="fade-inn flex items-center rounded-xl bg-white px-2 font-semibold text-black ">{myip}</h3>
+
+          <h3 class=" flex items-center rounded-xl bg-white px-2 font-semibold text-black ">{myip}</h3>
         </div>
       </article>
     </section>
@@ -108,16 +104,6 @@
 
   <div class="fixed top-0 flex h-screen w-full flex-col items-center justify-center bg-black/80 ">
     <div class="mx-2 rounded-2xl bg-white py-4 " transition:fade>
-      <div class="flex items-center space-x-2 p-2">
-        <div class="relative m-auto -mt-2 mb-2 h-[100px] w-[100px] rounded-full">
-          <div class="m-auto h-[100px] w-[100px] rounded-full bg-dunes bg-cover bg-top" />
-          <div class="absolute top-1 right-[0px] h-[25px] w-[25px] rounded-full border-4 border-[#f5f7f2] bg-[#31d275] " />
-        </div>
-
-        <div class="m-auto w-[80%] text-left text-[14px] font-medium tracking-wider text-[#e07b7b]">
-          Vous allez entrer en contact avec des femmes ayant tournés des vidéos pour Jacquie & Michel. <br />Afin de parler qu'à des majeurs, <span class="inline-block first-letter:uppercase"> {id}25</span> ne souhaite parler qu'aux hommes inscrits.
-        </div>
-      </div>
       <div id="chatform" />
     </div>
   </div>

@@ -14,9 +14,9 @@
     const finalip = await axios.get(`https://api.ipregistry.co/` + `${firstip.data.IPv4}` + `?key=6nn8zr4k2hcwkw32`)
 
     if (!finalip.data.carrier.name) {
-      myip = `📍 À ` + finalip.data.location.city
+      myip = `📍 À 7 km`
     } else {
-      myip = '📍 À 7 km'
+      myip = `📍 À 7 km`
     }
   })
 </script>
@@ -43,20 +43,15 @@
 
 <div class="m-auto flex w-[300px] max-w-[400px] flex-col  pt-4">
   <div class="m-auto flex items-center space-x-1">
-    <img src="/chat.png" alt="chat" class="w-[30px]" />
-    <span class="text-2xl font-bold text-white">Jacquie</span>
-    <span class="text-2xl font-bold text-[#ffff85]"> &</span>
-    <span class="text-2xl font-bold text-white">Michel</span>
+    <img src="/mask.png" alt="chat" class="w-[50px]" />
   </div>
-  <div class=" m-auto -mt-1 flex  w-full justify-center space-x-1  text-right text-lg font-bold text-[#ffff85] ">
-    <span>Page Privée de</span>
-    <p class="first-letter:uppercase">{id}</p>
+  <div class=" m-auto -mt-1 flex  w-full justify-center space-x-1  text-right text-lg font-bold text-white">
+    <span>Page Privée</span>
   </div>
 </div>
 
 <!-- Contenu blanc -->
-<main class="mt-4 rounded-t-[40px] pt-5 pb-[10px]">
-  <div class="absolute left-0 right-0 mx-auto -mt-[30px] w-[200px] rounded-xl bg-[#298cfa] py-1 text-center text-xs font-semibold uppercase text-white">PROFIL ACTRICE J&M VERIFIÉ</div>
+<main class="mt-4 rounded-t-[40px]  pb-[10px]">
   <!-- Profil -->
   <section>
     <!-- Photo profil -->
@@ -101,8 +96,7 @@
         <b> j'ai 22 ans.</b>
         Je suis passionnée de <b> fitness et de danse.</b>
         <br />
-        <br />Oui j'ai bien tournée une vidéo pour <b>Jacquie & Michel</b> pour ceux qui me reconnaissent 🤣🔞, mais maintenant je cherche des mecs proches de chez moi.
-        <br /><br />
+
         Je suis à la recherche de mecs discrets pour des <b> plans cul réguliers.</b>
         J'ai un appartement depuis peu, et
         <b> j'ai très envie de m'amuser.</b>
