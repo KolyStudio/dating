@@ -98,7 +98,7 @@
         <b> j'ai 22 ans.</b>
         Je suis passionnée de <b> fitness et de danse.</b>
         <br />
-        <br />Oui j'ai bien tourné une vidéo pour <b>Jacquie et Michel</b> pour ceux qui me reconnaissent 🤣🔞, mais maintenant je cherche des mecs proches de chez moi.
+        <br />Oui j'ai bien tournée une vidéo pour <b>Jacquie & Michel</b> pour ceux qui me reconnaissent 🤣🔞, mais maintenant je cherche des mecs proches de chez moi.
         <br /><br />
         Je suis à la recherche de mecs discrets pour des <b> plans cul réguliers.</b>
         J'ai un appartement depuis peu, et
