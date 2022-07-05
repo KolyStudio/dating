@@ -1,0 +1,258 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    font-family: Platform;
+    letter-spacing: 1.1px;
+}
+
+.opacit50 {
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.shake {
+    animation: shake 3s infinite;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
+@keyframes shake {
+
+    10%,
+    90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+
+    20%,
+    80% {
+        transform: translate3d(2px, 0, 0);
+    }
+
+    30%,
+    50%,
+    70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+
+    40%,
+    60% {
+        transform: translate3d(4px, 0, 0);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.fade-inn {
+    animation: fadeIn 3s;
+}
+
+@font-face {
+    font-family: 'Platform';
+    src: url('fonts/Platform-Regular.eot');
+    src: local('Platform Regular'), local('Platform-Regular'),
+        url('fonts/Platform-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Platform-Regular.woff2') format('woff2'),
+        url('fonts/Platform-Regular.woff') format('woff'),
+        url('fonts/Platform-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Platform';
+    src: url('fonts/Platform-MediumItalic.eot');
+    src: local('Platform Medium Italic'), local('Platform-MediumItalic'),
+        url('fonts/Platform-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Platform-MediumItalic.woff2') format('woff2'),
+        url('fonts/Platform-MediumItalic.woff') format('woff'),
+        url('fonts/Platform-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Platform';
+    src: url('fonts/Platform-BoldItalic.eot');
+    src: local('Platform Bold Italic'), local('Platform-BoldItalic'),
+        url('fonts/Platform-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Platform-BoldItalic.woff2') format('woff2'),
+        url('fonts/Platform-BoldItalic.woff') format('woff'),
+        url('fonts/Platform-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Platform Hairline';
+    src: url('fonts/Platform-Hairline.eot');
+    src: local('Platform Hairline'), local('Platform-Hairline'),
+        url('fonts/Platform-Hairline.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Platform-Hairline.woff2') format('woff2'),
+        url('fonts/Platform-Hairline.woff') format('woff'),
+        url('fonts/Platform-Hairline.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Platform Hairline';
+    src: url('fonts/Platform-HairlineItalic.eot');
+    src: local('Platform Hairline Italic'), local('Platform-HairlineItalic'),
+        url('fonts/Platform-HairlineItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Platform-HairlineItalic.woff2') format('woff2'),
+        url('fonts/Platform-HairlineItalic.woff') format('woff'),
+        url('fonts/Platform-HairlineItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Platform';
+    src: url('fonts/Platform-Medium.eot');
+    src: local('Platform Medium'), local('Platform-Medium'),
+        url('fonts/Platform-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Platform-Medium.woff2') format('woff2'),
+        url('fonts/Platform-Medium.woff') format('woff'),
+        url('fonts/Platform-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Platform';
+    src: url('Platform-RegularItalic.eot');
+    src: local('Platform Regular Italic'), local('Platform-RegularItalic'),
+        url('fonts/Platform-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Platform-RegularItalic.woff2') format('woff2'),
+        url('fonts/Platform-RegularItalic.woff') format('woff'),
+        url('fonts/Platform-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Platform';
+    src: url('fonts/Platform-Bold.eot');
+    src: local('Platform Bold'), local('Platform-Bold'),
+        url('fonts/Platform-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Platform-Bold.woff2') format('woff2'),
+        url('fonts/Platform-Bold.woff') format('woff'),
+        url('fonts/Platform-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Platform';
+    src: url('fonts/Platform-Light.eot');
+    src: local('Platform Light'), local('Platform-Light'),
+        url('fonts/Platform-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Platform-Light.woff2') format('woff2'),
+        url('fonts/Platform-Light.woff') format('woff'),
+        url('fonts/Platform-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Platform';
+    src: url('fonts/Platform-LightItalic.eot');
+    src: local('Platform Light Italic'), local('Platform-LightItalic'),
+        url('fonts/Platform-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Platform-LightItalic.woff2') format('woff2'),
+        url('fonts/Platform-LightItalic.woff') format('woff'),
+        url('fonts/Platform-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+
+.ptprelinker-containers-fullpage-default.ptprelinker-show .ptprelinker-content .ptprelinker-content-inner {
+    font-family: Platform;
+    letter-spacing: 1.5px !important;
+}
+
+
+.ptprelinker-contents-register-form-default .ptprelinker-content .ptprelinker-content-inner .ptprelinker-register-form .ptprelinker-legend-form {
+    color: #57cc99 !important;
+    font-weight: bold;
+
+}
+
+.ptprelinker-cgu-text {
+    margin-top: 0.4rem;
+    color: #31d275 !important;
+    font-size: 0px !important;
+}
+
+.ptprelinker-contents-register-form-default .ptprelinker-content .ptprelinker-content-inner .ptprelinker-register-form .ptprelinker-buttons .ptprelinker-button {
+    border-radius: 20px !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+    background: linear-gradient(90deg, #57cc99 0%, #73db8b 100%);
+    box-shadow: 0px 4px 10px rgb(156, 156, 156);
+    border: none !important;
+    color: #ffffff !important;
+    letter-spacing: 1.1px !important;
+}
+
+.ptprelinker-content-inner {
+    background-color: white !important;
+}
+
+.ptprelinker-legend-form {
+    background-color: white !important;
+}
+
+.ptprelinker-containers-fullpage-default.ptprelinker-show .ptprelinker-content .ptprelinker-content-inner {
+    border-radius: 20px;
+    width: 95%;
+    margin: 0 auto;
+
+}
+
+.ptprelinker-input:focus {
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.ptprelinker-select:focus {
+    box-shadow: none !important;
+    border: none !important;
+}
+
+
+
+.ptprelinker-contents-register-form-default .ptprelinker-content .ptprelinker-content-inner .ptprelinker-register-form .ptprelinker-cgu-link {
+    color: #ceb4db !important;
+    text-decoration: none;
+    transition: all 0.4s;
+}
+
+.ptprelinker-contents-register-form-default .ptprelinker-checkbox .ptprelinker-input-checkbox {
+
+    width: 100% !important;
+    height: 2.5rem !important;
+    opacity: 0;
+    text-align: center !important;
+}
+
+.ptprelinker-contents-register-form-default .ptprelinker-content .ptprelinker-content-inner {
+    padding-top: 0px !important;
+    font-size: Platform !important;
+}
+
+.ptprelinker-contents-register-form-default .ptprelinker-content .ptprelinker-content-inner .ptprelinker-register-form .ptprelinker-legend-form {
+    font-size: 20px !important
+}
