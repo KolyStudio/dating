@@ -41,7 +41,7 @@
 <img src="/flash.svg" alt="heart" class="fixed top-[25%] left-[15%] z-[-1] w-[25px] -rotate-[25deg]" />
 <img src="/flash.svg" alt="heart" class="fixed top-[45%] right-[10%] z-[-1] w-[25px] -rotate-[35deg]" />
 
-<div class="bg-black/60 p-1 text-center font-medium tracking-[2px] text-white">FERMERTURE DE LA PAGE PRIVÉE À MINUIT</div>
+<div class="bg-black/60 p-1 text-center font-medium tracking-[1px] text-white">FERMERTURE DE LA PAGE PRIVÉE À MINUIT</div>
 
 <div class="m-auto flex w-[300px] max-w-[400px] flex-col  pt-4">
   <div class="m-auto flex items-center space-x-1">
