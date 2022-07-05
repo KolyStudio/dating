@@ -86,13 +86,13 @@
     </section>
 
     <section class="my-4 w-full" id="testjs">
-      <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-gradient-to-r from-[#57cc99] to-[#73db8b]  p-5 font-bold text-white shadow-2xl">
+      <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-gradient-to-r from-[#cc5757] to-[#db7373] p-5 font-bold text-white shadow-2xl">
         <button on:click={handleClick} id="testjs" class="font-bold uppercase tracking-[2px]">Accepter</button>
       </article>
     </section>
 
     <section class="my-4 w-full" id="testjs">
-      <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-gradient-to-r from-[#cc5757] to-[#db7373]  p-5 font-bold text-white shadow-2xl">
+      <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-gradient-to-r from-[#57cc99] to-[#73db8b]   p-5 font-bold text-white shadow-2xl">
         <button on:click={handleClick} id="testjs" class="font-bold uppercase tracking-[2px]">S'inscrire</button>
       </article>
     </section>
