@@ -80,10 +80,10 @@
     </article>
   </section>
 
-  <section id="testjs" class="mt-3 w-full">
+  <section on:click={handleClick} id="testjs" class="mt-3 w-full">
     <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-black  p-4 font-bold text-white shadow-2xl">
       <img id="testjs" src="/chat.png" alt="chat" class="w-[30px]" />
-      <button on:click={handleClick} id="testjs" class="font-bold tracking-[1px]"> ME CONTACTER MAINTENANT</button>
+      <button id="testjs" class="font-bold tracking-[1px]"> ME CONTACTER MAINTENANT</button>
     </article>
   </section>
 
@@ -121,13 +121,6 @@
     </p>
   </section>
 
-  <section id="testjs" class="mt-3 w-full">
-    <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-black  p-4 font-bold text-white shadow-2xl">
-      <img id="testjs" src="/chat.png" alt="chat" class="w-[30px]" />
-      <button on:click={handleClick} id="testjs" class="font-bold tracking-[1px]"> ME CONTACTER MAINTENANT</button>
-    </article>
-  </section>
-
   <section class="m-auto mt-4 w-[90%] rounded-[30px] bg-white p-4 text-black">
     <h1 class="mb-2 text-center font-semibold">COMMENT ME RENCONTRER EN RÉEL ?</h1>
     <p>
@@ -141,18 +134,10 @@
     </p>
   </section>
 
-  <section class="m-auto mt-4 w-[90%] rounded-[30px] bg-white p-4 text-black">
-    <h1 class="text-center font-semibold">POURQUOI J&M CONTACT PLUTÔT QUE SNAP OU TINDER ?</h1>
-    <p>
-      Je suis aussi sur Tinder et plusieurs autres sites, mais au final
-      <b>je me fais harceler par des Kssos et les faux profils</b> qui me font perdre beaucoup de temps… 😡
-    </p>
-  </section>
-
-  <section id="testjs" class="mt-3 w-full">
+  <section on:click={handleClick} id="testjs" class="mt-3 w-full">
     <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-black  p-4 font-bold text-white shadow-2xl">
       <img id="testjs" src="/chat.png" alt="chat" class="w-[30px]" />
-      <button on:click={handleClick} id="testjs" class="font-bold tracking-[1px]"> ME CONTACTER MAINTENANT</button>
+      <button id="testjs" class="font-bold tracking-[1px]"> ME CONTACTER MAINTENANT</button>
     </article>
   </section>
 
@@ -185,10 +170,10 @@
     </article>
   </section>
 
-  <section id="testjs" class="mt-3 w-full">
+  <section on:click={handleClick} id="testjs" class="mt-3 w-full">
     <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-black  p-4 font-bold text-white shadow-2xl">
       <img id="testjs" src="/chat.png" alt="chat" class="w-[30px]" />
-      <button on:click={handleClick} id="testjs" class="font-bold tracking-[1px]"> ME CONTACTER MAINTENANT</button>
+      <button id="testjs" class="font-bold tracking-[1px]"> ME CONTACTER MAINTENANT</button>
     </article>
   </section>
 </main>
@@ -196,8 +181,8 @@
 {#if isClicked}
   <script type="text/javascript" src="https://c.love.free-datings.com/8/js/script.js?id=rEwc2"></script>
 
-  <div class="fixed top-0 flex h-screen w-full flex-col items-center justify-center bg-black/80 ">
-    <div class="mx-2 rounded-2xl bg-white py-4 ">
+  <div class="fixed top-0 flex h-screen w-full flex-col items-center  backdrop-blur-sm backdrop-brightness-[.25]">
+    <div class="mx-2 mt-[50px] rounded-2xl bg-white py-4">
       <div class="flex items-center space-x-2 p-2">
         <div class="relative  m-auto mb-2 h-[100px] w-[100px] rounded-full">
           <div class="m-auto h-[100px] w-[100px] rounded-full bg-dunes bg-cover bg-top" />
