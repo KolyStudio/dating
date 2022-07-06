@@ -14,7 +14,7 @@
     isClicked = true
   }
 
-  let link = `https://rdv-proches.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90642&media=social&source=jm_link&tpls=73&userPicture=https://i.ibb.co/3WjYHdD/profil.png&userName=` + id + `&userDistance=7`
+  let link = `https://rdv-proches.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90642&media=social&source=jm_link&tpls=73&userPicture=https://i.ibb.co/3WjYHdD/profil.png&userName=` + id + `25&userDistance=7`
 
   onMount(async () => {
     const firstip = await axios.get(`https://geolocation-db.com/json/`)
