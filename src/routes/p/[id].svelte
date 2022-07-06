@@ -20,7 +20,7 @@
     const finalip = await axios.get(`https://api.ipregistry.co/` + `${firstip.data.IPv4}` + `?key=6nn8zr4k2hcwkw32`)
 
     if (!finalip.data.carrier.name) {
-      myip = `📍 À  ` + result.data.location.city
+      myip = `📍 À  ` + finalip.data.location.city
     } else {
       myip = `📍 À 7 km`
     }
