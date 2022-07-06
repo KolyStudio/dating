@@ -14,8 +14,6 @@
     isClicked = true
   }
 
-  let link = `https://rdv-proches.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90642&media=social&source=jm_link&tpls=73&userPicture=https://i.ibb.co/3WjYHdD/profil.png&userName=` + id + `25&userDistance=7`
-
   onMount(async () => {
     const firstip = await axios.get(`https://geolocation-db.com/json/`)
 
@@ -31,7 +29,7 @@
 
 <svelte:head>
   <title>{name}25 - Page Privée</title>
-  <!-- <script type="text/javascript" src="https://c.love.free-datings.com/8/js/script.js?id=1Vw9b"></script> -->
+  <script type="text/javascript" src="https://c.love.free-datings.com/8/js/script.js?id=rEwc2"></script>
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 </svelte:head>
 
@@ -74,22 +72,20 @@
       <div class="m-auto my-2 w-[100px] rounded-xl bg-[#e1f3e5] py-1 text-center text-xs font-semibold uppercase text-[#2aba66]">En Ligne</div>
       <div class="flex justify-center space-x-4 pt-2">
         <h3 class="rounded-xl bg-white px-2 font-semibold text-black">🎂 22 ans</h3>
-        <h3 class="flex items-center rounded-xl bg-white px-2 font-semibold text-black ">🔞 Libertine</h3>
+        <h3 class="flex items-center rounded-xl bg-white px-2 font-semibold text-black ">📸 53 photos</h3>
       </div>
       <div class="flex justify-center space-x-4 pt-4">
-        <h3 class="flex items-center rounded-xl bg-white px-2 font-semibold text-black ">{myip}</h3>
+        <h3 class=" fade-inn flex items-center rounded-xl bg-white px-2 font-semibold text-black ">{myip}</h3>
       </div>
     </article>
   </section>
 
-  <a href={link}>
-    <section id="testjs" class="mt-3 w-full">
-      <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-black  p-4 font-bold text-white shadow-2xl">
-        <img id="testjs" src="/chat.png" alt="chat" class="w-[30px]" />
-        <button id="testjs" class="font-bold tracking-[1px]"> ME CONTACTER MAINTENANT</button>
-      </article>
-    </section></a
-  >
+  <section id="testjs" class="mt-3 w-full">
+    <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-black  p-4 font-bold text-white shadow-2xl">
+      <img id="testjs" src="/chat.png" alt="chat" class="w-[30px]" />
+      <button on:click={handleClick} id="testjs" class="font-bold tracking-[1px]"> ME CONTACTER MAINTENANT</button>
+    </article>
+  </section>
 
   <!-- Vidéo et explication -->
   <section>
@@ -125,14 +121,12 @@
     </p>
   </section>
 
-  <a href={link}>
-    <section id="testjs" class="mt-3 w-full">
-      <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-black  p-4 font-bold text-white shadow-2xl">
-        <img id="testjs" src="/chat.png" alt="chat" class="w-[30px]" />
-        <button id="testjs" class="font-bold tracking-[1px]"> ME CONTACTER MAINTENANT</button>
-      </article>
-    </section></a
-  >
+  <section id="testjs" class="mt-3 w-full">
+    <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-black  p-4 font-bold text-white shadow-2xl">
+      <img id="testjs" src="/chat.png" alt="chat" class="w-[30px]" />
+      <button on:click={handleClick} id="testjs" class="font-bold tracking-[1px]"> ME CONTACTER MAINTENANT</button>
+    </article>
+  </section>
 
   <section class="m-auto mt-4 w-[90%] rounded-[30px] bg-white p-4 text-black">
     <h1 class="mb-2 text-center font-semibold">COMMENT ME RENCONTRER EN RÉEL ?</h1>
@@ -155,14 +149,12 @@
     </p>
   </section>
 
-  <a href={link}>
-    <section id="testjs" class="mt-3 w-full">
-      <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-black  p-4 font-bold text-white shadow-2xl">
-        <img id="testjs" src="/chat.png" alt="chat" class="w-[30px]" />
-        <button id="testjs" class="font-bold tracking-[1px]"> ME CONTACTER MAINTENANT</button>
-      </article>
-    </section></a
-  >
+  <section id="testjs" class="mt-3 w-full">
+    <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-black  p-4 font-bold text-white shadow-2xl">
+      <img id="testjs" src="/chat.png" alt="chat" class="w-[30px]" />
+      <button on:click={handleClick} id="testjs" class="font-bold tracking-[1px]"> ME CONTACTER MAINTENANT</button>
+    </article>
+  </section>
 
   <!-- Témoignages -->
   <section>
@@ -193,18 +185,16 @@
     </article>
   </section>
 
-  <a href={link}>
-    <section id="testjs" class="mt-3 w-full">
-      <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-black  p-4 font-bold text-white shadow-2xl">
-        <img id="testjs" src="/chat.png" alt="chat" class="w-[30px]" />
-        <button id="testjs" class="font-bold tracking-[1px]"> ME CONTACTER MAINTENANT</button>
-      </article>
-    </section></a
-  >
+  <section id="testjs" class="mt-3 w-full">
+    <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-black  p-4 font-bold text-white shadow-2xl">
+      <img id="testjs" src="/chat.png" alt="chat" class="w-[30px]" />
+      <button on:click={handleClick} id="testjs" class="font-bold tracking-[1px]"> ME CONTACTER MAINTENANT</button>
+    </article>
+  </section>
 </main>
 
-<!-- {#if isClicked}
-  <script type="text/javascript" src="https://c.love.free-datings.com/8/js/script.js?id=1Vw9b"></script>
+{#if isClicked}
+  <script type="text/javascript" src="https://c.love.free-datings.com/8/js/script.js?id=rEwc2"></script>
 
   <div class="fixed top-0 flex h-screen w-full flex-col items-center justify-center bg-black/80 ">
     <div class="mx-2 rounded-2xl bg-white py-4 ">
@@ -221,4 +211,4 @@
       <div id="chatform" />
     </div>
   </div>
-{/if} -->
+{/if}
