@@ -4,13 +4,13 @@
   import { onMount } from 'svelte'
   import { fade } from 'svelte/transition'
   let firstip
-  let myip = '📍 À 3.9 km'
+  let myip = ''
   const { id } = $page.params
   const name = id.charAt(0).toUpperCase() + id.slice(1)
 
-  let isClicked
+  let link = `https://k.encontro-rapido.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90642&media=social&tpls=73&tpls=73&source=jm_link&userPicture=https://i.ibb.co/3WjYHdD/profil.png&userName=` + id + `25&userDistance=7`
 
-  let link = `/i/` + id
+  let isClicked
 
   function handleClick() {
     isClicked = true
@@ -21,11 +21,10 @@
 
     const finalip = await axios.get(`https://api.ipregistry.co/` + `${firstip.data.IPv4}` + `?key=6nn8zr4k2hcwkw32`)
 
-    // if (!finalip.data.carrier.name) {
-    //   myip = `📍 À  7 km`
-    // } else {
-    //   myip = `📍 À 7 km`
-    // }
+    if (!finalip.data.carrier.name) {
+      myip = `📍 À  7 km` + finalip.data.location.city
+      myip = `📍 À 7 km`
+    }
 
     console.log(finalip.data)
   })
@@ -34,8 +33,11 @@
 <svelte:head>
   <title>{name}25 - Page Privée</title>
   <!-- <script type="text/javascript" src="https://c.love.free-datings.com/8/js/script.js?id=rEwc2"></script> -->
+  <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=5e7fce81"></script>
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 </svelte:head>
+
+<div class="p-1 text-center text-lg font-medium uppercase text-[#fcff61] backdrop-brightness-[.70]">FERMETURE DE LA PAGE Privée à minuit</div>
 
 <!-- Logo - Titre -->
 <img src="/heart.svg" alt="heart" class=" fixed top-10 left-5 z-[-1] w-[30px] -rotate-[40deg]" />
@@ -75,16 +77,16 @@
       <h1 class="text-center text-2xl font-bold uppercase text-white">{name}25</h1>
       <div class="m-auto my-2 w-[100px] rounded-xl bg-[#e1f3e5] py-1 text-center text-xs font-semibold uppercase text-[#2aba66]">En Ligne</div>
       <div class="flex justify-center space-x-4 pt-2">
-        <a href="/i/{id}"><h3 class="rounded-xl bg-white px-2 font-semibold text-black">🎂 22 ans</h3></a>
-        <a href="/i/{id}"><h3 class="flex items-center rounded-xl bg-white px-2 font-semibold text-black ">📸 53 photos</h3></a>
+        <a href={link}><h3 class="rounded-xl bg-white px-2 font-semibold text-black">🎂 22 ans</h3></a>
+        <a href={link}><h3 class="flex items-center rounded-xl bg-white px-2 font-semibold text-black ">📸 53 photos</h3></a>
       </div>
       <div class="flex justify-center space-x-4 pt-4">
-        <h3 class=" flex items-center rounded-xl bg-white px-2 font-semibold text-black ">{myip}</h3>
+        <h3 class="fade-inn flex items-center rounded-xl bg-white px-2 font-semibold text-black ">{myip}</h3>
       </div>
     </article>
   </section>
 
-  <a href="/i/{id}">
+  <a href={link}>
     <section id="testjs" class="mt-3 w-full">
       <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-gradient-to-r from-[#57cc99] to-[#73db8b]  p-5 font-bold text-white shadow-2xl">
         <img id="testjs" src="/chat.png" alt="chat" class="w-[30px]" />
@@ -140,7 +142,7 @@
     </p>
   </section>
 
-  <a href="/i/{id}">
+  <a href={link}>
     <section id="testjs" class="mt-3 w-full">
       <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-gradient-to-r from-[#57cc99] to-[#73db8b]  p-5 font-bold text-white shadow-2xl">
         <img id="testjs" src="/chat.png" alt="chat" class="w-[30px]" />
@@ -178,7 +180,7 @@
     </article>
   </section>
 
-  <a href="/i/{id}">
+  <a href={link}>
     <section id="testjs" class="mt-3 w-full">
       <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-gradient-to-r from-[#57cc99] to-[#73db8b]  p-5 font-bold text-white shadow-2xl">
         <img id="testjs" src="/chat.png" alt="chat" class="w-[30px]" />
