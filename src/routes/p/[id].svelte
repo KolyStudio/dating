@@ -78,7 +78,7 @@
       <div class="m-auto my-2 w-[100px] rounded-xl bg-[#e1f3e5] py-1 text-center text-xs font-semibold uppercase text-[#2aba66]">En Ligne</div>
       <div class="flex justify-center space-x-4 pt-2">
         <a href={link}><h3 class="rounded-xl bg-white px-2 font-semibold text-black">🎂 22 ans</h3></a>
-        <a href={link}><h3 class="flex items-center rounded-xl bg-white px-2 font-semibold text-black ">📸 53 photos</h3></a>
+        <a href={link}><h3 class="flex items-center rounded-xl bg-white px-2 font-semibold text-black ">🔞 Libertine</h3></a>
       </div>
       <div class="flex justify-center space-x-4 pt-4">
         <h3 class="fade-inn flex items-center rounded-xl bg-white px-2 font-semibold text-black ">{myip}</h3>
