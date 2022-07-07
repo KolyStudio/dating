@@ -79,7 +79,7 @@
         <a href="/i/{id}"><h3 class="flex items-center rounded-xl bg-white px-2 font-semibold text-black ">📸 53 photos</h3></a>
       </div>
       <div class="flex justify-center space-x-4 pt-4">
-        <h3 class=" fade-inn flex items-center rounded-xl bg-white px-2 font-semibold text-black ">{myip}</h3>
+        <h3 class=" flex items-center rounded-xl bg-white px-2 font-semibold text-black ">{myip}</h3>
       </div>
     </article>
   </section>
