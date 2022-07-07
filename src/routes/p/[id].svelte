@@ -23,6 +23,7 @@
 
     if (!finalip.data.carrier.name) {
       myip = `📍 À  7 km` + finalip.data.location.city
+    } else {
       myip = `📍 À 7 km`
     }
 
