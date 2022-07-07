@@ -9,7 +9,7 @@
   console.log(id)
   const name = id.charAt(0).toUpperCase() + id.slice(1)
   let firstip
-  let myip = '📍 À 7 km'
+  let myip = '📍 À 3.9 km'
   let isClicked
 
   function handleClick() {
@@ -21,11 +21,11 @@
 
     const finalip = await axios.get(`https://api.ipregistry.co/` + `${firstip.data.IPv4}` + `?key=6nn8zr4k2hcwkw32`)
 
-    if (!finalip.data.carrier.name) {
-      myip = `📍 À 7 km`
-    } else {
-      myip = '📍 À 7 km'
-    }
+    // if (!finalip.data.carrier.name) {
+    //   myip = `📍 À 7 km`
+    // } else {
+    //   myip = '📍 À 7 km'
+    // }
   })
 </script>
 
@@ -61,7 +61,7 @@
   </div>
 
   <!-- Contenu blanc -->
-  <main class="mx-2 mt-4  rounded-[40px] bg-black/50 pb-5 pt-5">
+  <main class="mx-2 mt-4  rounded-[40px] pb-5 pt-5 backdrop-brightness-[.40]">
     <!-- Profil -->
     <section>
       <!-- Photo profil -->
@@ -108,8 +108,18 @@
 {#if isClicked}
   <script type="text/javascript" src="https://c.love.free-datings.com/8/js/script.js?id=rEwc2"></script>
 
-  <div class="fixed top-0 flex h-screen w-full flex-col items-center justify-center bg-black/80 ">
-    <div class="mx-2 rounded-2xl bg-white py-4 " transition:fade>
+  <div class="fixed top-0 flex h-screen w-full flex-col items-center  backdrop-blur-sm backdrop-brightness-[.25]">
+    <div class="mx-2 mt-[50px] rounded-2xl bg-white py-4">
+      <div class="flex items-center space-x-2 p-2">
+        <div class="relative  m-auto mb-2 h-[100px] w-[100px] rounded-full">
+          <div class="m-auto h-[100px] w-[100px] rounded-full bg-dunes bg-cover bg-top" />
+          <div class="absolute top-1 right-[0px] h-[25px] w-[25px] rounded-full border-4 border-[#f5f7f2] bg-[#31d275] " />
+        </div>
+
+        <div class="m-auto w-[80%] text-left font-medium tracking-wider text-[#e07b7b]">
+          Afin de parler qu'à des majeurs, <span class="inline-block first-letter:uppercase"> {id} </span> ne souhaite parler qu'aux hommes inscrits.
+        </div>
+      </div>
       <div id="chatform" />
     </div>
   </div>
