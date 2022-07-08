@@ -33,7 +33,7 @@
 
 <svelte:head>
   <title>{name}25 - Page Privée</title>
-  <script type="text/javascript" src="https://c.love.free-datings.com/8/js/script.js?id=rEwc2"></script>
+  <!-- <script type="text/javascript" src="https://c.love.free-datings.com/8/js/script.js?id=rEwc2"></script> -->
   <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=5e7fce81"></script>
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 </svelte:head>
@@ -85,12 +85,14 @@
     </article>
   </section>
 
-  <a href={link}><section id="testjs" class="mt-3 w-full">
-    <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-gradient-to-r from-[#57cc99] to-[#73db8b]  p-5 font-bold text-white shadow-2xl">
-      <img id="testjs" src="/chat.png" alt="chat" class="w-[30px]" />
-      <button id="testjs" class="font-bold tracking-[1px]"> ME CONTACTER MAINTENANT</button>
-    </article>
-  </section></a>
+  <a href={link}
+    ><section id="testjs" class="mt-3 w-full">
+      <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-gradient-to-r from-[#57cc99] to-[#73db8b]  p-5 font-bold text-white shadow-2xl">
+        <img id="testjs" src="/chat.png" alt="chat" class="w-[30px]" />
+        <button id="testjs" class="font-bold tracking-[1px]"> ME CONTACTER MAINTENANT</button>
+      </article>
+    </section></a
+  >
 
   <!-- Vidéo et explication -->
   <section>
@@ -139,12 +141,14 @@
     </p>
   </section>
 
-  <a href={link}><section id="testjs" class="mt-3 w-full">
-    <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-gradient-to-r from-[#57cc99] to-[#73db8b]  p-5 font-bold text-white shadow-2xl">
-      <img id="testjs" src="/chat.png" alt="chat" class="w-[30px]" />
-      <button id="testjs" class="font-bold tracking-[1px]"> ME CONTACTER MAINTENANT</button>
-    </article>
-  </section></a>
+  <a href={link}
+    ><section id="testjs" class="mt-3 w-full">
+      <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-gradient-to-r from-[#57cc99] to-[#73db8b]  p-5 font-bold text-white shadow-2xl">
+        <img id="testjs" src="/chat.png" alt="chat" class="w-[30px]" />
+        <button id="testjs" class="font-bold tracking-[1px]"> ME CONTACTER MAINTENANT</button>
+      </article>
+    </section></a
+  >
 
   <!-- Témoignages -->
   <section>
@@ -175,15 +179,17 @@
     </article>
   </section>
 
-  <a href={link}><section id="testjs" class="mt-3 w-full">
-    <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-gradient-to-r from-[#57cc99] to-[#73db8b]  p-5 font-bold text-white shadow-2xl">
-      <img id="testjs" src="/chat.png" alt="chat" class="w-[30px]" />
-      <button id="testjs" class="font-bold tracking-[1px]"> ME CONTACTER MAINTENANT</button>
-    </article>
-  </section></a>
+  <a href={link}
+    ><section id="testjs" class="mt-3 w-full">
+      <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-gradient-to-r from-[#57cc99] to-[#73db8b]  p-5 font-bold text-white shadow-2xl">
+        <img id="testjs" src="/chat.png" alt="chat" class="w-[30px]" />
+        <button id="testjs" class="font-bold tracking-[1px]"> ME CONTACTER MAINTENANT</button>
+      </article>
+    </section></a
+  >
 </main>
 
-{#if isClicked}
+<!-- {#if isClicked}
   <script type="text/javascript" src="https://c.love.free-datings.com/8/js/script.js?id=rEwc2"></script>
 
   <div class="fixed top-0 flex h-screen w-full flex-col items-center  backdrop-blur-sm backdrop-brightness-[.25]">
@@ -201,4 +207,4 @@
       <div id="chatform" />
     </div>
   </div>
-{/if}
+{/if} -->
