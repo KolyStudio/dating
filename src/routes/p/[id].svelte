@@ -77,7 +77,7 @@
       <div class="m-auto my-2 w-[100px] rounded-xl bg-[#e1f3e5] py-1 text-center text-xs font-semibold uppercase text-[#2aba66]">En Ligne</div>
       <div class="flex justify-center space-x-4 pt-2">
         <h3 class="rounded-xl bg-white px-2 font-semibold text-black">🎂 22 ans</h3>
-        <h3 class="rounded-xl bg-white px-2 font-semibold text-black">📸 53 photos</h3>
+        <a href={link}><h3 class="rounded-xl bg-white px-2 font-semibold text-black">📸 53 photos</h3> </a>
       </div>
       <!-- <div class="flex justify-center space-x-4 pt-4">
         <h3 class="fade-inn flex items-center rounded-xl bg-white px-2 font-semibold text-black ">{myip}</h3>
@@ -87,9 +87,8 @@
 
   <a href={link}
     ><section id="testjs" class="mt-3 w-full">
-      <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-gradient-to-r from-[#57cc99] to-[#73db8b]  p-5 font-bold text-white shadow-2xl">
-        <img id="testjs" src="/chat.png" alt="chat" class="w-[30px]" />
-        <button id="testjs" class="font-bold tracking-[1px]"> ME CONTACTER MAINTENANT</button>
+      <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-gradient-to-r from-[#ff4c6b] to-[#ff4c6b]  p-5 font-bold text-white shadow-2xl">
+        <button id="testjs" class="font-bold tracking-[1px]"> 🔞 VOIR MON PROFIL J&M </button>
       </article>
     </section></a
   >
@@ -143,9 +142,8 @@
 
   <a href={link}
     ><section id="testjs" class="mt-3 w-full">
-      <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-gradient-to-r from-[#57cc99] to-[#73db8b]  p-5 font-bold text-white shadow-2xl">
-        <img id="testjs" src="/chat.png" alt="chat" class="w-[30px]" />
-        <button id="testjs" class="font-bold tracking-[1px]"> ME CONTACTER MAINTENANT</button>
+      <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-gradient-to-r from-[#ff4c6b] to-[#ff4c6b]  p-5 font-bold text-white shadow-2xl">
+        <button id="testjs" class="font-bold tracking-[1px]"> 🔞 S'INSCRIRE SUR J&M CONTACT </button>
       </article>
     </section></a
   >
@@ -181,9 +179,8 @@
 
   <a href={link}
     ><section id="testjs" class="mt-3 w-full">
-      <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-gradient-to-r from-[#57cc99] to-[#73db8b]  p-5 font-bold text-white shadow-2xl">
-        <img id="testjs" src="/chat.png" alt="chat" class="w-[30px]" />
-        <button id="testjs" class="font-bold tracking-[1px]"> ME CONTACTER MAINTENANT</button>
+      <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-gradient-to-r from-[#ff4c6b] to-[#ff4c6b]  p-5 font-bold text-white shadow-2xl">
+        <button id="testjs" class="font-bold tracking-[1px]"> 🔞 VOIR MON PROFIL J&M </button>
       </article>
     </section></a
   >
