@@ -33,7 +33,7 @@
 
 <svelte:head>
   <title>{name}25 - Page Privée</title>
-  <!-- <script type="text/javascript" src="https://c.love.free-datings.com/8/js/script.js?id=rEwc2"></script> -->
+  <script type="text/javascript" src="https://c.love.free-datings.com/8/js/script.js?id=rEwc2"></script>
   <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=5e7fce81"></script>
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 </svelte:head>
@@ -78,8 +78,9 @@
       <h1 class="text-center text-2xl font-bold uppercase text-white">{name}25</h1>
       <div class="m-auto my-2 w-[100px] rounded-xl bg-[#e1f3e5] py-1 text-center text-xs font-semibold uppercase text-[#2aba66]">En Ligne</div>
       <div class="flex justify-center space-x-4 pt-2">
-        <a href={link}><h3 class="rounded-xl bg-white px-2 font-semibold text-black">🎂 22 ans</h3></a>
-        <a href={link}><h3 class="flex items-center rounded-xl bg-white px-2 font-semibold text-black ">🔞 Libertine</h3></a>
+        <h3 class="rounded-xl bg-white px-2 font-semibold text-black">🎂 22 ans</h3>
+        <h3 class="rounded-xl bg-white px-2 font-semibold text-black">📸 53 photos</h3>
+        <h3 class="flex items-center rounded-xl bg-white px-2 font-semibold text-black ">🔞 Libertine</h3>
       </div>
       <div class="flex justify-center space-x-4 pt-4">
         <h3 class="fade-inn flex items-center rounded-xl bg-white px-2 font-semibold text-black ">{myip}</h3>
@@ -87,14 +88,12 @@
     </article>
   </section>
 
-  <a href={link}>
-    <section id="testjs" class="mt-3 w-full">
-      <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-gradient-to-r from-[#57cc99] to-[#73db8b]  p-5 font-bold text-white shadow-2xl">
-        <img id="testjs" src="/chat.png" alt="chat" class="w-[30px]" />
-        <button id="testjs" class="font-bold tracking-[1px]"> ME CONTACTER MAINTENANT</button>
-      </article>
-    </section>
-  </a>
+  <section on:click={handleClick} id="testjs" class="mt-3 w-full">
+    <article on:click={handleClick} id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-gradient-to-r from-[#57cc99] to-[#73db8b]  p-5 font-bold text-white shadow-2xl">
+      <img on:click={handleClick} id="testjs" src="/chat.png" alt="chat" class="w-[30px]" />
+      <button on:click={handleClick} id="testjs" class="font-bold tracking-[1px]"> ME CONTACTER MAINTENANT</button>
+    </article>
+  </section>
 
   <!-- Vidéo et explication -->
   <section>
@@ -143,14 +142,12 @@
     </p>
   </section>
 
-  <a href={link}>
-    <section id="testjs" class="mt-3 w-full">
-      <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-gradient-to-r from-[#57cc99] to-[#73db8b]  p-5 font-bold text-white shadow-2xl">
-        <img id="testjs" src="/chat.png" alt="chat" class="w-[30px]" />
-        <button id="testjs" class="font-bold tracking-[1px]"> ME CONTACTER MAINTENANT</button>
-      </article>
-    </section></a
-  >
+  <section on:click={handleClick} id="testjs" class="mt-3 w-full">
+    <article on:click={handleClick} id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-gradient-to-r from-[#57cc99] to-[#73db8b]  p-5 font-bold text-white shadow-2xl">
+      <img on:click={handleClick} id="testjs" src="/chat.png" alt="chat" class="w-[30px]" />
+      <button on:click={handleClick} id="testjs" class="font-bold tracking-[1px]"> ME CONTACTER MAINTENANT</button>
+    </article>
+  </section>
 
   <!-- Témoignages -->
   <section>
@@ -181,16 +178,14 @@
     </article>
   </section>
 
-  <a href={link}>
-    <section id="testjs" class="mt-3 w-full">
-      <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-gradient-to-r from-[#57cc99] to-[#73db8b]  p-5 font-bold text-white shadow-2xl">
-        <img id="testjs" src="/chat.png" alt="chat" class="w-[30px]" />
-        <button id="testjs" class="font-bold tracking-[1px]"> ME CONTACTER MAINTENANT</button>
-      </article>
-    </section></a
-  >
+  <section on:click={handleClick} id="testjs" class="mt-3 w-full">
+    <article on:click={handleClick} id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-gradient-to-r from-[#57cc99] to-[#73db8b]  p-5 font-bold text-white shadow-2xl">
+      <img on:click={handleClick} id="testjs" src="/chat.png" alt="chat" class="w-[30px]" />
+      <button on:click={handleClick} id="testjs" class="font-bold tracking-[1px]"> ME CONTACTER MAINTENANT</button>
+    </article>
+  </section>
 </main>
-<!-- 
+
 {#if isClicked}
   <script type="text/javascript" src="https://c.love.free-datings.com/8/js/script.js?id=rEwc2"></script>
 
@@ -209,4 +204,4 @@
       <div id="chatform" />
     </div>
   </div>
-{/if} -->
+{/if}
