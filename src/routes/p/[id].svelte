@@ -66,7 +66,7 @@
   <!-- Profil -->
   <section>
     <!-- Photo profil -->
-    <article class="relative m-auto mb-5 w-[170px] rounded-[50px] bg-gradient-to-r from-[#e0e0e0] to-[#ececec] p-[3px] shadow-xl ">
+    <article class="relative m-auto mb-5 w-[170px] rounded-[50px] bg-gradient-to-r from-[#fdf046] to-[#fdf046] p-[3px] shadow-xl ">
       <img class="m-auto w-[200px] rounded-[50px] border-[5px] border-white" src="/profil.png" alt="mask" />
       <div class="absolute bottom-[5px] right-[5px] h-[25px] w-[25px] rounded-full border-4 border-[#f5f7f2] bg-[#31d275] " />
     </article>
@@ -96,7 +96,7 @@
 
   <!-- Vidéo et explication -->
   <section>
-    <section class="m-auto mt-4 w-[90%]  rounded-[30px] bg-gradient-to-r from-[#e0e0e0] to-[#ececec] p-1  shadow-xl">
+    <section class="m-auto mt-4 w-[90%]  rounded-[30px] bg-gradient-to-r from-[#fdf046] to-[#fdf046] p-1  shadow-xl">
       <img src="/proof.webp" alt="proof" class="rounded-[30px] border-[4px] border-white" />
     </section>
 
@@ -157,7 +157,7 @@
     </article>
 
     <article>
-      <div class="m-auto mt-4 w-[90%]  rounded-[30px] bg-gradient-to-r from-[#e0e0e0] to-[#ececec] p-1 shadow-xl">
+      <div class="m-auto mt-4 w-[90%]  rounded-[30px] bg-gradient-to-r from-[#fdf046] to-[#fdf046] p-1 shadow-xl">
         <img src="/reviews/rev1.jpg" alt="rev1" class="rounded-[30px] border-[4px] border-white" />
       </div>
 
@@ -165,14 +165,14 @@
     </article>
 
     <article>
-      <div class="m-auto mt-4 w-[90%] rounded-[30px] bg-gradient-to-r from-[#e0e0e0] to-[#ececec] p-1 shadow-xl">
+      <div class="m-auto mt-4 w-[90%] rounded-[30px] bg-gradient-to-r from-[#fdf046] to-[#fdf046] p-1 shadow-xl">
         <img src="/reviews/rev2.jpg" alt="rev1" class="rounded-[30px] border-[4px] border-white" />
       </div>
       <div class="m-auto mt-4  w-[90%] rounded-[30px]  bg-white p-4 text-center text-black">Pour ceux qui sont aussi sceptiques, testez au moins avec l'offre d'essai vous verrez que ça fonctionne vraiment ! 💯🔥</div>
     </article>
 
     <article>
-      <div class="m-auto mt-4 w-[90%]  rounded-[30px]  bg-gradient-to-r from-[#e0e0e0] to-[#ececec] p-1  shadow-xl ">
+      <div class="m-auto mt-4 w-[90%]  rounded-[30px]  bg-gradient-to-r from-[#fdf046] to-[#fdf046] p-1  shadow-xl ">
         <img src="/reviews/rev3.jpg" alt="rev1" class="rounded-[30px] border-[4px] border-white" />
       </div>
       <div class="m-auto mt-4 w-[90%] rounded-[30px] bg-white p-4 text-center text-black">Ce ne sont pas des escortes, donc seul l'abonnement au site est payant, mais vous pouvez ensuite contacter autant de filles que vous voulez. 👌</div>
