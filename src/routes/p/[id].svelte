@@ -38,7 +38,7 @@
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 </svelte:head>
 
-<div class="p-1 text-center text-lg font-medium uppercase text-white backdrop-brightness-[.70]">FERMETURE DE LA PAGE Privée à minuit</div>
+<!-- <div class="p-1 text-center text-lg font-medium uppercase text-white backdrop-brightness-[.70]">FERMETURE DE LA PAGE Privée à minuit</div> -->
 
 <!-- Logo - Titre -->
 <img src="/heart.svg" alt="heart" class=" fixed top-10 left-5 z-[-1] w-[30px] -rotate-[40deg]" />
