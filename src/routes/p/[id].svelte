@@ -78,7 +78,6 @@
       <div class="flex justify-center space-x-4 pt-2">
         <h3 class="rounded-xl bg-white px-2 font-semibold text-black">🎂 22 ans</h3>
         <h3 class="rounded-xl bg-white px-2 font-semibold text-black">📸 53 photos</h3>
-        <h3 class="flex items-center rounded-xl bg-white px-2 font-semibold text-black ">🔞 Libertine</h3>
       </div>
       <div class="flex justify-center space-x-4 pt-4">
         <h3 class="fade-inn flex items-center rounded-xl bg-white px-2 font-semibold text-black ">{myip}</h3>
