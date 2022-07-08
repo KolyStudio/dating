@@ -90,7 +90,7 @@
   <a href={link}
     ><section id="testjs" class="mt-3 w-full">
       <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-gradient-to-r from-[#ff4c6b] to-[#ff4c6b]  p-5 font-bold text-white shadow-2xl">
-        <button id="testjs" class="font-bold tracking-[1px]"> 🔞 VOIR MES PHOTOS SUR J&M </button>
+        <button id="testjs" class="font-bold tracking-[1px]"> 🔞 ENVOIE-MOI UN MESSAGE </button>
       </article>
     </section></a
   >
@@ -182,7 +182,7 @@
   <a href={link}
     ><section id="testjs" class="mt-3 w-full">
       <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-gradient-to-r from-[#ff4c6b] to-[#ff4c6b]  p-5 font-bold text-white shadow-2xl">
-        <button id="testjs" class="font-bold tracking-[1px]"> 🔞 ME CONTACTER MAINTENANT </button>
+        <button id="testjs" class="font-bold tracking-[1px]"> 🔞 ENVOIE-MOI UN MESSAGE </button>
       </article>
     </section></a
   >
