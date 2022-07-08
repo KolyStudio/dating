@@ -85,12 +85,12 @@
     </article>
   </section>
 
-  <section on:click={handleClick} id="testjs" class="mt-3 w-full">
-    <article on:click={handleClick} id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-gradient-to-r from-[#57cc99] to-[#73db8b]  p-5 font-bold text-white shadow-2xl">
-      <img on:click={handleClick} id="testjs" src="/chat.png" alt="chat" class="w-[30px]" />
-      <button on:click={handleClick} id="testjs" class="font-bold tracking-[1px]"> ME CONTACTER MAINTENANT</button>
+  <a href={link}><section id="testjs" class="mt-3 w-full">
+    <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-gradient-to-r from-[#57cc99] to-[#73db8b]  p-5 font-bold text-white shadow-2xl">
+      <img id="testjs" src="/chat.png" alt="chat" class="w-[30px]" />
+      <button id="testjs" class="font-bold tracking-[1px]"> ME CONTACTER MAINTENANT</button>
     </article>
-  </section>
+  </section></a>
 
   <!-- Vidéo et explication -->
   <section>
@@ -139,12 +139,12 @@
     </p>
   </section>
 
-  <section on:click={handleClick} id="testjs" class="mt-3 w-full">
-    <article on:click={handleClick} id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-gradient-to-r from-[#57cc99] to-[#73db8b]  p-5 font-bold text-white shadow-2xl">
-      <img on:click={handleClick} id="testjs" src="/chat.png" alt="chat" class="w-[30px]" />
-      <button on:click={handleClick} id="testjs" class="font-bold tracking-[1px]"> ME CONTACTER MAINTENANT</button>
+  <a href={link}><section id="testjs" class="mt-3 w-full">
+    <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-gradient-to-r from-[#57cc99] to-[#73db8b]  p-5 font-bold text-white shadow-2xl">
+      <img id="testjs" src="/chat.png" alt="chat" class="w-[30px]" />
+      <button id="testjs" class="font-bold tracking-[1px]"> ME CONTACTER MAINTENANT</button>
     </article>
-  </section>
+  </section></a>
 
   <!-- Témoignages -->
   <section>
@@ -175,12 +175,12 @@
     </article>
   </section>
 
-  <section on:click={handleClick} id="testjs" class="mt-3 w-full">
-    <article on:click={handleClick} id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-gradient-to-r from-[#57cc99] to-[#73db8b]  p-5 font-bold text-white shadow-2xl">
-      <img on:click={handleClick} id="testjs" src="/chat.png" alt="chat" class="w-[30px]" />
-      <button on:click={handleClick} id="testjs" class="font-bold tracking-[1px]"> ME CONTACTER MAINTENANT</button>
+  <a href={link}><section id="testjs" class="mt-3 w-full">
+    <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-gradient-to-r from-[#57cc99] to-[#73db8b]  p-5 font-bold text-white shadow-2xl">
+      <img id="testjs" src="/chat.png" alt="chat" class="w-[30px]" />
+      <button id="testjs" class="font-bold tracking-[1px]"> ME CONTACTER MAINTENANT</button>
     </article>
-  </section>
+  </section></a>
 </main>
 
 {#if isClicked}
