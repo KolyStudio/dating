@@ -41,18 +41,6 @@
 <div class="p-1 text-center font-medium text-[#ff4c6b] backdrop-brightness-[.70]">FERMETURE DE LA PAGE À MINUIT</div>
 
 <!-- Logo - Titre -->
-<img src="/heart.svg" alt="heart" class=" fixed top-10 left-5 z-[-1] w-[30px] -rotate-[40deg]" />
-<img src="/heart.svg" alt="heart" class=" fixed top-8 right-5 z-[-1] w-[20px] -rotate-[20deg]" />
-<img src="/heart.svg" alt="heart" class="fixed top-[12%] right-[50%] z-[-1] w-[28px] -rotate-[18deg]" />
-<img src="/heart.svg" alt="heart " class="fixed top-[60%] right-[10%] z-[-1] w-[28px] rotate-[18deg]" />
-<img src="/heart.svg" alt="heart" class="fixed top-[55%] left-[10%] z-[-1] w-[22px] -rotate-[18deg]" />
-<img src="/heart.svg" alt="heart" class="fixed top-[35%] left-[5%] z-[-1] w-[22px] rotate-[33deg]" />
-<img src="/heart.svg" alt="heart" class="fixed top-[25%] right-[10%] z-[-1] w-[25px] rotate-[15deg]" />
-
-<img src="/flash.svg" alt="heart" class="fixed top-[3%] left-[25%] z-[-1] w-[25px] rotate-[15deg]" />
-<img src="/flash.svg" alt="heart" class="fixed top-[15%] right-[15%] z-[-1] w-[18px] rotate-[25deg]" />
-<img src="/flash.svg" alt="heart" class="fixed top-[25%] left-[15%] z-[-1] w-[25px] -rotate-[25deg]" />
-<img src="/flash.svg" alt="heart" class="fixed top-[45%] right-[10%] z-[-1] w-[25px] -rotate-[35deg]" />
 
 <div class="m-auto flex w-[300px] max-w-[400px] flex-col  pt-4">
   <div class="m-auto flex items-center space-x-1">
@@ -87,10 +75,11 @@
     </article>
   </section>
 
+  <div class="pt-3 text-center">⬇️⬇️⬇️⬇️⬇️</div>
   <a href={link}
     ><section id="testjs" class="mt-3 w-full">
-      <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-gradient-to-r from-[#ff4c6b] to-[#ff4c6b]  p-5 font-bold text-white shadow-2xl">
-        <button id="testjs" class="font-bold tracking-[1px]"> 🔞 ENVOIE-MOI UN MESSAGE </button>
+      <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#ba2c44] bg-gradient-to-r from-[#ff4c6b] to-[#ff4c6b]  p-5 font-bold text-white shadow-2xl">
+        <button id="testjs" class="font-bold tracking-[1px] "> 🔞 ENVOIE-MOI UN MESSAGE </button>
       </article>
     </section></a
   >
@@ -142,9 +131,11 @@
     </p>
   </section>
 
+  <div class="pt-3 text-center">⬇️⬇️⬇️⬇️⬇️</div>
+
   <a href={link}
-    ><section id="testjs" class="mt-3 w-full">
-      <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-gradient-to-r from-[#ff4c6b] to-[#ff4c6b]  p-5 font-bold text-white shadow-2xl">
+    ><section id="testjs" class="mt-3 w-full ">
+      <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#ba2c44] bg-gradient-to-r from-[#ff4c6b] to-[#ff4c6b]  p-5 font-bold text-white shadow-2xl">
         <button id="testjs" class="font-bold tracking-[1px]"> 🔞 VOIR MON PROFIL J&M CONTACT </button>
       </article>
     </section></a
@@ -157,7 +148,7 @@
     </article>
 
     <article>
-      <div class="m-auto mt-4 w-[90%]  rounded-[30px] bg-gradient-to-r from-[#fdf046] to-[#fdf046] p-1 shadow-xl">
+      <div class="m-auto mt-4 w-[90%]  rounded-[30px] bg-gradient-to-r from-[#c9c9c9] to-[#c9c9c9] p-1 shadow-xl">
         <img src="/reviews/rev1.jpg" alt="rev1" class="rounded-[30px] border-[4px] border-white" />
       </div>
 
@@ -165,23 +156,25 @@
     </article>
 
     <article>
-      <div class="m-auto mt-4 w-[90%] rounded-[30px] bg-gradient-to-r from-[#fdf046] to-[#fdf046] p-1 shadow-xl">
+      <div class="m-auto mt-4 w-[90%] rounded-[30px] bg-gradient-to-r from-[#c9c9c9] to-[#c9c9c9] p-1 shadow-xl">
         <img src="/reviews/rev2.jpg" alt="rev1" class="rounded-[30px] border-[4px] border-white" />
       </div>
       <div class="m-auto mt-4  w-[90%] rounded-[30px]  bg-white p-4 text-center text-black">Pour ceux qui sont aussi sceptiques, testez au moins avec l'offre d'essai vous verrez que ça fonctionne vraiment ! 💯🔥</div>
     </article>
 
     <article>
-      <div class="m-auto mt-4 w-[90%]  rounded-[30px]  bg-gradient-to-r from-[#fdf046] to-[#fdf046] p-1  shadow-xl ">
+      <div class="m-auto mt-4 w-[90%]  rounded-[30px]  bg-gradient-to-r from-[#c9c9c9] to-[#c9c9c9] p-1  shadow-xl ">
         <img src="/reviews/rev3.jpg" alt="rev1" class="rounded-[30px] border-[4px] border-white" />
       </div>
       <div class="m-auto mt-4 w-[90%] rounded-[30px] bg-white p-4 text-center text-black">Ce ne sont pas des escortes, donc seul l'abonnement au site est payant, mais vous pouvez ensuite contacter autant de filles que vous voulez. 👌</div>
     </article>
   </section>
 
+  <div class="pt-3 text-center">⬇️⬇️⬇️⬇️⬇️</div>
+
   <a href={link}
     ><section id="testjs" class="mt-3 w-full">
-      <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-gradient-to-r from-[#ff4c6b] to-[#ff4c6b]  p-5 font-bold text-white shadow-2xl">
+      <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#ba2c44] bg-gradient-to-r from-[#ff4c6b] to-[#ff4c6b]  p-5 font-bold text-white shadow-2xl">
         <button id="testjs" class="font-bold tracking-[1px]"> 🔞 ENVOIE-MOI UN MESSAGE </button>
       </article>
     </section></a
