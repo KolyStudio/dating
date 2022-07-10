@@ -8,7 +8,7 @@
   const { id } = $page.params
   const name = id.charAt(0).toUpperCase() + id.slice(1)
 
-  let link = `https://k.encontro-rapido.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90642&media=social&tpls=73&source=jmlink&userPicture=https://i.ibb.co/qjb6YLJ/profil.png&userName=` + id + `25&userDistance=7`
+  let link = `https://rdv-proches.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90642&media=social&tpls=73&source=jmlink&userPicture=https://i.ibb.co/qjb6YLJ/profil.png&userName=` + id + `25&userDistance=7`
 
   let isClicked
 
@@ -22,9 +22,9 @@
     const finalip = await axios.get(`https://api.ipregistry.co/` + `${firstip.data.IPv4}` + `?key=6nn8zr4k2hcwkw32`)
 
     if (!finalip.data.carrier.name) {
-      myip = `📍 À 7 km`
+      myip = `À ` + finalip.data.location.city
     } else {
-      myip = `📍 À 7 km`
+      myip = `À 7 km`
     }
 
     console.log(finalip.data)
@@ -38,7 +38,7 @@
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 </svelte:head>
 
-<div class="p-1 text-center font-medium text-[#ff4c6b] backdrop-brightness-[.70]">FERMETURE DE LA PAGE À MINUIT</div>
+<!-- <div class="p-1 text-center font-medium text-[#ff4c6b] backdrop-brightness-[.70]">FERMETURE DE LA PAGE À MINUIT</div> -->
 
 <!-- Logo - Titre -->
 
@@ -69,17 +69,21 @@
         <h3 class="rounded-xl bg-white px-2 font-semibold text-black">🎂 22 ans</h3>
         <h3 class="rounded-xl bg-white px-2 font-semibold text-black">🍑 Libertine</h3>
       </div>
-      <!-- <div class="flex justify-center space-x-4 pt-4">
-        <h3 class="fade-inn flex items-center rounded-xl bg-white px-2 font-semibold text-black ">{myip}</h3>
-      </div> -->
+      <div class="flex justify-center space-x-4 pt-4">
+        <div class="fade-inn flex items-center rounded-xl bg-white px-2 font-semibold text-black ">
+          <img src="/pin.svg" alt="pin" class="w-5" />
+          <div>{myip}</div>
+        </div>
+      </div>
     </article>
   </section>
 
   <div class="pt-3 text-center">⬇️⬇️⬇️⬇️⬇️</div>
   <a href={link}
     ><section id="testjs" class="mt-3 w-full">
-      <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#ba2c44] bg-gradient-to-r from-[#ff4c6b] to-[#ff4c6b]  p-5 font-bold text-white shadow-2xl">
-        <button id="testjs" class="font-bold tracking-[1px] "> 🔞 ENVOIE-MOI UN MESSAGE </button>
+      <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#229351] bg-[#31d275]  p-5 font-bold text-white shadow-2xl">
+        <img src="/chat.png" alt="chat" class="w-[30px]" />
+        <button id="testjs" class="font-bold tracking-[1px] "> ENVOIE-MOI UN MESSAGE </button>
       </article>
     </section></a
   >
@@ -135,8 +139,9 @@
 
   <a href={link}
     ><section id="testjs" class="mt-3 w-full ">
-      <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#ba2c44] bg-gradient-to-r from-[#ff4c6b] to-[#ff4c6b]  p-5 font-bold text-white shadow-2xl">
-        <button id="testjs" class="font-bold tracking-[1px]"> 🔞 VOIR MON PROFIL J&M CONTACT </button>
+      <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#229351] bg-[#31d275]  p-5 font-bold text-white shadow-2xl">
+        <img src="/chat.png" alt="chat" class="w-[30px]" />
+        <button id="testjs" class="font-bold tracking-[1px] "> ENVOIE-MOI UN MESSAGE </button>
       </article>
     </section></a
   >
@@ -174,8 +179,9 @@
 
   <a href={link}
     ><section id="testjs" class="mt-3 w-full">
-      <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#ba2c44] bg-gradient-to-r from-[#ff4c6b] to-[#ff4c6b]  p-5 font-bold text-white shadow-2xl">
-        <button id="testjs" class="font-bold tracking-[1px]"> 🔞 ENVOIE-MOI UN MESSAGE </button>
+      <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#229351] bg-[#31d275]  p-5 font-bold text-white shadow-2xl">
+        <img src="/chat.png" alt="chat" class="w-[30px]" />
+        <button id="testjs" class="font-bold tracking-[1px] "> ENVOIE-MOI UN MESSAGE </button>
       </article>
     </section></a
   >
