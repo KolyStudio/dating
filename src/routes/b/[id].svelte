@@ -12,7 +12,7 @@
   let myip = '📍 À 3.9 km'
   let isClicked
 
-  let link = `https://www.rdv-proches.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90642&media=social&tpls=73&source=1407&userPicture=https://i.ibb.co/qjb6YLJ/profil.png&userName=` + id + `25&userDistance=3.9`
+  let link = `https://k.encontro-rapido.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90642&media=social&tpls=73&source=1407NEW&userPicture=https://i.ibb.co/qjb6YLJ/profil.png&userName=` + id + `25&userDistance=7`
 
   function handleClick() {
     isClicked = true
@@ -66,7 +66,7 @@
           <h1 class="text-center text-2xl font-bold uppercase text-white">{name}25</h1>
           <div class="m-auto my-2 w-[100px] rounded-xl bg-[#e1f3e5] py-1 text-center text-xs font-semibold uppercase text-[#2aba66]">En Ligne</div>
           <div class="flex justify-center space-x-4 pt-2">
-            <h3 class="flex items-center rounded-xl bg-white px-2 font-semibold text-black ">📸 35 photos</h3>
+            <h3 class="flex items-center rounded-xl bg-white px-2 font-semibold text-black ">📸 53 photos</h3>
 
             <h3 class=" flex items-center rounded-xl bg-white px-2 font-semibold text-black ">{myip}</h3>
           </div>
