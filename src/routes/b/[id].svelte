@@ -63,6 +63,7 @@
 
         <!-- Informations profil -->
         <article>
+          <h1 class="text-center text-2xl font-bold uppercase text-white">{name}25</h1>
           <div class="m-auto my-2 w-[100px] rounded-xl bg-[#e1f3e5] py-1 text-center text-xs font-semibold uppercase text-[#2aba66]">En Ligne</div>
           <div class="flex justify-center space-x-4 pt-2">
             <h3 class="flex items-center rounded-xl bg-white px-2 font-semibold text-black ">📸 53 photos</h3>
