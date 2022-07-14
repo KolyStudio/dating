@@ -90,7 +90,7 @@
 
   <!-- Vidéo et explication -->
   <section>
-    <section class="m-auto mt-4 w-[90%]  rounded-[30px] bg-gradient-to-r from-[#fdf046] to-[#fdf046] p-1  shadow-xl">
+    <section class="m-auto mt-4 w-[90%]  rounded-[30px] bg-gradient-to-r from-[#eda0a0] to-[#eda0a0] p-1  shadow-xl">
       <img src="/proof.webp" alt="proof" class="rounded-[30px] border-[4px] border-white" />
     </section>
 
@@ -139,7 +139,7 @@
 
   <a href={link}
     ><section id="testjs" class="mt-3 w-full ">
-      <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#229351] bg-[#31d275]  p-5 font-bold text-white shadow-2xl">
+      <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#a67070] bg-[#eda0a0] p-5 font-bold text-white shadow-2xl">
         <img src="/chat.png" alt="chat" class="w-[30px]" />
         <button id="testjs" class="font-bold tracking-[1px] "> ENVOIE-MOI UN MESSAGE </button>
       </article>
@@ -179,7 +179,7 @@
 
   <a href={link}
     ><section id="testjs" class="mt-3 w-full">
-      <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#229351] bg-[#31d275]  p-5 font-bold text-white shadow-2xl">
+      <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#a67070] bg-[#eda0a0] p-5 font-bold text-white shadow-2xl">
         <img src="/chat.png" alt="chat" class="w-[30px]" />
         <button id="testjs" class="font-bold tracking-[1px] "> ENVOIE-MOI UN MESSAGE </button>
       </article>
