@@ -6,7 +6,7 @@ module.exports = {
     extend: {
       backgroundImage: (theme) => ({
         dunes: "url('/profil.png')",
-        jm: "url('/background.jpg')",
+        jm: "url('/bgg.png')",
       }),
     },
   },
