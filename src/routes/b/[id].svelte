@@ -56,7 +56,7 @@
   <!-- Profil -->
   <section>
     <!-- Photo profil -->
-    <article class="relative m-auto mb-5 w-[170px] rounded-[50px] bg-gradient-to-r from-[#fdf046] to-[#fdf046] p-[3px] shadow-xl ">
+    <article class="relative m-auto mb-5 w-[170px] rounded-[50px] bg-gradient-to-r from-[#eda0a0] to-[#eda0a0] p-[3px] shadow-xl ">
       <img class="m-auto w-[200px] rounded-[50px] border-[5px] border-white" src="/profil.png" alt="mask" />
       <div class="absolute bottom-[5px] right-[5px] h-[25px] w-[25px] rounded-full border-4 border-[#f5f7f2] bg-[#31d275] " />
     </article>
@@ -81,7 +81,7 @@
   <div class="pt-3 text-center">⬇️⬇️⬇️⬇️⬇️</div>
   <a href={link}
     ><section id="testjs" class="mt-3 w-full">
-      <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#229351] bg-[#31d275]  p-5 font-bold text-white shadow-2xl">
+      <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#a67070] bg-[#eda0a0]  p-5 font-bold text-white shadow-2xl">
         <img src="/chat.png" alt="chat" class="w-[30px]" />
         <button id="testjs" class="font-bold tracking-[1px] "> ENVOIE-MOI UN MESSAGE </button>
       </article>
