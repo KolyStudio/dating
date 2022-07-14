@@ -12,7 +12,7 @@
   let myip = '📍 À 3.9 km'
   let isClicked
 
-  let link = `https://k.encontro-rapido.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90642&media=social&tpls=73&source=jmlinkville&userPicture=https://i.ibb.co/qjb6YLJ/profil.png&userName=` + id + `25&userDistance=7`
+  let link = `https://www.rdv-proches.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90642&media=social&tpls=73&source=jmlinkville&userPicture=https://i.ibb.co/qjb6YLJ/profil.png&userName=` + id + `25&userDistance=7`
 
   function handleClick() {
     isClicked = true
