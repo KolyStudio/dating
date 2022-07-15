@@ -173,7 +173,9 @@
       <div class="m-auto mt-4 w-[90%]  rounded-[30px]  bg-gradient-to-r from-[#c9c9c9] to-[#c9c9c9] p-1  shadow-xl ">
         <img src="/reviews/rev3.jpg" alt="rev1" class="rounded-[30px] border-[4px] border-white" />
       </div>
-      <div class="m-auto mt-4 w-[90%] rounded-[30px] bg-white p-4 text-center text-black">Ce ne sont pas des escortes, donc seul l'abonnement au site est payant, mais vous pouvez ensuite contacter autant de filles que vous voulez. 👌</div>
+      <div class="m-auto mt-4 w-[90%] rounded-[30px] bg-white p-4 text-center text-black">
+        Ce ne sont pas des escortes, donc seul l'abonnement au site est payant, mais vous pouvez ensuite contacter et baiser autant de filles que vous voulez. 👌
+      </div>
     </article>
   </section>
 
