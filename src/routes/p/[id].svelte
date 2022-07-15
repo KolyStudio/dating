@@ -8,7 +8,7 @@
   const { id } = $page.params
   const name = id.charAt(0).toUpperCase() + id.slice(1)
 
-  let link = `https://k.encontro-rapido.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90642&media=social&tpls=73&source=jmlinkville&userPicture=https://i.ibb.co/qjb6YLJ/profil.png&userName=` + id + `25&userDistance=7`
+  let link = `https://k.encontro-rapido.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90642&media=social&tpls=73&source=ONTEST&userPicture=https://i.ibb.co/HdYCsHt/profil.webp&userName=` + id + `25&userDistance=7`
 
   let isClicked
 
@@ -56,9 +56,9 @@
   <!-- Profil -->
   <section>
     <!-- Photo profil -->
-    <article class="relative m-auto mb-5 w-[170px] rounded-[50px] bg-gradient-to-r from-[#fdf046] to-[#fdf046] p-[3px] shadow-xl ">
+    <article class="relative m-auto mb-5 w-[170px] rounded-[50px] bg-gradient-to-r from-[#eda0a0] to-[#eda0a0] p-[3px] shadow-xl ">
       <img class="m-auto w-[200px] rounded-[50px] border-[5px] border-white" src="/profil.png" alt="mask" />
-      <div class="absolute bottom-[5px] right-[5px] h-[25px] w-[25px] rounded-full border-4 border-[#f5f7f2] bg-[#31d275] " />
+      <!-- <div class="absolute bottom-[5px] right-[5px] h-[25px] w-[25px] rounded-full border-4 border-[#f5f7f2] bg-[#31d275] " /> -->
     </article>
 
     <!-- Informations profil -->
@@ -70,27 +70,25 @@
         <h3 class="rounded-xl bg-white px-2 font-semibold text-black">🍑 Libertine</h3>
       </div>
       <div class="flex justify-center space-x-4 pt-4">
-        <div class=" flex items-center rounded-xl bg-white px-2 font-semibold text-black ">
+        <!-- <div class=" flex items-center rounded-xl bg-white px-2 font-semibold text-black ">
           <img src="/pin.svg" alt="pin" class="w-5" />
-          <div>À 7 km</div>
-        </div>
+          <div>À 7 km</div> -->
+        <!-- </div> -->
       </div>
     </article>
   </section>
-
-  <div class="pt-3 text-center">⬇️⬇️⬇️⬇️⬇️</div>
   <a href={link}
     ><section id="testjs" class="mt-3 w-full">
-      <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#229351] bg-[#31d275]  p-5 font-bold text-white shadow-2xl">
+      <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#a67070] bg-[#eda0a0]  p-5 font-bold text-white shadow-2xl">
         <img src="/chat.png" alt="chat" class="w-[30px]" />
-        <button id="testjs" class="font-bold tracking-[1px] "> ENVOIE-MOI UN MESSAGE </button>
+        <button id="testjs" class="font-bold tracking-[1px] "> INSCRIT TOI ET BAISE MOI </button>
       </article>
     </section></a
   >
 
   <!-- Vidéo et explication -->
   <section>
-    <section class="m-auto mt-4 w-[90%]  rounded-[30px] bg-gradient-to-r from-[#fdf046] to-[#fdf046] p-1  shadow-xl">
+    <section class="m-auto mt-4 w-[90%]  rounded-[30px] bg-gradient-to-r from-[#eda0a0] to-[#eda0a0] p-1  shadow-xl">
       <img src="/proof.webp" alt="proof" class="rounded-[30px] border-[4px] border-white" />
     </section>
 
@@ -135,13 +133,17 @@
     </p>
   </section>
 
+  <section class="m-auto mt-4 w-[90%]  rounded-[30px] bg-gradient-to-r from-[#eda0a0] to-[#eda0a0] p-1  shadow-xl">
+    <img src="/dd.webp" alt="proof" class="rounded-[30px] border-[4px] border-white" />
+  </section>
+
   <div class="pt-3 text-center">⬇️⬇️⬇️⬇️⬇️</div>
 
   <a href={link}
     ><section id="testjs" class="mt-3 w-full ">
-      <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#229351] bg-[#31d275]  p-5 font-bold text-white shadow-2xl">
+      <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#a67070] bg-[#eda0a0] p-5 font-bold text-white shadow-2xl">
         <img src="/chat.png" alt="chat" class="w-[30px]" />
-        <button id="testjs" class="font-bold tracking-[1px] "> ENVOIE-MOI UN MESSAGE </button>
+        <button id="testjs" class="font-bold tracking-[1px] "> INSCRIT TOI ET BAISE MOI </button>
       </article>
     </section></a
   >
@@ -171,7 +173,9 @@
       <div class="m-auto mt-4 w-[90%]  rounded-[30px]  bg-gradient-to-r from-[#c9c9c9] to-[#c9c9c9] p-1  shadow-xl ">
         <img src="/reviews/rev3.jpg" alt="rev1" class="rounded-[30px] border-[4px] border-white" />
       </div>
-      <div class="m-auto mt-4 w-[90%] rounded-[30px] bg-white p-4 text-center text-black">Ce ne sont pas des escortes, donc seul l'abonnement au site est payant, mais vous pouvez ensuite contacter autant de filles que vous voulez. 👌</div>
+      <div class="m-auto mt-4 w-[90%] rounded-[30px] bg-white p-4 text-center text-black">
+        Ce ne sont pas des escortes, donc seul l'abonnement au site est payant, mais vous pouvez ensuite contacter et baiser autant de filles que vous voulez. 👌
+      </div>
     </article>
   </section>
 
@@ -179,9 +183,9 @@
 
   <a href={link}
     ><section id="testjs" class="mt-3 w-full">
-      <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#229351] bg-[#31d275]  p-5 font-bold text-white shadow-2xl">
+      <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#a67070] bg-[#eda0a0] p-5 font-bold text-white shadow-2xl">
         <img src="/chat.png" alt="chat" class="w-[30px]" />
-        <button id="testjs" class="font-bold tracking-[1px] "> ENVOIE-MOI UN MESSAGE </button>
+        <button id="testjs" class="font-bold tracking-[1px] "> INSCRIT TOI ET BAISE MOI </button>
       </article>
     </section></a
   >
@@ -199,7 +203,7 @@
         </div>
 
         <div class="m-auto w-[80%] text-left font-medium tracking-wider text-[#e07b7b]">
-          Afin de parler qu'à des majeurs, <span class="inline-block first-letter:uppercase"> {id} </span> ne souhaite parler qu'aux hommes inscrits.
+          Afin de parler qu'à des majeurs, <span class="inline-block first-letter:uppercase"> {id} </span> ne souhaite parler qu'aux hommes INSCRIT TOIs.
         </div>
       </div>
       <div id="chatform" />
