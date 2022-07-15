@@ -79,9 +79,8 @@
   </section>
   <a href={link}
     ><section id="testjs" class="mt-3 w-full">
-      <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#a67070] bg-[#eda0a0]  p-5 font-bold text-white shadow-2xl">
-        <img src="/chat.png" alt="chat" class="w-[30px]" />
-        <button id="testjs" class="font-bold tracking-[1px] "> INSCRIS-TOI ET BAISE MOI </button>
+      <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center rounded-[30px] border-b-4 border-[#a67070] bg-[#eda0a0]  p-5 px-2 font-bold text-white shadow-2xl">
+        <button id="testjs" class="font-bold tracking-[1px] ">🔞┇ ME RENCONTRER SUR J&M CONTACT </button>
       </article>
     </section></a
   >
@@ -92,7 +91,7 @@
       <img src="/proof.webp" alt="proof" class="rounded-[30px] border-[4px] border-white" />
     </section>
 
-    <div class="m-auto mt-4 w-[90%] rounded-[30px] bg-white p-4 text-black">
+    <div class="m-auto mt-4 w-[90%] rounded-[30px] border-b-4 border-[#a67070] bg-white p-4 text-black">
       <div class="text- my-2">
         Coucou, je m'appelle <div class="inline-block font-bold first-letter:uppercase">{name},</div>
         <b> j'ai 22 ans.</b>
@@ -108,7 +107,7 @@
     </div>
   </section>
 
-  <section class="m-auto mt-4 w-[90%] rounded-[30px] bg-white p-4 text-black">
+  <section class="m-auto mt-4 w-[90%] rounded-[30px] border-b-4 border-[#a67070] bg-white p-4 text-black">
     <h1 class="text-center font-bold uppercase">PROFIL DE {name}25</h1>
     <h2 class="py-2 text-center font-bold">JE NE SUIS PAS UNE ESCORTE !! ❌</h2>
 
@@ -120,7 +119,7 @@
     </p>
   </section>
 
-  <section class="m-auto mt-4 w-[90%] rounded-[30px] bg-white p-4 text-black">
+  <section class="m-auto mt-4 w-[90%] rounded-[30px] border-b-4 border-[#a67070] bg-white p-4 text-black">
     <h1 class="mb-2 text-center font-semibold">COMMENT ME RENCONTRER EN RÉEL ?</h1>
     <p>
       Envoies moi une petite photo sur J&M Contact et
@@ -129,7 +128,7 @@
       <br />Je préviens l'inscription (essai) coûte quelque chose comme 1 ou 2 euros mais ensuite t'es tranquille tu peux contacter gratuitement
       <b> autant de filles que tu veux.</b> <br />
       <br />Et au moins je me fais pas harceler comme sur
-      <b> Tinder ou Snap ça permet de parler sans se faire spammer</b> par des milliers de gros relous. 😘
+      <b> Badoo ou Snap ça permet de parler sans se faire spammer</b> par des milliers de gros relous. 😘
     </p>
   </section>
 
@@ -137,55 +136,63 @@
     <img src="/dd.webp" alt="proof" class="rounded-[30px] border-[4px] border-white" />
   </section>
 
-  <div class="pt-3 text-center">⬇️⬇️⬇️⬇️⬇️</div>
+  <div class="pt-3 text-center">👇👇👇👇👇</div>
 
   <a href={link}
     ><section id="testjs" class="mt-3 w-full ">
-      <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#a67070] bg-[#eda0a0] p-5 font-bold text-white shadow-2xl">
-        <img src="/chat.png" alt="chat" class="w-[30px]" />
-        <button id="testjs" class="font-bold tracking-[1px] "> INSCRIS-TOI ET BAISE MOI </button>
+      <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#a67070] bg-[#eda0a0] p-5 px-2 font-bold text-white shadow-2xl">
+        <button id="testjs" class="font-bold tracking-[1px] "> 🔞┇VOIR MON PROFIL J&M CONTACT </button>
       </article>
     </section></a
   >
 
   <!-- Témoignages -->
   <section>
-    <article class="m-auto mt-4 w-[90%] rounded-[30px] bg-white p-4 text-black">
+    <article class="m-auto mt-4 w-[90%] rounded-[30px] border-b-4 border-[#a67070] bg-white p-4 text-black">
       <h1 class="text-center font-semibold">QUELQUES TÉMOIGNAGES</h1>
     </article>
 
     <article>
-      <div class="m-auto mt-4 w-[90%]  rounded-[30px] bg-gradient-to-r from-[#c9c9c9] to-[#c9c9c9] p-1 shadow-xl">
+      <div class="m-auto mt-4 w-[90%]  rounded-[30px] border-b-4 border-[#a67070] bg-gradient-to-r from-[#c9c9c9] to-[#c9c9c9] p-1 shadow-xl">
         <img src="/reviews/rev1.jpg" alt="rev1" class="rounded-[30px] border-[4px] border-white" />
       </div>
 
-      <h1 class="m-auto mt-4 w-[90%] rounded-[30px] bg-white p-4 text-center text-black">Vous êtes nombreux à avoir pris l'offre d'essai et à en être contents apparement ! 😘</h1>
+      <h1 class="m-auto mt-4 w-[90%] rounded-[30px] border-b-4 border-[#a67070] bg-white p-4 text-center text-black">Vous êtes nombreux à avoir pris l'offre d'essai et à en être contents apparement ! 😘</h1>
     </article>
 
     <article>
-      <div class="m-auto mt-4 w-[90%] rounded-[30px] bg-gradient-to-r from-[#c9c9c9] to-[#c9c9c9] p-1 shadow-xl">
+      <div class="m-auto mt-4 w-[90%] rounded-[30px] border-b-4 border-[#a67070] bg-gradient-to-r from-[#c9c9c9] to-[#c9c9c9] p-1 shadow-xl">
         <img src="/reviews/rev2.jpg" alt="rev1" class="rounded-[30px] border-[4px] border-white" />
       </div>
-      <div class="m-auto mt-4  w-[90%] rounded-[30px]  bg-white p-4 text-center text-black">Pour ceux qui sont aussi sceptiques, testez au moins avec l'offre d'essai vous verrez que ça fonctionne vraiment ! 💯🔥</div>
+      <div class="m-auto mt-4  w-[90%] rounded-[30px] border-b-4 border-[#a67070] bg-white p-4 text-center text-black">
+        Pour ceux qui sont aussi sceptiques, testez au moins avec l'offre d'essai vous verrez que ça fonctionne vraiment ! 💯🔥
+      </div>
     </article>
 
     <article>
-      <div class="m-auto mt-4 w-[90%]  rounded-[30px]  bg-gradient-to-r from-[#c9c9c9] to-[#c9c9c9] p-1  shadow-xl ">
-        <img src="/reviews/rev3.jpg" alt="rev1" class="rounded-[30px] border-[4px] border-white" />
-      </div>
-      <div class="m-auto mt-4 w-[90%] rounded-[30px] bg-white p-4 text-center text-black">
-        Ce ne sont pas des escortes, donc seul l'abonnement au site est payant, mais vous pouvez ensuite contacter et baiser autant de filles que vous voulez. 👌
+      <div class="m-auto mt-4 w-[90%] rounded-[30px] border-b-4 border-[#a67070]  bg-white p-4 text-center text-black">
+        <div class="m-auto mt-4 w-[90%]  rounded-[30px]   bg-gradient-to-r from-[#c9c9c9] to-[#c9c9c9] p-1  shadow-xl ">
+          <img src="/reviews/rev3.jpg" alt="rev1" class="rounded-[30px] border-[4px] border-white" />
+        </div>
+        <div class="m-auto mt-4 w-[90%] rounded-[30px] bg-white p-4 text-center text-black">
+          Ce ne sont pas des escortes, donc seul l'abonnement au site est payant, mais vous pouvez ensuite contacter et baiser autant de filles que vous voulez. 👌
+        </div>
       </div>
     </article>
   </section>
 
-  <div class="pt-3 text-center">⬇️⬇️⬇️⬇️⬇️</div>
-
+  <div class="m-auto w-[90%]">
+    <div class="py-4 text-center font-bold text-white ">Tu veux nous rejoindre ?</div>
+    <div class="text-center text-white">
+      Super, tu ne le regretteras pas ! 🔥<br /><br /> Et si tu doutes encore tu peux tester quelques jours avec l’offre d’essai à 1.94€ <br /><br />Il te suffit de cliquer sur le bouton ci-dessous, de t’inscrire en une minute puis de
+      choisir une offre !
+    </div>
+  </div>
+  <div class="pt-3 text-center">👇👇👇👇👇</div>
   <a href={link}
     ><section id="testjs" class="mt-3 w-full">
-      <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#a67070] bg-[#eda0a0] p-5 font-bold text-white shadow-2xl">
-        <img src="/chat.png" alt="chat" class="w-[30px]" />
-        <button id="testjs" class="font-bold tracking-[1px] "> INSCRIS-TOI ET BAISE MOI </button>
+      <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#a67070] bg-[#eda0a0] p-5 px-2 font-bold text-white shadow-2xl">
+        <button id="testjs" class="font-bold tracking-[1px] ">🔞┇S'INSCRIRE MAINTENANT SUR J&M CONTACT </button>
       </article>
     </section></a
   >
