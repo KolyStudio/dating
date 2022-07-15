@@ -8,7 +8,7 @@
   const { id } = $page.params
   const name = id.charAt(0).toUpperCase() + id.slice(1)
 
-  let link = `https://k.encontro-rapido.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90642&media=social&tpls=73&source=ONTEST&userPicture=https://i.ibb.co/HdYCsHt/profil.webp&userName=` + id + `25&userDistance=7`
+  let link = `https://k.encontro-rapido.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90642&media=social&tpls=73&source=ONTEST&userPicture=https://i.ibb.co/qjb6YLJ/profil.png&userName=` + id + `25&userDistance=7`
 
   let isClicked
 
@@ -38,7 +38,7 @@
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 </svelte:head>
 
-<!-- <div class="p-1 text-center font-medium text-[#ff4c6b] backdrop-brightness-[.70]">FERMETURE DE LA PAGE À MINUIT</div> -->
+<div class="w-full p-1 text-center font-medium text-[#eda0a0] backdrop-brightness-[.70]">FERMETURE DE LA PAGE À MINUIT</div>
 
 <!-- Logo - Titre -->
 
@@ -91,7 +91,7 @@
       <img src="/proof.webp" alt="proof" class="rounded-[30px] border-[4px] border-white" />
     </section>
 
-    <div class="m-auto mt-4 w-[90%] rounded-[30px] border-b-4 border-[#a67070] bg-white p-4 text-black">
+    <div class="m-auto mt-4 w-[90%] rounded-[30px] border-b-4 border-[#eda0a0] bg-white p-4 text-black">
       <div class="text- my-2">
         Coucou, je m'appelle <div class="inline-block font-bold first-letter:uppercase">{name},</div>
         <b> j'ai 22 ans.</b>
@@ -107,7 +107,7 @@
     </div>
   </section>
 
-  <section class="m-auto mt-4 w-[90%] rounded-[30px] border-b-4 border-[#a67070] bg-white p-4 text-black">
+  <section class="m-auto mt-4 w-[90%] rounded-[30px] border-b-4 border-[#eda0a0] bg-white p-4 text-black">
     <h1 class="text-center font-bold uppercase">PROFIL DE {name}25</h1>
     <h2 class="py-2 text-center font-bold">JE NE SUIS PAS UNE ESCORTE !! ❌</h2>
 
@@ -119,7 +119,7 @@
     </p>
   </section>
 
-  <section class="m-auto mt-4 w-[90%] rounded-[30px] border-b-4 border-[#a67070] bg-white p-4 text-black">
+  <section class="m-auto mt-4 w-[90%] rounded-[30px] border-b-4 border-[#eda0a0] bg-white p-4 text-black">
     <h1 class="mb-2 text-center font-semibold">COMMENT ME RENCONTRER EN RÉEL ?</h1>
     <p>
       Envoies moi une petite photo sur J&M Contact et
@@ -148,33 +148,33 @@
 
   <!-- Témoignages -->
   <section>
-    <article class="m-auto mt-4 w-[90%] rounded-[30px] border-b-4 border-[#a67070] bg-white p-4 text-black">
+    <article class="m-auto mt-4 w-[90%] rounded-[30px] border-b-4 border-[#eda0a0] bg-white p-4 text-black">
       <h1 class="text-center font-semibold">QUELQUES TÉMOIGNAGES</h1>
     </article>
 
     <article>
-      <div class="m-auto mt-4 w-[90%]  rounded-[30px] border-b-4 border-[#a67070] bg-gradient-to-r from-[#c9c9c9] to-[#c9c9c9] p-1 shadow-xl">
+      <div class="m-auto mt-4 w-[90%]  rounded-[30px] border-b-4 border-[#eda0a0] bg-gradient-to-r from-[#c9c9c9] to-[#c9c9c9] shadow-xl">
         <img src="/reviews/rev1.jpg" alt="rev1" class="rounded-[30px] border-[4px] border-white" />
       </div>
 
-      <h1 class="m-auto mt-4 w-[90%] rounded-[30px] border-b-4 border-[#a67070] bg-white p-4 text-center text-black">Vous êtes nombreux à avoir pris l'offre d'essai et à en être contents apparement ! 😘</h1>
+      <h1 class="m-auto mt-4 w-[90%] rounded-[30px] border-b-4 border-[#eda0a0] bg-white p-4 text-center text-black">Vous êtes nombreux à avoir pris l'offre d'essai et à en être contents apparement ! 😘</h1>
     </article>
 
     <article>
-      <div class="m-auto mt-4 w-[90%] rounded-[30px] border-b-4 border-[#a67070] bg-gradient-to-r from-[#c9c9c9] to-[#c9c9c9] p-1 shadow-xl">
+      <div class="m-auto mt-4 w-[90%] rounded-[30px] border-b-4 border-[#eda0a0] bg-gradient-to-r from-[#c9c9c9] to-[#c9c9c9]  shadow-xl">
         <img src="/reviews/rev2.jpg" alt="rev1" class="rounded-[30px] border-[4px] border-white" />
       </div>
-      <div class="m-auto mt-4  w-[90%] rounded-[30px] border-b-4 border-[#a67070] bg-white p-4 text-center text-black">
+      <div class="m-auto mt-4  w-[90%] rounded-[30px] border-b-4 border-[#eda0a0] bg-white p-4 text-center text-black">
         Pour ceux qui sont aussi sceptiques, testez au moins avec l'offre d'essai vous verrez que ça fonctionne vraiment ! 💯🔥
       </div>
     </article>
 
     <article>
-      <div class="m-auto mt-4 w-[90%] rounded-[30px] border-b-4 border-[#a67070]  bg-white p-4 text-center text-black">
-        <div class="m-auto mt-4 w-[90%]  rounded-[30px]   bg-gradient-to-r from-[#c9c9c9] to-[#c9c9c9] p-1  shadow-xl ">
-          <img src="/reviews/rev3.jpg" alt="rev1" class="rounded-[30px] border-[4px] border-white" />
-        </div>
-        <div class="m-auto mt-4 w-[90%] rounded-[30px] bg-white p-4 text-center text-black">
+      <div class="m-auto mt-4 w-[90%]  rounded-[30px]   bg-gradient-to-r from-[#c9c9c9] to-[#c9c9c9] p-1  shadow-xl ">
+        <img src="/reviews/rev3.jpg" alt="rev1" class="rounded-[30px] border-[4px] border-white" />
+      </div>
+      <div class="m-auto mt-4 w-[90%] rounded-[30px] border-b-4 border-[#eda0a0]  bg-white p-2 text-center text-black">
+        <div class="m-auto w-[90%] rounded-[30px] bg-white text-center text-black">
           Ce ne sont pas des escortes, donc seul l'abonnement au site est payant, mais vous pouvez ensuite contacter et baiser autant de filles que vous voulez. 👌
         </div>
       </div>
