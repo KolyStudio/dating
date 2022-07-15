@@ -81,7 +81,7 @@
     ><section id="testjs" class="mt-3 w-full">
       <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#a67070] bg-[#eda0a0]  p-5 font-bold text-white shadow-2xl">
         <img src="/chat.png" alt="chat" class="w-[30px]" />
-        <button id="testjs" class="font-bold tracking-[1px] "> INSCRIT TOI TOI ET BAISE MOI </button>
+        <button id="testjs" class="font-bold tracking-[1px] "> INSCRIT TOI ET BAISE MOI </button>
       </article>
     </section></a
   >
@@ -131,6 +131,10 @@
       <br />Et au moins je me fais pas harceler comme sur
       <b> Tinder ou Snap ça permet de parler sans se faire spammer</b> par des milliers de gros relous. 😘
     </p>
+  </section>
+
+  <section class="m-auto mt-4 w-[90%]  rounded-[30px] bg-gradient-to-r from-[#eda0a0] to-[#eda0a0] p-1  shadow-xl">
+    <img src="/dd.webp" alt="proof" class="rounded-[30px] border-[4px] border-white" />
   </section>
 
   <div class="pt-3 text-center">⬇️⬇️⬇️⬇️⬇️</div>
