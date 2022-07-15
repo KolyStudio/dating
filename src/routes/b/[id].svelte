@@ -81,7 +81,7 @@
     ><section id="testjs" class="mt-3 w-full">
       <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#a67070] bg-[#eda0a0]  p-5 font-bold text-white shadow-2xl">
         <img src="/chat.png" alt="chat" class="w-[30px]" />
-        <button id="testjs" class="font-bold tracking-[1px] "> INSCRIT ET BAISE MOI </button>
+        <button id="testjs" class="font-bold tracking-[1px] "> INSCRIT TOI TOI ET BAISE MOI </button>
       </article>
     </section></a
   >
@@ -89,7 +89,7 @@
   <!-- Vidéo et explication -->
   <section>
     <section class="m-auto mt-4 w-[90%]  rounded-[30px] bg-gradient-to-r from-[#eda0a0] to-[#eda0a0] p-1  shadow-xl">
-      <img src="/proof.png" alt="proof" class="rounded-[30px] border-[4px] border-white" />
+      <img src="/proof.webp" alt="proof" class="rounded-[30px] border-[4px] border-white" />
     </section>
 
     <div class="m-auto mt-4 w-[90%] rounded-[30px] bg-white p-4 text-black">
@@ -139,7 +139,7 @@
     ><section id="testjs" class="mt-3 w-full ">
       <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#a67070] bg-[#eda0a0] p-5 font-bold text-white shadow-2xl">
         <img src="/chat.png" alt="chat" class="w-[30px]" />
-        <button id="testjs" class="font-bold tracking-[1px] "> INSCRIT ET BAISE MOI </button>
+        <button id="testjs" class="font-bold tracking-[1px] "> INSCRIT TOI ET BAISE MOI </button>
       </article>
     </section></a
   >
@@ -179,7 +179,7 @@
     ><section id="testjs" class="mt-3 w-full">
       <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#a67070] bg-[#eda0a0] p-5 font-bold text-white shadow-2xl">
         <img src="/chat.png" alt="chat" class="w-[30px]" />
-        <button id="testjs" class="font-bold tracking-[1px] "> INSCRIT ET BAISE MOI </button>
+        <button id="testjs" class="font-bold tracking-[1px] "> INSCRIT TOI ET BAISE MOI </button>
       </article>
     </section></a
   >
@@ -197,7 +197,7 @@
         </div>
 
         <div class="m-auto w-[80%] text-left font-medium tracking-wider text-[#e07b7b]">
-          Afin de parler qu'à des majeurs, <span class="inline-block first-letter:uppercase"> {id} </span> ne souhaite parler qu'aux hommes inscrits.
+          Afin de parler qu'à des majeurs, <span class="inline-block first-letter:uppercase"> {id} </span> ne souhaite parler qu'aux hommes INSCRIT TOIs.
         </div>
       </div>
       <div id="chatform" />
