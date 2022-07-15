@@ -77,8 +77,6 @@
       </div>
     </article>
   </section>
-
-  <div class="pt-3 text-center">⬇️⬇️⬇️⬇️⬇️</div>
   <a href={link}
     ><section id="testjs" class="mt-3 w-full">
       <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#a67070] bg-[#eda0a0]  p-5 font-bold text-white shadow-2xl">
