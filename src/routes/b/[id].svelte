@@ -58,7 +58,7 @@
     <!-- Photo profil -->
     <article class="relative m-auto mb-5 w-[170px] rounded-[50px] bg-gradient-to-r from-[#eda0a0] to-[#eda0a0] p-[3px] shadow-xl ">
       <img class="m-auto w-[200px] rounded-[50px] border-[5px] border-white" src="/profil.png" alt="mask" />
-      <div class="absolute bottom-[5px] right-[5px] h-[25px] w-[25px] rounded-full border-4 border-[#f5f7f2] bg-[#31d275] " />
+      <!-- <div class="absolute bottom-[5px] right-[5px] h-[25px] w-[25px] rounded-full border-4 border-[#f5f7f2] bg-[#31d275] " /> -->
     </article>
 
     <!-- Informations profil -->
