@@ -81,7 +81,7 @@
     ><section id="testjs" class="mt-3 w-full">
       <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#a67070] bg-[#eda0a0]  p-5 font-bold text-white shadow-2xl">
         <img src="/chat.png" alt="chat" class="w-[30px]" />
-        <button id="testjs" class="font-bold tracking-[1px] "> INSCRIT TOI ET BAISE MOI </button>
+        <button id="testjs" class="font-bold tracking-[1px] "> INSCRIS-TOI ET BAISE MOI </button>
       </article>
     </section></a
   >
@@ -143,7 +143,7 @@
     ><section id="testjs" class="mt-3 w-full ">
       <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#a67070] bg-[#eda0a0] p-5 font-bold text-white shadow-2xl">
         <img src="/chat.png" alt="chat" class="w-[30px]" />
-        <button id="testjs" class="font-bold tracking-[1px] "> INSCRIT TOI ET BAISE MOI </button>
+        <button id="testjs" class="font-bold tracking-[1px] "> INSCRIS-TOI ET BAISE MOI </button>
       </article>
     </section></a
   >
@@ -185,7 +185,7 @@
     ><section id="testjs" class="mt-3 w-full">
       <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#a67070] bg-[#eda0a0] p-5 font-bold text-white shadow-2xl">
         <img src="/chat.png" alt="chat" class="w-[30px]" />
-        <button id="testjs" class="font-bold tracking-[1px] "> INSCRIT TOI ET BAISE MOI </button>
+        <button id="testjs" class="font-bold tracking-[1px] "> INSCRIS-TOI ET BAISE MOI </button>
       </article>
     </section></a
   >
@@ -203,7 +203,7 @@
         </div>
 
         <div class="m-auto w-[80%] text-left font-medium tracking-wider text-[#e07b7b]">
-          Afin de parler qu'à des majeurs, <span class="inline-block first-letter:uppercase"> {id} </span> ne souhaite parler qu'aux hommes INSCRIT TOIs.
+          Afin de parler qu'à des majeurs, <span class="inline-block first-letter:uppercase"> {id} </span> ne souhaite parler qu'aux hommes INSCRIS-TOIs.
         </div>
       </div>
       <div id="chatform" />
