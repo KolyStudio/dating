@@ -70,10 +70,10 @@
         <h3 class="rounded-xl bg-white px-2 font-semibold text-black">🍑 Libertine</h3>
       </div>
       <div class="flex justify-center space-x-4 pt-4">
-        <div class=" flex items-center rounded-xl bg-white px-2 font-semibold text-black ">
+        <!-- <div class=" flex items-center rounded-xl bg-white px-2 font-semibold text-black ">
           <img src="/pin.svg" alt="pin" class="w-5" />
-          <div>À 7 km</div>
-        </div>
+          <div>À 7 km</div> -->
+        <!-- </div> -->
       </div>
     </article>
   </section>
@@ -83,7 +83,7 @@
     ><section id="testjs" class="mt-3 w-full">
       <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#a67070] bg-[#eda0a0]  p-5 font-bold text-white shadow-2xl">
         <img src="/chat.png" alt="chat" class="w-[30px]" />
-        <button id="testjs" class="font-bold tracking-[1px] "> ENVOIE-MOI UN MESSAGE </button>
+        <button id="testjs" class="font-bold tracking-[1px] "> INSCRIT ET BAISE MOI </button>
       </article>
     </section></a
   >
@@ -91,7 +91,7 @@
   <!-- Vidéo et explication -->
   <section>
     <section class="m-auto mt-4 w-[90%]  rounded-[30px] bg-gradient-to-r from-[#eda0a0] to-[#eda0a0] p-1  shadow-xl">
-      <img src="/proof.webp" alt="proof" class="rounded-[30px] border-[4px] border-white" />
+      <img src="/proof.png" alt="proof" class="rounded-[30px] border-[4px] border-white" />
     </section>
 
     <div class="m-auto mt-4 w-[90%] rounded-[30px] bg-white p-4 text-black">
@@ -141,7 +141,7 @@
     ><section id="testjs" class="mt-3 w-full ">
       <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#a67070] bg-[#eda0a0] p-5 font-bold text-white shadow-2xl">
         <img src="/chat.png" alt="chat" class="w-[30px]" />
-        <button id="testjs" class="font-bold tracking-[1px] "> ENVOIE-MOI UN MESSAGE </button>
+        <button id="testjs" class="font-bold tracking-[1px] "> INSCRIT ET BAISE MOI </button>
       </article>
     </section></a
   >
@@ -181,7 +181,7 @@
     ><section id="testjs" class="mt-3 w-full">
       <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#a67070] bg-[#eda0a0] p-5 font-bold text-white shadow-2xl">
         <img src="/chat.png" alt="chat" class="w-[30px]" />
-        <button id="testjs" class="font-bold tracking-[1px] "> ENVOIE-MOI UN MESSAGE </button>
+        <button id="testjs" class="font-bold tracking-[1px] "> INSCRIT ET BAISE MOI </button>
       </article>
     </section></a
   >
