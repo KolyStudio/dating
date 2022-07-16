@@ -108,7 +108,7 @@
   </section>
 
   <section class="m-auto mt-4 w-[90%] rounded-[30px] border-b-4 border-[#eda0a0] bg-white p-4 text-black">
-    <h1 class="text-center font-bold uppercase">PROFIL DE {name}25</h1>
+    <!-- <h1 class="text-center font-bold uppercase">PROFIL DE {name}25</h1> -->
     <h2 class="py-2 text-center font-bold">JE NE SUIS PAS UNE ESCORTE !! ❌</h2>
 
     <p>
