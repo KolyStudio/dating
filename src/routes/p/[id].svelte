@@ -32,7 +32,7 @@
 </script>
 
 <svelte:head>
-  <title>{name}25 - Page Privée</title>
+  <title>{name}25 - Baise moi</title>
   <!-- <script type="text/javascript" src="https://c.love.free-datings.com/8/js/script.js?id=rEwc2"></script> -->
   <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=5e7fce81"></script>
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
@@ -56,7 +56,7 @@
   <!-- Profil -->
   <section>
     <!-- Photo profil -->
-    <article class="relative m-auto mb-5 w-[170px] rounded-[50px] bg-gradient-to-r from-[#31d275] to-[#31d275] p-[3px] shadow-xl ">
+    <article class="relative m-auto mb-5 w-[170px] rounded-[50px] bg-gradient-to-r from-[#31d275] to-[#31d275] p-[4px] shadow-xl ">
       <img class="m-auto w-[200px] rounded-[50px] border-[5px] border-white" src="/profil.png" alt="mask" />
       <!-- <div class="absolute bottom-[5px] right-[5px] h-[25px] w-[25px] rounded-full border-4 border-[#f5f7f2] bg-[#31d275] " /> -->
     </article>
@@ -80,7 +80,7 @@
   <a href={link}
     ><section id="testjs" class="mt-3 w-full">
       <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center rounded-[30px] border-b-4 border-[#a67070] bg-[#eda0a0]  p-5 px-2 font-bold text-white shadow-2xl">
-        <button id="testjs" class="font-bold tracking-[1px] ">🔞┇ ME RENCONTRER SUR J&M CONTACT </button>
+        <button id="testjs" class="font-bold tracking-[1px] ">🔞┇ ME CONTACTER SUR J&M CONTACT </button>
       </article>
     </section></a
   >
@@ -141,7 +141,7 @@
   <a href={link}
     ><section id="testjs" class="mt-3 w-full ">
       <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#a67070] bg-[#eda0a0] p-5 px-2 font-bold text-white shadow-2xl">
-        <button id="testjs" class="font-bold tracking-[1px] "> 🔞┇VOIR MON PROFIL J&M CONTACT </button>
+        <button id="testjs" class="font-bold tracking-[1px] "> 🔞┇VOIR MES PHOTOS SUR J&M CONTACT </button>
       </article>
     </section></a
   >
