@@ -6,9 +6,9 @@
   let firstip
   let myip = ''
   const { id } = $page.params
-  const name = id.charAt(0).toUpperCase() + id.slice(1)
+  const name = 'Eclosia34'
 
-  let link = `https://k.encontro-rapido.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90642&media=social&tpls=73&source=SAMEDI16&userPicture=https://i.ibb.co/qjb6YLJ/profil.png&userName=` + id + `25&userDistance=7`
+  let link = `https://k.encontro-rapido.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90642&media=social&tpls=73&source=SAMEDI16&userPicture=https://i.ibb.co/1Rrz0Y6/profil.webp&userName=` + id + `&userDistance=7`
 
   let isClicked
 
@@ -61,7 +61,7 @@
 
     <!-- Informations profil -->
     <article>
-      <h1 class="text-center text-2xl font-bold uppercase ">{name}25</h1>
+      <h1 class="text-center text-2xl font-bold uppercase ">{name}</h1>
       <div class="m-auto my-2 w-[100px] rounded-xl border-b-4 border-[#31d275] bg-[white] py-1 text-center text-xs font-semibold uppercase text-[#2aba66]">En Ligne</div>
       <!-- <div class="flex justify-center space-x-4 pt-2">
         <h3 class="rounded-xl border-b-4 border-[#f05e7a] bg-white px-2 font-semibold text-black">🎂 22 ans</h3>
@@ -113,7 +113,7 @@
     <h2 class="py-2 text-center font-bold uppercase text-[#f05e7a]">Pour ceux qui veulent des plans culs</h2>
 
     <p>
-      Perso j'ai pas mal utilisé J&M Contact pour trouver des plans culs par le passé et je sais que y'a plein de filles qui font pareil mais qui attendent encore des propositions. <br /><br />Si être soumis n'est pas ton truc n'hésite pas
+      Perso j'ai pas mal utilisée J&M Contact pour trouver des plans culs par le passé et je sais que y'a plein de filles qui font pareil mais qui attendent encore des propositions. <br /><br />Si être soumis n'est pas ton truc n'hésite pas
       à m'envoyer un petit message quand même je pourrai te conseiller 2-3 filles qui cherchent des mecs pour s'amuser un peu. 😉
     </p>
   </section>
