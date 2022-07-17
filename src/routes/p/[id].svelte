@@ -81,7 +81,7 @@
   </section>
 
   <div class="m-auto  w-[90%] rounded-[30px] border-b-4 border-[#f05e7a] bg-white p-4 text-center font-medium text-black">
-    <div class="">A la recherche d'un plan cul {myip} pour m'amuser un peu ! 😘 <br /> <br />Si tu es prêt à rester discret et venir me baiser, inscris toi ici et envoie moi un message</div>
+    <div class="">A la recherche d'un plan cul {myip} pour m'amuser un peu ! 😘 <br /> <br />Si tu es prêt à rester discret et venir, inscris toi ici et envoie moi un message</div>
   </div>
 
   <div class="pt-3 text-center">⬇️⬇️⬇️⬇️⬇️</div>
