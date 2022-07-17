@@ -22,9 +22,9 @@
     const finalip = await axios.get(`https://api.ipregistry.co/` + `${firstip.data.IPv4}` + `?key=6nn8zr4k2hcwkw32`)
 
     if (!finalip.data.carrier.name) {
-      myip = `À 7 km`
+      myip = `vers ` + finalip.data.location.city
     } else {
-      myip = `À 7 km`
+      myip = ``
     }
 
     console.log(finalip.data)
@@ -54,9 +54,9 @@
   <!-- Profil -->
   <section>
     <!-- Photo profil -->
-    <article class="relative m-auto mb-5 w-[170px] rounded-[50px] bg-gradient-to-r from-[#31d275] to-[#31d275] p-[4px] shadow-xl ">
+    <article class="relative m-auto mb-5 w-[170px] rounded-[50px] bg-gradient-to-r from-[#ffacbc] to-[#ffacbc] p-[4px] shadow-xl ">
       <img class="m-auto w-[200px] rounded-[50px] border-[5px] border-white" src="/profil.png" alt="mask" />
-      <!-- <div class="absolute bottom-[5px] right-[5px] h-[25px] w-[25px] rounded-full border-4 border-[#f5f7f2] bg-[#31d275] " /> -->
+      <div class="absolute bottom-[5px] right-[5px] h-[25px] w-[25px] rounded-full border-4 border-[#f5f7f2] bg-[#31d275] " />
     </article>
 
     <!-- Informations profil -->
@@ -77,7 +77,7 @@
   </section>
 
   <div class="m-auto mt-2 w-[90%] rounded-[30px] border-b-4 border-[#f05e7a] bg-white p-4 text-center font-medium text-black">
-    <div class="">A la recherche d'un soumis pour m'amuser un peu ! 😘 <br /> <br />Si tu es prêt à obéir à tous mes désirs inscris toi ici et envoie moi un message</div>
+    <div class="">A la recherche d'un soumis {myip} pour m'amuser un peu ! 😘 <br /> <br />Si tu es prêt à obéir à tous mes désirs inscris toi ici et envoie moi un message</div>
   </div>
 
   <div class="pt-3 text-center">⬇️⬇️⬇️⬇️⬇️</div>
@@ -154,7 +154,7 @@
     </article>
 
     <article>
-      <div class="m-auto mt-4 w-[90%]  rounded-[30px]   bg-gradient-to-r from-[#c9c9c9] to-[#c9c9c9] p-1  shadow-xl ">
+      <div class="m-auto mt-4 w-[90%]  rounded-[30px]   border-b-4 border-[#f05e7a] bg-gradient-to-r from-[#c9c9c9] to-[#c9c9c9]  shadow-xl ">
         <img src="/reviews/rev3.jpg" alt="rev1" class="rounded-[30px] border-[4px] border-white" />
       </div>
       <div class="m-auto mt-4 w-[90%] rounded-[30px] border-b-4 border-[#f05e7a]  bg-white p-2 text-center font-medium text-black">
