@@ -89,7 +89,7 @@
   <a href={link}
     ><section id="testjs" class="mt-3 w-full">
       <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center rounded-[30px] border-b-4 border-[#a36a6a] bg-[#f05e7a]  p-5 px-2 font-bold text-white shadow-2xl">
-        <button id="testjs" class="font-bold tracking-[1px] ">🔞┇ BAISE MOI MAINTENANT ! </button>
+        <button id="testjs" class="font-bold tracking-[1px] "> 🔞┇ CLIQUE POUR VOIR MON PROFIL </button>
       </article>
     </section></a
   >
