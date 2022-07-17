@@ -6,7 +6,7 @@
   let firstip
   let myip = ''
   const { id } = $page.params
-  const name = 'Prunelle031'
+  const name = 'Ismanabelly04'
 
   let link = `https://k.encontro-rapido.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90642&media=social&tpls=73&source=SAMEDI16&userPicture=https://i.ibb.co/1Rrz0Y6/profil.webp&userName=` + id + `&userDistance=7`
 
@@ -32,7 +32,7 @@
 </script>
 
 <svelte:head>
-  <title>Prunelle031 - Page Privée</title>
+  <title>Ismanabelly04 - Page Privée</title>
   <!-- <script type="text/javascript" src="https://c.love.free-datings.com/8/js/script.js?id=rEwc2"></script> -->
   <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=5e7fce81"></script>
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
