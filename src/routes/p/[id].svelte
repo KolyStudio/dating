@@ -104,8 +104,6 @@
     <div class="m-auto mt-4 w-[90%] rounded-[30px] border-b-4 border-[#f05e7a] bg-white p-4 font-medium text-black">
       <div class="">
         <h2 class="py-2 text-center font-bold uppercase text-[#f05e7a]">Je recherche un plan cul</h2>
-        A savoir, si je montre pas mon visage dans la vidéo c'est que je l'ai un peu retouché pour pas trop être reconnue, j'ai un boulot et une famille donc je pense que vous comprendrez pourquoi... ^^<br /><br />
-
         Je suis à la recherche de mecs discrets pour des plans cul réguliers. J'ai un appartement depuis peu, et j'ai très envie de m'amuser.
         <br /><br />
         Si tu es intéressé, envoie-moi un message on s'organise une soirée ce soir ou dans la semaine.
