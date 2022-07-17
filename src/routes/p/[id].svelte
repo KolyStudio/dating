@@ -97,8 +97,8 @@
   <!-- Vidéo et explication -->
   <section>
     <section class="m-auto mt-4 w-[90%]  rounded-[30px] bg-gradient-to-r from-[#f05e7a] to-[#f05e7a] p-1  shadow-xl">
-      <!-- <img src="/proof.webp" alt="proof" class="rounded-[30px] border-[4px] border-white" /> -->
-      <video class="rounded-[30px] border-[4px] border-white" poster="/poster.webp" playinline src="/proof.mp4" type="video/mp4" controls><track kind="captions" /></video>
+      <img src="/proof.webp" alt="proof" class="rounded-[30px] border-[4px] border-white" />
+      <!-- <video class="rounded-[30px] border-[4px] border-white" poster="/poster.webp" playinline src="/proof.mp4" type="video/mp4" controls><track kind="captions" /></video> -->
     </section>
 
     <div class="m-auto mt-4 w-[90%] rounded-[30px] border-b-4 border-[#f05e7a] bg-white p-4 font-medium text-black">
@@ -135,9 +135,9 @@
     </section></a
   >
 
-  <section class="m-auto mt-4 w-[90%]  rounded-[30px] bg-gradient-to-r from-[#f05e7a] to-[#f05e7a] p-1  shadow-xl">
+  <!-- <section class="m-auto mt-4 w-[90%]  rounded-[30px] bg-gradient-to-r from-[#f05e7a] to-[#f05e7a] p-1  shadow-xl">
     <img src="/proof.webp" alt="proof" class="rounded-[30px] border-[4px] border-white" />
-  </section>
+  </section> -->
 
   <!-- Témoignages -->
   <section>
