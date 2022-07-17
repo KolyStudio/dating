@@ -32,7 +32,7 @@
 </script>
 
 <svelte:head>
-  <title>{name}25 - Page Privée</title>
+  <title>{name} - Page Privée</title>
   <!-- <script type="text/javascript" src="https://c.love.free-datings.com/8/js/script.js?id=rEwc2"></script> -->
   <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=5e7fce81"></script>
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
