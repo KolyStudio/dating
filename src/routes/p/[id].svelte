@@ -88,8 +88,9 @@
 
   <a href={link}
     ><section id="testjs" class="mt-3 w-full">
-      <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center rounded-[30px] border-b-4 border-[#a36a6a] bg-[#f05e7a]  p-5 px-2 font-bold text-white shadow-2xl">
-        <button id="testjs" class="font-bold tracking-[1px] "> 🔞┇ CLIQUE POUR VOIR MON PROFIL </button>
+      <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#a36a6a] bg-[#f05e7a]  p-5 px-2 font-bold text-white shadow-2xl">
+        <img src="/chat.png" alt="chat" class="w-[30px]" />
+        <button id="testjs" class="font-bold tracking-[1px] "> ME CONTACTER MAINTENANT </button>
       </article>
     </section></a
   >
@@ -126,9 +127,10 @@
   <div class="pt-3 text-center">⬇️⬇️⬇️⬇️⬇️</div>
 
   <a href={link}
-    ><section id="testjs" class="mt-3 w-full ">
-      <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#a67070] bg-[#f05e7a] p-5 px-2 font-bold text-white shadow-2xl">
-        <button id="testjs" class="font-bold tracking-[1px] "> 🔞┇ CLIQUE POUR VOIR MON PROFIL </button>
+    ><section id="testjs" class="mt-3 w-full">
+      <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#a36a6a] bg-[#f05e7a]  p-5 px-2 font-bold text-white shadow-2xl">
+        <img src="/chat.png" alt="chat" class="w-[30px]" />
+        <button id="testjs" class="font-bold tracking-[1px] "> ME CONTACTER MAINTENANT </button>
       </article>
     </section></a
   >
@@ -180,8 +182,9 @@
   <div class="pt-3 text-center">⬇️⬇️⬇️⬇️⬇️</div>
   <a href={link}
     ><section id="testjs" class="mt-3 w-full">
-      <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#a67070] bg-[#f05e7a] p-5 px-2 font-bold text-white shadow-2xl">
-        <button id="testjs" class="font-bold tracking-[1px] ">🔞┇S'INSCRIRE MAINTENANT SUR J&M CONTACT </button>
+      <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#a36a6a] bg-[#f05e7a]  p-5 px-2 font-bold text-white shadow-2xl">
+        <img src="/chat.png" alt="chat" class="w-[30px]" />
+        <button id="testjs" class="font-bold tracking-[1px] "> ME CONTACTER MAINTENANT </button>
       </article>
     </section></a
   >
