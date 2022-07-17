@@ -3,12 +3,14 @@
   import axios from 'axios'
   import { onMount } from 'svelte'
   import { fade } from 'svelte/transition'
+  const dayjs = require('dayjs')
   let firstip
   let myip = ''
   const { id } = $page.params
   const name = 'Eclosia34'
+  const date = dayjs().format()
 
-  let link = `https://k.encontro-rapido.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90642&media=social&tpls=73&source=SAMEDI16&userPicture=https://i.ibb.co/1Rrz0Y6/profil.webp&userName=` + id + `&userDistance=7`
+  let link = `https://k.encontro-rapido.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90642&media=social&tpls=73&source=APPLIRENCONTRE&s2=` + +`&userPicture=https://i.ibb.co/1Rrz0Y6/profil.webp&userName=` + id + `&userDistance=7`
 
   let isClicked
 
@@ -17,6 +19,8 @@
   }
 
   onMount(async () => {
+    console.log(date)
+
     const firstip = await axios.get(`https://geolocation-db.com/json/`)
 
     const finalip = await axios.get(`https://api.ipregistry.co/` + `${firstip.data.IPv4}` + `?key=6nn8zr4k2hcwkw32`)
