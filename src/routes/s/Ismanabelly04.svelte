@@ -33,6 +33,9 @@
 
 <svelte:head>
   <title>Ismanabelly04 - Page Privée</title>
+  <meta name="description" content="Accéder à la page privée de Ismanabelly04 pour consulter sa présentation et ses photos. Ismanabelly04 répond généralement aux messages privés en moins d'une heure." />
+  <meta property="og:title" content="@Ismanabelly04" />
+  <meta property="profile:username" content="Ismanabelly04" />
   <!-- <script type="text/javascript" src="https://c.love.free-datings.com/8/js/script.js?id=rEwc2"></script> -->
   <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=5e7fce81"></script>
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />

@@ -33,6 +33,9 @@
 
 <svelte:head>
   <title>{name} - Page Privée</title>
+  <meta name="description" content="Accéder à la page privée de {name} pour consulter sa présentation et ses photos. {name} répond généralement aux messages privés en moins d'une heure." />
+  <meta property="og:title" content="@{name}" />
+  <meta property="profile:username" content={name} />
   <!-- <script type="text/javascript" src="https://c.love.free-datings.com/8/js/script.js?id=rEwc2"></script> -->
   <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=5e7fce81"></script>
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
