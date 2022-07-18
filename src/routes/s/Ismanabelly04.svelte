@@ -3,12 +3,20 @@
   import axios from 'axios'
   import { onMount } from 'svelte'
   import { fade } from 'svelte/transition'
+  import dayjs from 'dayjs'
   let firstip
   let myip = ''
   const { id } = $page.params
   const name = 'Ismanabelly04'
+  const date = dayjs().format('DD/MM/YYYY')
+  console.log(date)
 
-  let link = `https://k.encontro-rapido.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90642&media=social&tpls=73&source=SAMEDI16&userPicture=https://i.ibb.co/1Rrz0Y6/profil.webp&userName=` + id + `&userDistance=7`
+  let link =
+    `https://www.rdv-proches.com/?acme=wid.90642&cid=&gemail=&media=social&s1=txt_sm&s2=` +
+    date +
+    `&siteid=3461948&source=RENCONTRE&tpl=153&tpls=73&tr4ck=qsgef62d522d20007bb9e&userAge=&userName=` +
+    name +
+    `25&userDistance=7&userPicture=https%3A%2F%2Fi.ibb.co%2F551c5pr%2Fprofil.webp&v=&xa=n`
 
   let isClicked
 
@@ -22,7 +30,7 @@
     const finalip = await axios.get(`https://api.ipregistry.co/` + `${firstip.data.IPv4}` + `?key=6nn8zr4k2hcwkw32`)
 
     if (!finalip.data.carrier.name) {
-      myip = `vers ` + finalip.data.location.city
+      myip = ``
     } else {
       myip = ``
     }
@@ -96,8 +104,8 @@
   <!-- Vidéo et explication -->
   <section>
     <section class="m-auto mt-4 w-[90%]  rounded-[30px] bg-gradient-to-r from-[#f05e7a] to-[#f05e7a] p-1  shadow-xl">
-      <!-- <img src="/proof.webp" alt="proof" class="rounded-[30px] border-[4px] border-white" /> -->
-      <video class="rounded-[30px] border-[4px] border-white" poster="/poster.webp" src="/proof.mp4" type="video/mp4" controls><track kind="captions" /></video>
+      <img src="/proof.webp" alt="proof" class="rounded-[30px] border-[4px] border-white" />
+      <!-- <video class="rounded-[30px] border-[4px] border-white" poster="/poster.webp" src="/proof.mp4" type="video/mp4" controls><track kind="captions" /></video> -->
     </section>
 
     <div class="m-auto mt-4 w-[90%] rounded-[30px] border-b-4 border-[#f05e7a] bg-white p-4 font-medium text-black">
@@ -131,9 +139,9 @@
     </section></a
   >
 
-  <section class="m-auto mt-4 w-[90%]  rounded-[30px] bg-gradient-to-r from-[#f05e7a] to-[#f05e7a] p-1  shadow-xl">
+  <!-- <section class="m-auto mt-4 w-[90%]  rounded-[30px] bg-gradient-to-r from-[#f05e7a] to-[#f05e7a] p-1  shadow-xl">
     <img src="/proof.webp" alt="proof" class="rounded-[30px] border-[4px] border-white" />
-  </section>
+  </section> -->
 
   <!-- Témoignages -->
   <section>

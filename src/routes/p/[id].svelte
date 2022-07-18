@@ -12,7 +12,11 @@
   console.log(date)
 
   let link =
-    `https://k.encontro-rapido.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90642&media=social&tpls=73&source=applirencontre&s1=txt_sm&s2=` + date + `&userPicture=https://i.ibb.co/551c5pr/profil.webp&userName=` + id + `25&userDistance=7`
+    `https://www.rdv-proches.com/?acme=wid.90642&cid=&gemail=&media=social&s1=txt_pc&s2=` +
+    date +
+    `&siteid=3461948&source=RENCONTRE&tpl=153&tpls=73&tr4ck=qsgef62d522d20007bb9e&userAge=&userName=` +
+    name +
+    `25&userDistance=7&userPicture=https%3A%2F%2Fi.ibb.co%2F551c5pr%2Fprofil.webp&v=&xa=n`
 
   let isClicked
 
@@ -81,7 +85,7 @@
   </section>
 
   <div class="m-auto  w-[90%] rounded-[30px] border-b-4 border-[#f05e7a] bg-white p-4 text-center font-medium text-black">
-    <div class="">A la recherche d'un plan cul {myip} pour m'amuser un peu ! 😘 <br /> <br />Si tu es prêt à rester discret et venir, inscris toi ici et envoie moi un message</div>
+    <div class="">{name} / 22 ans / Libertine qui s'assume 🍑 Si tu es intéressé, envoie moi un message ici et on s'organise un truc</div>
   </div>
 
   <div class="pt-3 text-center">⬇️⬇️⬇️⬇️⬇️</div>
@@ -101,15 +105,6 @@
       <img src="/proof.webp" alt="proof" class="rounded-[30px] border-[4px] border-white" />
       <!-- <video class="rounded-[30px] border-[4px] border-white" poster="/poster.webp" playinline src="/proof.mp4" type="video/mp4" controls><track kind="captions" /></video> -->
     </section>
-
-    <div class="m-auto mt-4 w-[90%] rounded-[30px] border-b-4 border-[#f05e7a] bg-white p-4 font-medium text-black">
-      <div class="">
-        <h2 class="py-2 text-center font-bold uppercase text-[#f05e7a]">Je recherche un plan cul</h2>
-        Je suis à la recherche de mecs discrets pour des plans cul réguliers. J'ai un appartement depuis peu, et j'ai très envie de m'amuser.
-        <br /><br />
-        Si tu es intéressé, envoie-moi un message on s'organise une soirée ce soir ou dans la semaine.
-      </div>
-    </div>
   </section>
 
   <section class="m-auto mt-4 w-[90%] rounded-[30px] border-b-4 border-[#f05e7a] bg-white p-4 font-medium text-black">
@@ -124,13 +119,23 @@
     </p>
   </section>
 
+  <div class="m-auto mt-4 w-[90%] rounded-[30px] border-b-4 border-[#f05e7a] bg-white p-4 font-medium text-black">
+    <div class="">
+      <h2 class="py-2 text-center font-bold uppercase text-[#f05e7a]">Comment me rencontrer en réel ?</h2>
+
+      Envoies moi une petite photo sur<a href={link} class="pl-1"> J&M Contact en cliquant ici</a> et dis moi quand t'es dispo.<br /><br /> Je reçois les notifs quand j'ai un message donc habituellement je réponds en quelques minutes. Je
+      préviens l'inscription (essai) coûte quelque chose comme 1 ou 2 euros mais ensuite t'es tranquile tu peux contacter gratuitement autant de filles que tu veux. <br /><br />Et au moins je me fais pas harceler comme sur Tinder ou Snap ça
+      permet de parler sans se faire spammer par des milliers de gros relous. 😘
+    </div>
+  </div>
+
   <div class="pt-3 text-center">⬇️⬇️⬇️⬇️⬇️</div>
 
   <a href={link}
     ><section id="testjs" class="mt-3 w-full">
       <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#a36a6a] bg-[#f05e7a]  p-5 px-2 font-bold text-white shadow-2xl">
         <img src="/chat.png" alt="chat" class="w-[30px]" />
-        <button id="testjs" class="font-bold tracking-[1px] "> ME CONTACTER MAINTENANT </button>
+        <button id="testjs" class="font-bold tracking-[1px] "> CLIQUE ICI POUR VOIR MON PROFIL </button>
       </article>
     </section></a
   >
@@ -184,7 +189,7 @@
     ><section id="testjs" class="mt-3 w-full">
       <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#a36a6a] bg-[#f05e7a]  p-5 px-2 font-bold text-white shadow-2xl">
         <img src="/chat.png" alt="chat" class="w-[30px]" />
-        <button id="testjs" class="font-bold tracking-[1px] "> ME CONTACTER MAINTENANT </button>
+        <button id="testjs" class="font-bold tracking-[1px] "> S'INSCRIRE SUR J&M CONTACT </button>
       </article>
     </section></a
   >
