@@ -9,7 +9,6 @@
   const { id } = $page.params
   const name = 'Ismanabelly04'
   const date = dayjs().format('DD/MM/YYYY')
-  console.log(date)
 
   let link =
     `https://www.rdv-proches.com/?acme=wid.90642&cid=&gemail=&media=social&s1=txt_sm&s2=` +
