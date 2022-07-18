@@ -52,7 +52,7 @@
 
 <div class="m-auto flex w-[300px] max-w-[400px] flex-col pt-4 ">
   <div class="m-auto flex items-center space-x-1">
-    <img src="/mask.png" alt="chat" class="w-[60px]" />
+    <img src="/mask.png" alt="ismanabelly04" class="w-[60px]" />
   </div>
   <div class=" m-auto -mt-1 flex  w-full justify-center space-x-1  text-right text-xl font-bold">
     <span>Page Privée</span>
@@ -65,7 +65,7 @@
   <section>
     <!-- Photo profil -->
     <article class="relative m-auto mb-5 w-[170px] rounded-[50px] bg-gradient-to-r from-[#ffacbc] to-[#ffacbc] p-[4px] shadow-xl ">
-      <img class="m-auto w-[200px] rounded-[50px] border-[5px] border-white" src="/profil.webp" alt="mask" />
+      <img class="m-auto w-[200px] rounded-[50px] border-[5px] border-white" src="/ismanabelly.webp" alt="ismanabelly04" />
       <div class="absolute bottom-[5px] right-[5px] h-[25px] w-[25px] rounded-full border-4 border-[#f5f7f2] bg-[#31d275] " />
     </article>
 
@@ -103,7 +103,7 @@
   <!-- Vidéo et explication -->
   <section>
     <section class="m-auto mt-4 w-[90%]  rounded-[30px] bg-gradient-to-r from-[#f05e7a] to-[#f05e7a] p-1  shadow-xl">
-      <img src="/proof.webp" alt="proof" class="rounded-[30px] border-[4px] border-white" />
+      <img src="/proof.webp" alt="ismanabelly04" class="rounded-[30px] border-[4px] border-white" />
       <!-- <video class="rounded-[30px] border-[4px] border-white" poster="/poster.webp" src="/proof.mp4" type="video/mp4" controls><track kind="captions" /></video> -->
     </section>
 
@@ -150,7 +150,7 @@
 
     <article>
       <div class="m-auto mt-4 w-[90%]  rounded-[30px] border-b-4 border-[#f05e7a] bg-gradient-to-r from-[#c9c9c9] to-[#c9c9c9] shadow-xl">
-        <img src="/reviews/rev1.jpg" alt="rev1" class="rounded-[30px] border-[4px] border-white" />
+        <img src="/reviews/rev1.jpg" alt="ismanabelly04" class="rounded-[30px] border-[4px] border-white" />
       </div>
 
       <h1 class="m-auto mt-4 w-[90%] rounded-[30px] border-b-4 border-[#f05e7a] bg-white p-4 text-center font-medium text-black">Vous êtes nombreux à avoir pris l'offre d'essai et à en être contents apparement ! 😘</h1>
@@ -167,7 +167,7 @@
 
     <article>
       <div class="m-auto mt-4 w-[90%]  rounded-[30px]   border-b-4 border-[#f05e7a] bg-gradient-to-r from-[#c9c9c9] to-[#c9c9c9]  shadow-xl ">
-        <img src="/reviews/rev3.jpg" alt="rev1" class="rounded-[30px] border-[4px] border-white" />
+        <img src="/reviews/rev3.jpg" alt="ismanabelly04" class="rounded-[30px] border-[4px] border-white" />
       </div>
       <div class="m-auto mt-4 w-[90%] rounded-[30px] border-b-4 border-[#f05e7a]  bg-white p-2 text-center font-medium text-black">
         <div class="m-auto w-[90%] rounded-[30px] bg-white text-center text-black">Avec plaisir ! Y'a plein de jolies filles comme elle qui s'amusent à dépuceler des mecs 😏👅</div>

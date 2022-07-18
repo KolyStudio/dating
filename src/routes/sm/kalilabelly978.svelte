@@ -40,9 +40,9 @@
 
 <svelte:head>
   <title>Kalilabelly978 - Page Privée</title>
-  <meta name="description" content="Accéder à la page privée de Ismanabelly04 pour consulter sa présentation et ses photos. Ismanabelly04 répond généralement aux messages privés en moins d'une heure." />
-  <meta property="og:title" content="@Ismanabelly04" />
-  <meta property="profile:username" content="Ismanabelly04" />
+  <meta name="description" content="Accéder à la page privée de kalilabelly978 pour consulter sa présentation et ses photos. kalilabelly978 répond généralement aux messages privés en moins d'une heure." />
+  <meta property="og:title" content="@kalilabelly978" />
+  <meta property="profile:username" content="kalilabelly978" />
   <!-- <script type="text/javascript" src="https://c.love.free-datings.com/8/js/script.js?id=rEwc2"></script> -->
   <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=5e7fce81"></script>
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
@@ -52,7 +52,7 @@
 
 <div class="m-auto flex w-[300px] max-w-[400px] flex-col pt-4 ">
   <div class="m-auto flex items-center space-x-1">
-    <img src="/mask.png" alt="chat" class="w-[60px]" />
+    <img src="/mask.png" alt="kalilabelly978" class="w-[60px]" />
   </div>
   <div class=" m-auto -mt-1 flex  w-full justify-center space-x-1  text-right text-xl font-bold">
     <span>Page Privée</span>
@@ -103,7 +103,7 @@
   <!-- Vidéo et explication -->
   <section>
     <section class="m-auto mt-4 w-[90%]  rounded-[30px] bg-gradient-to-r from-[#f05e7a] to-[#f05e7a] p-1  shadow-xl">
-      <img src="/proof.webp" alt="proof" class="rounded-[30px] border-[4px] border-white" />
+      <img src="/proof.webp" alt="kalilabelly978" class="rounded-[30px] border-[4px] border-white" />
       <!-- <video class="rounded-[30px] border-[4px] border-white" poster="/poster.webp" src="/proof.mp4" type="video/mp4" controls><track kind="captions" /></video> -->
     </section>
 
@@ -139,7 +139,7 @@
   >
 
   <!-- <section class="m-auto mt-4 w-[90%]  rounded-[30px] bg-gradient-to-r from-[#f05e7a] to-[#f05e7a] p-1  shadow-xl">
-    <img src="/proof.webp" alt="proof" class="rounded-[30px] border-[4px] border-white" />
+    <img src="/proof.webp" alt="kalilabelly978" class="rounded-[30px] border-[4px] border-white" />
   </section> -->
 
   <!-- Témoignages -->
@@ -150,7 +150,7 @@
 
     <article>
       <div class="m-auto mt-4 w-[90%]  rounded-[30px] border-b-4 border-[#f05e7a] bg-gradient-to-r from-[#c9c9c9] to-[#c9c9c9] shadow-xl">
-        <img src="/reviews/rev1.jpg" alt="rev1" class="rounded-[30px] border-[4px] border-white" />
+        <img src="/reviews/rev1.jpg" alt="kalilabelly978" class="rounded-[30px] border-[4px] border-white" />
       </div>
 
       <h1 class="m-auto mt-4 w-[90%] rounded-[30px] border-b-4 border-[#f05e7a] bg-white p-4 text-center font-medium text-black">Vous êtes nombreux à avoir pris l'offre d'essai et à en être contents apparement ! 😘</h1>
@@ -167,7 +167,7 @@
 
     <article>
       <div class="m-auto mt-4 w-[90%]  rounded-[30px]   border-b-4 border-[#f05e7a] bg-gradient-to-r from-[#c9c9c9] to-[#c9c9c9]  shadow-xl ">
-        <img src="/reviews/rev3.jpg" alt="rev1" class="rounded-[30px] border-[4px] border-white" />
+        <img src="/reviews/rev3.jpg" alt="kalilabelly978" class="rounded-[30px] border-[4px] border-white" />
       </div>
       <div class="m-auto mt-4 w-[90%] rounded-[30px] border-b-4 border-[#f05e7a]  bg-white p-2 text-center font-medium text-black">
         <div class="m-auto w-[90%] rounded-[30px] bg-white text-center text-black">Avec plaisir ! Y'a plein de jolies filles comme elle qui s'amusent à dépuceler des mecs 😏👅</div>
