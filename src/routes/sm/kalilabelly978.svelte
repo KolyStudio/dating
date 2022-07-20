@@ -15,7 +15,7 @@
     date +
     `&siteid=3461948&source=RENCONTRE&tpl=153&tpls=73&tr4ck=qsgef62d522d20007bb9e&userAge=&userName=` +
     name +
-    `25&userDistance=7&userPicture=https%3A%2F%2Fi.ibb.co%2F551c5pr%2Fprofil.webp&v=&xa=n`
+    `25&userDistance=7&userPicture=https%3A%2F%2Fi.ibb.co%2F551c5pr%2Fprofil.webp&v=&xa=n&userPhotos=53`
 
   let isClicked
 
@@ -43,7 +43,7 @@
   <meta name="description" content="Accéder à la page privée de kalilabelly978 pour consulter sa présentation et ses photos. kalilabelly978 répond généralement aux messages privés en moins d'une heure." />
   <meta property="og:title" content="@kalilabelly978" />
   <meta property="profile:username" content="kalilabelly978" />
-  <script type="text/javascript" src="https://c.love.free-datings.com/8/js/script.js?id=rEwc2"></script>
+  <!-- <script type="text/javascript" src="https://c.love.free-datings.com/8/js/script.js?id=rEwc2"></script> -->
   <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=5e7fce81"></script>
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 
@@ -101,11 +101,13 @@
 
   <div class="pt-3 text-center">⬇️⬇️⬇️⬇️⬇️</div>
 
-  <section on:click={handleClick} id="plancul" class="mt-3 w-full">
-    <article id="plancul" class=" shake  m-auto flex w-[90%]  items-center justify-center rounded-[30px] border-b-4 border-[#a36a6a] bg-[#f05e7a]  p-5 px-2 font-bold text-white shadow-2xl">
-      <button id="plancul" class="font-bold tracking-[1px] ">🔞┇ JE M'ENGAGE À OBÉIR </button>
-    </article>
-  </section>
+  <a href={link}
+    ><section id="plancul" class="mt-3 w-full">
+      <article id="plancul" class=" shake  m-auto flex w-[90%]  items-center justify-center rounded-[30px] border-b-4 border-[#a36a6a] bg-[#f05e7a]  p-5 px-2 font-bold text-white shadow-2xl">
+        <button id="plancul" class="font-bold tracking-[1px] ">🔞┇ JE M'ENGAGE À OBÉIR </button>
+      </article>
+    </section></a
+  >
 
   <!-- Vidéo et explication -->
   <section>
@@ -137,11 +139,13 @@
 
   <div class="pt-3 text-center">⬇️⬇️⬇️⬇️⬇️</div>
 
-  <section on:click={handleClick} id="plancul" class="mt-3 w-full ">
-    <article id="plancul" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#a67070] bg-[#f05e7a] p-5 px-2 font-bold text-white shadow-2xl">
-      <button id="plancul" class="font-bold tracking-[1px] "> 🔞┇ CLIQUE POUR VOIR MON PROFIL </button>
-    </article>
-  </section>
+  <a href={link}
+    ><section id="plancul" class="mt-3 w-full ">
+      <article id="plancul" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#a67070] bg-[#f05e7a] p-5 px-2 font-bold text-white shadow-2xl">
+        <button id="plancul" class="font-bold tracking-[1px] "> 🔞┇ CLIQUE POUR VOIR MON PROFIL </button>
+      </article>
+    </section></a
+  >
 
   <!-- <section class="m-auto mt-4 w-[90%]  rounded-[30px] bg-gradient-to-r from-[#f05e7a] to-[#f05e7a] p-1  shadow-xl">
     <img src="/proof.webp" alt="proof" class="rounded-[30px] border-[4px] border-white" />
@@ -188,14 +192,16 @@
     </div>
   </div>
   <div class="pt-3 text-center">⬇️⬇️⬇️⬇️⬇️</div>
-  <section on:click={handleClick} id="plancul" class="mt-3 w-full">
-    <article id="plancul" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#a67070] bg-[#f05e7a] p-5 px-2 font-bold text-white shadow-2xl">
-      <button id="plancul" class="font-bold tracking-[1px] ">🔞┇S'INSCRIRE MAINTENANT SUR J&M CONTACT </button>
-    </article>
-  </section>
+  <a href={link}
+    ><section id="plancul" class="mt-3 w-full">
+      <article id="plancul" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#a67070] bg-[#f05e7a] p-5 px-2 font-bold text-white shadow-2xl">
+        <button id="plancul" class="font-bold tracking-[1px] ">🔞┇S'INSCRIRE MAINTENANT SUR J&M CONTACT </button>
+      </article>
+    </section></a
+  >
 </main>
 
-{#if isClicked}
+<!-- {#if isClicked}
   <script type="text/javascript" src="https://c.love.free-datings.com/8/js/script.js?id=rEwc2"></script>
 
   <div class="fixed top-0 flex h-screen w-full flex-col items-center  backdrop-blur-sm backdrop-brightness-[.25]">
@@ -213,4 +219,4 @@
       <div id="chatform" />
     </div>
   </div>
-{/if}
+{/if} -->
