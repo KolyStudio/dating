@@ -14,7 +14,7 @@
   let link =
     `https://www.rencontres-proximite.com/?acme=wid.90880&siteid=3540616&tpls=73&userName=` +
     name +
-    `25&userAge=22&userPicture=https://www.zupimages.net/up/22/29/gm47.jpg&source=RENCONTRE&s1=texte_normal&s2=direct&userDistance=7&userPhotos=53`
+    `25&userAge=22&userPicture=https://www.zupimages.net/up/22/29/gm47.jpg&source=RENCONTRE&s1=texte_normal&s2=snapchat&userDistance=7&userPhotos=53`
 
   let isClicked
 
