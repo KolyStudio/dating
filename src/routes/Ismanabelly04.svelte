@@ -46,6 +46,17 @@
   <script type="text/javascript" src="https://c.love.free-datings.com/8/js/script.js?id=rEwc2"></script>
   <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=5e7fce81"></script>
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-F3RSNVW3L4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-F3RSNVW3L4');
+</script>
+
+
 </svelte:head>
 
 <!-- Logo - Titre -->
