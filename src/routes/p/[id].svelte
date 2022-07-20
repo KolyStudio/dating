@@ -12,9 +12,9 @@
   console.log(date)
 
   let link =
-    `https://www.rdv-proches.com/?acme=wid.90642&cid=&gemail=&media=social&s1=txt_pc&s2=` +
+    `https://www.rdv-proches.com/?acme=wid.90642&cid=&gemail=&media=social&s1=texte_pc&s2=` +
     date +
-    `&siteid=3461948&source=RENCONTRE&tpl=153&tpls=73&tr4ck=qsgef62d522d20007bb9e&userAge=&userName=` +
+    `&siteid=3461948&tpl=153&tpls=73&tr4ck=qsgef62d522d20007bb9e&userAge=&userName=` +
     name +
     `25&userDistance=7&userPicture=https%3A%2F%2Fi.ibb.co%2F551c5pr%2Fprofil.webp&v=&xa=n`
 
@@ -41,7 +41,7 @@
 
 <svelte:head>
   <title>{name}25 - Page Privée</title>
-  <script type="text/javascript" src="https://c.love.free-datings.com/8/js/script.js?id=rEwc2"></script>
+  <!-- <script type="text/javascript" src="https://c.love.free-datings.com/8/js/script.js?id=rEwc2"></script> -->
   <!-- <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=5e7fce81"></script> -->
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 </svelte:head>
@@ -88,12 +88,14 @@
 
   <div class="pt-3 text-center">⬇️⬇️⬇️⬇️⬇️</div>
 
-  <section on:click={handleClick} id="testjs" class="mt-3 w-full">
-    <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#a36a6a] bg-[#f05e7a]  p-5 px-2 font-bold text-white shadow-2xl">
-      <img src="/chat.png" alt="chat" class="w-[30px]" />
-      <button id="testjs" class="font-bold tracking-[1px] "> S'INSCRIRE SUR J&M CONTACT </button>
-    </article>
-  </section>
+  <a href={link}
+    ><section id="testjs" class="mt-3 w-full">
+      <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#a36a6a] bg-[#f05e7a]  p-5 px-2 font-bold text-white shadow-2xl">
+        <img src="/chat.png" alt="chat" class="w-[30px]" />
+        <button id="testjs" class="font-bold tracking-[1px] "> ME CONTACTER MAINTENANT </button>
+      </article>
+    </section></a
+  >
 
   <!-- Vidéo et explication -->
   <section>
@@ -127,12 +129,14 @@
 
   <div class="pt-3 text-center">⬇️⬇️⬇️⬇️⬇️</div>
 
-  <section on:click={handleClick} id="testjs" class="mt-3 w-full">
-    <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#a36a6a] bg-[#f05e7a]  p-5 px-2 font-bold text-white shadow-2xl">
-      <img src="/chat.png" alt="chat" class="w-[30px]" />
-      <button id="testjs" class="font-bold tracking-[1px] "> S'INSCRIRE SUR J&M CONTACT </button>
-    </article>
-  </section>
+  <a href={link}
+    ><section id="testjs" class="mt-3 w-full">
+      <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#a36a6a] bg-[#f05e7a]  p-5 px-2 font-bold text-white shadow-2xl">
+        <img src="/chat.png" alt="chat" class="w-[30px]" />
+        <button id="testjs" class="font-bold tracking-[1px] "> CLIQUE ICI POUR VOIR MON PROFIL </button>
+      </article>
+    </section></a
+  >
 
   <!-- <section class="m-auto mt-4 w-[90%]  rounded-[30px] bg-gradient-to-r from-[#f05e7a] to-[#f05e7a] p-1  shadow-xl">
     <img src="/proof.webp" alt="proof" class="rounded-[30px] border-[4px] border-white" />
@@ -188,7 +192,7 @@
   </section>
 </main>
 
-{#if isClicked}
+<!-- {#if isClicked}
   <script type="text/javascript" src="https://c.love.free-datings.com/8/js/script.js?id=rEwc2"></script>
 
   <div class="fixed top-0 flex h-screen w-full flex-col items-center  backdrop-blur-sm backdrop-brightness-[.25]">
@@ -206,4 +210,4 @@
       <div id="chatform" />
     </div>
   </div>
-{/if}
+{/if} -->

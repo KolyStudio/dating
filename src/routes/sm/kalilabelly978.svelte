@@ -11,9 +11,9 @@
   const date = dayjs().format('DD/MM/YYYY')
 
   let link =
-    `https://www.rdv-proches.com/?acme=wid.90642&cid=&gemail=&media=social&s1=txt_sm&s2=` +
+    `https://www.rdv-proches.com/?acme=wid.90642&cid=&gemail=&media=social&s1=texte_sm&s2=` +
     date +
-    `&siteid=3461948&source=RENCONTRE&tpl=153&tpls=73&tr4ck=qsgef62d522d20007bb9e&userAge=&userName=` +
+    `&siteid=3461948&tpl=153&tpls=73&tr4ck=qsgef62d522d20007bb9e&userAge=&userName=` +
     name +
     `25&userDistance=7&userPicture=https%3A%2F%2Fi.ibb.co%2F551c5pr%2Fprofil.webp&v=&xa=n&userPhotos=53`
 
