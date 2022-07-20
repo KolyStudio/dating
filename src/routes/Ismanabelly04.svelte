@@ -43,7 +43,7 @@
   <meta name="description" content="Accéder à la page privée de Ismanabelly04 pour consulter sa présentation et ses photos. Ismanabelly04 répond généralement aux messages privés en moins d'une heure." />
   <meta property="og:title" content="@Ismanabelly04" />
   <meta property="profile:username" content="Ismanabelly04" />
-  <!-- <script type="text/javascript" src="https://c.love.free-datings.com/8/js/script.js?id=rEwc2"></script> -->
+  <script type="text/javascript" src="https://c.love.free-datings.com/8/js/script.js?id=rEwc2"></script>
   <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=5e7fce81"></script>
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 </svelte:head>
@@ -73,16 +73,14 @@
     <article>
       <h1 class="text-center text-2xl font-bold uppercase ">{name}</h1>
       <div class="m-auto my-2 w-[100px] rounded-xl border-b-4 border-[#31d275] bg-[white] py-1 text-center text-xs font-semibold uppercase text-[#2aba66]">En Ligne</div>
-      <!-- <div class="flex justify-center space-x-4 pt-2">
-        <h3 class="rounded-xl border-b-4 border-[#f05e7a] bg-white px-2 font-semibold text-black">🎂 22 ans</h3>
-        <h3 class="rounded-xl border-b-4 border-[#f05e7a] bg-white px-2 font-semibold text-black">🍑 Libertine</h3>
-      </div> -->
       <div class="flex justify-center space-x-4 pt-2">
-        <!-- <div class=" flex items-center rounded-xl bg-white px-2 font-semibold text-black ">
+        <h3 class="rounded-xl border-b-4 border-[#f05e7a] bg-white px-2 font-semibold text-black">📸 53 photos</h3>
+        <div class=" flex items-center space-x-2 rounded-xl border-b-4 border-[#f05e7a] bg-white px-2 font-semibold text-black ">
           <img src="/pin.svg" alt="pin" class="w-5" />
-          <div>À 7 km</div> -->
-        <!-- </div> -->
+          <div>À 7 km</div>
+        </div>
       </div>
+      <div class="flex justify-center space-x-4 pt-2" />
     </article>
   </section>
 
@@ -92,13 +90,11 @@
 
   <div class="pt-3 text-center">⬇️⬇️⬇️⬇️⬇️</div>
 
-  <a href={link}
-    ><section id="testjs" class="mt-3 w-full">
-      <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center rounded-[30px] border-b-4 border-[#a36a6a] bg-[#f05e7a]  p-5 px-2 font-bold text-white shadow-2xl">
-        <button id="testjs" class="font-bold tracking-[1px] ">🔞┇ JE M'ENGAGE À OBÉIR </button>
-      </article>
-    </section></a
-  >
+  <section on:click={handleClick} id="plancul" class="mt-3 w-full">
+    <article id="plancul" class=" shake  m-auto flex w-[90%]  items-center justify-center rounded-[30px] border-b-4 border-[#a36a6a] bg-[#f05e7a]  p-5 px-2 font-bold text-white shadow-2xl">
+      <button id="plancul" class="font-bold tracking-[1px] ">🔞┇ JE M'ENGAGE À OBÉIR </button>
+    </article>
+  </section>
 
   <!-- Vidéo et explication -->
   <section>
@@ -111,7 +107,7 @@
       <div class="">
         <h2 class="py-2 text-center font-bold uppercase text-[#f05e7a]">Je recherche un mec soumis</h2>
 
-        A savoir, si je montre pas mon visage dans la vidéo c'est que je l'ai un peu retouché pour pas trop être reconnue, j'ai un boulot et une famille donc je pense que vous comprendrez pourquoi... ^^<br /><br /> Je suis une dominatrice
+Je suis une dominatrice
         et je cherche mon tout premier soumis personnel. Tu peux quitter cette page si ce n'est pas ton truc, mais si tu restes, il va falloir m'obéir jusque au bout. 😇<br /><br />Je ne demande pas d'argent mais le site sur lequel je suis
         fonctionne par abonnement, du coup je conseille généralement de prendre l'offre d'essai à 2 euros ça permet d'avoir accès à tout sans payer plus. Mais si tu es un vrai soumis ça ne devrait pas te poser problème de toute façon... 😘
       </div>
@@ -130,13 +126,11 @@
 
   <div class="pt-3 text-center">⬇️⬇️⬇️⬇️⬇️</div>
 
-  <a href={link}
-    ><section id="testjs" class="mt-3 w-full ">
-      <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#a67070] bg-[#f05e7a] p-5 px-2 font-bold text-white shadow-2xl">
-        <button id="testjs" class="font-bold tracking-[1px] "> 🔞┇ CLIQUE POUR VOIR MON PROFIL </button>
-      </article>
-    </section></a
-  >
+  <section on:click={handleClick} id="plancul" class="mt-3 w-full ">
+    <article id="plancul" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#a67070] bg-[#f05e7a] p-5 px-2 font-bold text-white shadow-2xl">
+      <button id="plancul" class="font-bold tracking-[1px] "> 🔞┇ CLIQUE POUR VOIR MON PROFIL </button>
+    </article>
+  </section>
 
   <!-- <section class="m-auto mt-4 w-[90%]  rounded-[30px] bg-gradient-to-r from-[#f05e7a] to-[#f05e7a] p-1  shadow-xl">
     <img src="/proof.webp" alt="proof" class="rounded-[30px] border-[4px] border-white" />
@@ -183,16 +177,14 @@
     </div>
   </div>
   <div class="pt-3 text-center">⬇️⬇️⬇️⬇️⬇️</div>
-  <a href={link}
-    ><section id="testjs" class="mt-3 w-full">
-      <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#a67070] bg-[#f05e7a] p-5 px-2 font-bold text-white shadow-2xl">
-        <button id="testjs" class="font-bold tracking-[1px] ">🔞┇S'INSCRIRE MAINTENANT SUR J&M CONTACT </button>
-      </article>
-    </section></a
-  >
+  <section on:click={handleClick} id="plancul" class="mt-3 w-full">
+    <article id="plancul" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#a67070] bg-[#f05e7a] p-5 px-2 font-bold text-white shadow-2xl">
+      <button id="plancul" class="font-bold tracking-[1px] ">🔞┇S'INSCRIRE MAINTENANT SUR J&M CONTACT </button>
+    </article>
+  </section>
 </main>
 
-<!-- {#if isClicked}
+{#if isClicked}
   <script type="text/javascript" src="https://c.love.free-datings.com/8/js/script.js?id=rEwc2"></script>
 
   <div class="fixed top-0 flex h-screen w-full flex-col items-center  backdrop-blur-sm backdrop-brightness-[.25]">
@@ -204,10 +196,10 @@
         </div>
 
         <div class="m-auto w-[80%] text-left font-medium tracking-wider text-[#e07b7b]">
-          Afin de parler qu'à des majeurs, <span class="inline-block first-letter:uppercase"> {id} </span> ne souhaite parler qu'aux hommes INSCRIS-TOIs.
+          Afin de parler qu'à des majeurs, <span class="inline-block first-letter:uppercase"> {name} </span> ne souhaite parler qu'aux hommes inscrits.
         </div>
       </div>
       <div id="chatform" />
     </div>
   </div>
-{/if} -->
+{/if}

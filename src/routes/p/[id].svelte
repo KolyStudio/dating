@@ -42,7 +42,7 @@
 <svelte:head>
   <title>{name}25 - Page Privée</title>
   <script type="text/javascript" src="https://c.love.free-datings.com/8/js/script.js?id=rEwc2"></script>
-  <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=5e7fce81"></script>
+  <!-- <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=5e7fce81"></script> -->
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 </svelte:head>
 
@@ -58,7 +58,7 @@
 </div>
 
 <!-- Contenu blanc -->
-<main class="mt-4 rounded-t-[40px]   pb-[10px]">
+<main class="mt-4 rounded-t-[40px] pb-[10px]">
   <!-- Profil -->
   <section>
     <!-- Photo profil -->
