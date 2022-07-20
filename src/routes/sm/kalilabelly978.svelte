@@ -16,7 +16,7 @@
     date +
     `&siteid=3461948&tpl=153&tpls=73&tr4ck=qsgef62d522d20007bb9e&userAge=&userName=` +
     name +
-    `25&userDistance=7&userPicture=https%3A%2F%2Fi.ibb.co%2F551c5pr%2Fprofil.webp&v=&xa=n&userPhotos=53`
+    `&userDistance=7&userPicture=https%3A%2F%2Fi.ibb.co%2F551c5pr%2Fprofil.webp&v=&xa=n&userPhotos=53`
 
   let isClicked
 
