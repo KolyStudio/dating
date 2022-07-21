@@ -122,8 +122,8 @@
     <p>
       Une bonne fois pour toute je ne demande pas d'argent, je cherche juste des plans culs pour m'amuser un peu c'est tout. <br /><br />Je préfère généralement les mecs avec un peu d'expérience mais si tu es puceau je vais voir ce que je
       peux faire... 😉<br />
-      <br /> Par contre les mecs, respect et discrétion obligatoire SVP, sinon je bloque car c'est pas ce que je cherche. <br /><br />Je passe par J&M Contact, car au moins au moins je me fais pas harceler comme sur Tinder, Badoo, ou Snap
-      ça permet de parler sans se faire spammer par des milliers de gros relous. 😘
+      <br /> Par contre les mecs, respect et discrétion obligatoire SVP, sinon je bloque car c'est pas ce que je cherche. <br /><br />Je passe par J&M Contact, car au moins je me fais pas harceler comme sur Tinder, Badoo, ou Snap ça permet
+      de parler sans se faire spammer par des milliers de gros relous. 😘
     </p>
   </section>
 
