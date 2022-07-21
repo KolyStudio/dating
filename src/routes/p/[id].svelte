@@ -81,7 +81,7 @@
   </section>
 
   <div class="m-auto  w-[90%] rounded-[30px] border-b-4 border-[#f05e7a] bg-white p-4 text-center font-medium text-black">
-    <div class="">{name} / 22 ans / Libertine qui s'assume 🍑 Si tu es intéressé, envoie moi un message ici et on s'organise un truc</div>
+    <div class="">{name} / 22 ans / Libertine qui s'assume 🍑 <br /><br />Si tu es intéressé, envoie moi un message ici et on s'organise un truc</div>
   </div>
 
   <div class="pt-3 text-center">⬇️⬇️⬇️⬇️⬇️</div>
