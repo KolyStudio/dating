@@ -179,12 +179,12 @@
   </div>
   <div class="pt-3 text-center">⬇️⬇️⬇️⬇️⬇️</div>
 
-  <section on:click={handleClick} id="testjs" class="mt-3 w-full">
+  <a href={link}><section id="testjs" class="mt-3 w-full">
     <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#a36a6a] bg-[#f05e7a]  p-5 px-2 font-bold text-white shadow-2xl">
       <img src="/chat.png" alt="chat" class="w-[30px]" />
       <button id="testjs" class="font-bold tracking-[1px] "> S'INSCRIRE SUR J&M CONTACT </button>
     </article>
-  </section>
+  </section></a>
 </main>
 
 <!-- {#if isClicked}
