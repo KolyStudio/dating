@@ -119,9 +119,8 @@
     <div class="">
       <h2 class="py-2 text-center font-bold uppercase text-[#f05e7a]">Comment me rencontrer en réel ?</h2>
 
-      Envoies moi une petite photo sur<a href={link} class="pl-1"> J&M Contact en cliquant ici</a> et dis moi quand t'es dispo.<br /><br /> Je reçois les notifs quand j'ai un message donc habituellement je réponds en quelques minutes. Je
-      préviens l'inscription (essai) coûte quelque chose comme 1 ou 2 euros mais ensuite t'es tranquile tu peux contacter gratuitement autant de filles que tu veux. <br /><br />Ca me permet de parler sans se faire spammer par des milliers
-      de gros relous. 😘
+      Envoies moi une petite photo sur<a href={link} class="pl-1"> J&M Contact en cliquant ici</a> et dis moi quand t'es dispo.<br /><br /> Je reçois les notifs quand j'ai un message donc habituellement je réponds en quelques minutes. Je préviens
+      l'inscription (essai) coûte quelque chose comme 1 ou 2 euros mais ensuite t'es tranquile tu peux contacter gratuitement autant de filles que tu veux.
     </div>
   </div>
 

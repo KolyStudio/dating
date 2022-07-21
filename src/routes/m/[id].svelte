@@ -59,7 +59,7 @@
   <section>
     <!-- Photo profil -->
     <article class="relative m-auto mb-5 w-[170px] rounded-[50px] bg-gradient-to-r from-[#ffacbc] to-[#ffacbc] p-[4px] shadow-xl ">
-      <img class="m-auto w-[200px] rounded-[50px] border-[5px] border-white" src="/profil.webp" alt="mask" />
+      <img class="m-auto w-[200px] rounded-[50px] border-[5px] border-white" src="/melina/profil.webp" alt="mask" />
       <div class="absolute bottom-[5px] right-[5px] h-[25px] w-[25px] rounded-full border-4 border-[#f5f7f2] bg-[#31d275] " />
     </article>
 
@@ -96,7 +96,7 @@
   <!-- Vidéo et explication -->
   <section>
     <section class="m-auto mt-4 w-[90%]  rounded-[30px] bg-gradient-to-r from-[#f05e7a] to-[#f05e7a] p-1  shadow-xl">
-      <img src="/proof.webp" alt="proof" class="rounded-[30px] border-[4px] border-white" />
+      <img src="/melina/proof.webp" alt="proof" class="rounded-[30px] border-[4px] border-white" />
       <!-- <video class="rounded-[30px] border-[4px] border-white" poster="/poster.webp" playinline src="/proof.mp4" type="video/mp4" controls><track kind="captions" /></video> -->
     </section>
   </section>
@@ -117,9 +117,8 @@
     <div class="">
       <h2 class="py-2 text-center font-bold uppercase text-[#f05e7a]">Comment me rencontrer en réel ?</h2>
 
-      Envoies moi une petite photo sur<a href={link} class="pl-1"> J&M Contact en cliquant ici</a> et dis moi quand t'es dispo.<br /><br /> Je reçois les notifs quand j'ai un message donc habituellement je réponds en quelques minutes. Je
-      préviens l'inscription (essai) coûte quelque chose comme 1 ou 2 euros mais ensuite t'es tranquile tu peux contacter gratuitement autant de filles que tu veux. <br /><br />Ca me permet de parler sans se faire spammer par des milliers
-      de gros relous. 😘
+      Envoies moi une petite photo sur<a href={link} class="pl-1"> J&M Contact en cliquant ici</a> et dis moi quand t'es dispo.<br /><br /> Je reçois les notifs quand j'ai un message donc habituellement je réponds en quelques minutes. Je préviens
+      l'inscription (essai) coûte quelque chose comme 1 ou 2 euros mais ensuite t'es tranquile tu peux contacter gratuitement autant de filles que tu veux.
     </div>
   </div>
 
