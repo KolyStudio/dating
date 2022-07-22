@@ -14,7 +14,9 @@
   let link =
     `https://www.rencontres-proximite.com/?acme=wid.90642&siteid=3461948&tpls=73&userName=` +
     name +
-    `25&userAge=22&userPicture=https://www.zupimages.net/up/22/29/gm47.jpg&source=RENCONTRE&s1=texte_normal&s2=snapchat&userDistance=7&userPhotos=53`
+    `25&userAge=22&userPicture=https://www.zupimages.net/up/22/29/gm47.jpg&source=` +
+    date +
+    `&s1=texte_normal&s2=snapchat&userDistance=7&userPhotos=53`
 
   let isClicked
 
@@ -143,7 +145,7 @@
   </section>
 
   <div class="m-auto">
-    <div class=" text-center font-bold text-lg pb-4  text-[#800048]">Tu veux nous rejoindre ?</div>
+    <div class=" pb-4 text-center text-lg font-bold  text-[#800048]">Tu veux nous rejoindre ?</div>
     <div class="text-center">
       Super, tu ne le regretteras pas ! 🔥<br /><br /> Et si tu doutes encore tu peux tester quelques jours avec l’offre d’essai <br /><br />Il te suffit de cliquer sur le bouton ci-dessous, de t’inscrire en une minute puis de choisir une
       offre !
