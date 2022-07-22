@@ -122,29 +122,29 @@
         <img src="/reviews/rev1.jpg" alt="rev1" class=" border-white" />
       </div>
 
-      <h1 class="m-auto rounded-[30px]   py-4 text-center font-medium text-black">Vous êtes nombreux à avoir pris l'offre d'essai et à en être contents apparement ! 😘</h1>
+      <h1 class="m-auto rounded-[30px] py-4 text-center text-black">Vous êtes nombreux à avoir pris l'offre d'essai et à en être contents apparement ! 😘</h1>
     </article>
 
     <article>
       <div class="m-auto mt-4  pt-6 shadow-xl">
         <img src="/reviews/rev2.jpg" alt="rev1" class=" border-white" />
       </div>
-      <div class="m-auto mt-4   rounded-[30px]  p-4 text-center font-medium text-black">Pour ceux qui sont aussi sceptiques, testez au moins avec l'offre d'essai vous verrez que ça fonctionne vraiment ! 💯🔥</div>
+      <div class="m-auto mt-4   rounded-[30px]  p-4 text-center  text-black">Pour ceux qui sont aussi sceptiques, testez au moins avec l'offre d'essai vous verrez que ça fonctionne vraiment ! 💯🔥</div>
     </article>
 
     <article>
       <div class="m-auto  rounded-[30px]   pt-6 shadow-xl">
         <img src="/reviews/rev3.jpg" alt="rev1" class=" border-[4px] border-white" />
       </div>
-      <div class="m-auto  rounded-[30px] p-2 text-center font-medium text-black">
+      <div class="m-auto  rounded-[30px] p-2 text-center text-black">
         <div class="rounded-[30px ] m-auto w-[90%] py-4 text-center text-black">Avec plaisir ! Y'a plein de jolies filles comme elle qui s'amusent à dépuceler des mecs 😏👅</div>
       </div>
     </article>
   </section>
 
   <div class="m-auto">
-    <div class=" text-center font-bold  text-[#800048]">Tu veux nous rejoindre ?</div>
-    <div class="text-center font-medium">
+    <div class=" text-center font-bold text-lg pb-4  text-[#800048]">Tu veux nous rejoindre ?</div>
+    <div class="text-center">
       Super, tu ne le regretteras pas ! 🔥<br /><br /> Et si tu doutes encore tu peux tester quelques jours avec l’offre d’essai <br /><br />Il te suffit de cliquer sur le bouton ci-dessous, de t’inscrire en une minute puis de choisir une
       offre !
     </div>
