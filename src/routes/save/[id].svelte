@@ -12,7 +12,7 @@
   console.log(date)
 
   let link =
-    `https://www.rencontres-proximite.com/?acme=wid.90880&siteid=3540616&tpls=73&userName=` + name + `25&userAge=22&userPicture=https://i.ibb.co/tmk4q1N/profil.png&source=RENCONTRE&s1=texte_normal&s2=snapchat&userDistance=7&userPhotos=34`
+    `https://www.rencontres-proximite.com/?acme=wid.90642&siteid=3461948&tpls=73&userName=` + name + `25&userAge=22&userPicture=https://www.zupimages.net/up/22/29/gm47.jpg&source=RENCONTRE&s1=texte_normal&s2=snapchat&userDistance=7&userPhotos=53`
 
   let isClicked
 
@@ -59,7 +59,7 @@
   <section>
     <!-- Photo profil -->
     <article class="relative m-auto mb-5 w-[170px] rounded-[50px] bg-gradient-to-r from-[#ffacbc] to-[#ffacbc] p-[4px] shadow-xl ">
-      <img class="m-auto w-[200px] rounded-[50px] border-[5px] border-white" src="/melina/profil.webp" alt="mask" />
+      <img class="m-auto w-[200px] rounded-[50px] border-[5px] border-white" src="/profil.webp" alt="mask" />
       <div class="absolute bottom-[5px] right-[5px] h-[25px] w-[25px] rounded-full border-4 border-[#f5f7f2] bg-[#31d275] " />
     </article>
 
@@ -68,7 +68,7 @@
       <h1 class="text-center text-2xl font-bold uppercase ">{name}25</h1>
       <div class="m-auto my-2 w-[100px] rounded-xl border-b-4 border-[#31d275] bg-[white] py-1 text-center text-xs font-semibold uppercase text-[#2aba66]">En Ligne</div>
       <div class="flex justify-center space-x-4 pt-2">
-        <h3 class="rounded-xl border-b-4 border-[#f05e7a] bg-white px-2 font-semibold text-black">📸 34 photos</h3>
+        <h3 class="rounded-xl border-b-4 border-[#f05e7a] bg-white px-2 font-semibold text-black">📸 53 photos</h3>
         <div class=" flex items-center space-x-2 rounded-xl border-b-4 border-[#f05e7a] bg-white px-2 font-semibold text-black ">
           <img src="/pin.svg" alt="pin" class="w-5" />
           <div>À 7 km</div>
@@ -79,7 +79,7 @@
   </section>
 
   <div class="m-auto  w-[90%] rounded-[30px] border-b-4 border-[#f05e7a] bg-white p-4 text-center font-medium text-black">
-    <div class="">{name} / 22 ans / Libertine qui s'assume 🍑<br /><br /> Si tu es intéressé, envoie moi un message ici et on s'organise un truc</div>
+    <div class="">{name} / 22 ans / Libertine qui s'assume 🍑 <br /><br />Si tu es intéressé, envoie moi un message ici et on s'organise un truc</div>
   </div>
 
   <div class="pt-3 text-center">⬇️⬇️⬇️⬇️⬇️</div>
@@ -88,7 +88,7 @@
     ><section id="testjs" class="mt-3 w-full">
       <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#a36a6a] bg-[#f05e7a]  p-5 px-2 font-bold text-white shadow-2xl">
         <img src="/chat.png" alt="chat" class="w-[30px]" />
-        <button id="testj" class="font-bold tracking-[1px] "> ME CONTACTER MAINTENANT </button>
+        <button id="testjs" class="font-bold tracking-[1px] "> ME CONTACTER MAINTENANT </button>
       </article>
     </section></a
   >
@@ -96,7 +96,7 @@
   <!-- Vidéo et explication -->
   <section>
     <section class="m-auto mt-4 w-[90%]  rounded-[30px] bg-gradient-to-r from-[#f05e7a] to-[#f05e7a] p-1  shadow-xl">
-      <img src="/melina/proof.webp" alt="proof" class="rounded-[30px] border-[4px] border-white" />
+      <img src="/proof.webp" alt="proof" class="rounded-[30px] border-[4px] border-white" />
       <!-- <video class="rounded-[30px] border-[4px] border-white" poster="/poster.webp" playinline src="/proof.mp4" type="video/mp4" controls><track kind="captions" /></video> -->
     </section>
   </section>
@@ -134,8 +134,8 @@
   >
 
   <!-- <section class="m-auto mt-4 w-[90%]  rounded-[30px] bg-gradient-to-r from-[#f05e7a] to-[#f05e7a] p-1  shadow-xl">
-      <img src="/proof.webp" alt="proof" class="rounded-[30px] border-[4px] border-white" />
-    </section> -->
+    <img src="/proof.webp" alt="proof" class="rounded-[30px] border-[4px] border-white" />
+  </section> -->
 
   <!-- Témoignages -->
   <section>
@@ -179,8 +179,8 @@
   </div>
   <div class="pt-3 text-center">⬇️⬇️⬇️⬇️⬇️</div>
 
-  <a href={link}
-    ><section id="testjs" class="mt-3 w-full">
+  <a href={link}>
+    <section id="testjs" class="mt-3 w-full">
       <article id="testjs" class=" shake  m-auto flex w-[90%]  items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#a36a6a] bg-[#f05e7a]  p-5 px-2 font-bold text-white shadow-2xl">
         <img src="/chat.png" alt="chat" class="w-[30px]" />
         <button id="testjs" class="font-bold tracking-[1px] "> S'INSCRIRE SUR J&M CONTACT </button>
@@ -190,21 +190,21 @@
 </main>
 
 <!-- {#if isClicked}
-    <script type="text/javascript" src="https://c.love.free-datings.com/8/js/script.js?id=rEwc2"></script>
-  
-    <div class="fixed top-0 flex h-screen w-full flex-col items-center  backdrop-blur-sm backdrop-brightness-[.25]">
-      <div class="mx-2 mt-[50px] rounded-2xl bg-white py-4">
-        <div class="flex items-center space-x-2 p-2">
-          <div class="relative  m-auto mb-2 h-[100px] w-[100px] rounded-full">
-            <div class="m-auto h-[100px] w-[100px] rounded-full bg-dunes bg-cover bg-top" />
-            <div class="absolute top-1 right-[0px] h-[25px] w-[25px] rounded-full border-4 border-[#f5f7f2] bg-[#31d275] " />
-          </div>
-  
-          <div class="m-auto w-[80%] text-left font-medium tracking-wider text-[#e07b7b]">
-            Afin de parler qu'à des majeurs, <span class="inline-block first-letter:uppercase"> {id} </span> ne souhaite parler qu'aux hommes inscrits.
-          </div>
+  <script type="text/javascript" src="https://c.love.free-datings.com/8/js/script.js?id=rEwc2"></script>
+
+  <div class="fixed top-0 flex h-screen w-full flex-col items-center  backdrop-blur-sm backdrop-brightness-[.25]">
+    <div class="mx-2 mt-[50px] rounded-2xl bg-white py-4">
+      <div class="flex items-center space-x-2 p-2">
+        <div class="relative  m-auto mb-2 h-[100px] w-[100px] rounded-full">
+          <div class="m-auto h-[100px] w-[100px] rounded-full bg-dunes bg-cover bg-top" />
+          <div class="absolute top-1 right-[0px] h-[25px] w-[25px] rounded-full border-4 border-[#f5f7f2] bg-[#31d275] " />
         </div>
-        <div id="chatform" />
+
+        <div class="m-auto w-[80%] text-left font-medium tracking-wider text-[#e07b7b]">
+          Afin de parler qu'à des majeurs, <span class="inline-block first-letter:uppercase"> {id} </span> ne souhaite parler qu'aux hommes inscrits.
+        </div>
       </div>
+      <div id="chatform" />
     </div>
-  {/if} -->
+  </div>
+{/if} -->
