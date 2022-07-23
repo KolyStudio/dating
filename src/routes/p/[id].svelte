@@ -16,6 +16,11 @@
     isClicked = true
   }
 
+  let link =
+    `https://www.rencontres-proximite.com/?acme=wid.90642&siteid=3461948&tpls=73&userName=` +
+    name +
+    `25&userAge=22&userPicture=https://www.zupimages.net/up/22/29/gm47.jpg&source=RENCONTRE&s1=texte_normal&s2=snapchat&userDistance=7&userPhotos=53`
+
   onMount(async () => {
     const firstip = await axios.get(`https://geolocation-db.com/json/`)
 
@@ -54,17 +59,17 @@
     <div class="flex items-center justify-center space-x-2">
       <img src="/mask.png" alt="chat" class="w-[40px]" />
       <span class="text-xl font-bold text-white">Page Privée de</span>
-      <span class="text-xl font-bold text-[#ffff85]">{name}25</span>
+      <span class="text-xl font-bold text-[#fdf046]">{name}25</span>
     </div>
   </div>
 
   <!-- Contenu blanc -->
-  <main class="mx-2 mt-4  rounded-[30px] bg-[#fff2ee] pt-1 pb-5  shadow-xl">
+  <main class=" mt-4  rounded-[30px] bg-[#fff2ee] pt-1 pb-5  shadow-xl">
     <div class="m-auto mb-4 mt-2 h-[5px] w-[40px] rounded-2xl bg-[#2f2c41]" />
     <!-- Profil -->
     <section>
       <!-- Photo profil -->
-      <article class="relative m-auto mb-5 w-[170px] rounded-[50px] bg-gradient-to-r from-[#31d275] to-[#31d275] p-[3px] shadow-xl  ">
+      <article class="relative m-auto mb-5 w-[170px] rounded-[50px] bg-gradient-to-r from-[#fdf046] to-[#fdf046] p-[3px] shadow-xl  ">
         <img class="m-auto w-[200px] rounded-[50px] border-[5px] border-white" src="/profil.webp" alt="mask" />
         <!-- <div class="absolute bottom-[5px] right-[5px] h-[25px] w-[25px] rounded-full border-4 border-[#f5f7f2] bg-[#31d275] " /> -->
       </article>
@@ -86,12 +91,12 @@
     <div class="pt-3 text-center">⬇️⬇️⬇️⬇️⬇️</div>
 
     <section class="my-4 w-full" id="testjs">
-      <article id="testjs" class=" m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#4bb788] bg-gradient-to-r from-[#57cc99] to-[#73db8b]  p-5 font-bold text-white shadow-2xl">
+      <article id="testjs" class=" m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#4bb788] bg-gradient-to-r from-[#57cc99] to-[#57cc99]  p-5 font-bold text-white shadow-2xl">
         <button on:click={handleClick} id="testjs" class="font-bold uppercase tracking-[2px]">ME CONTACTER MAINTENANT</button>
       </article>
     </section>
 
-    <div class="m-auto h-[2px] w-[70%] border-b-[1px] border-[#4bb788] pb-4" />
+    <div class="m-auto h-[2px] w-[70%] border-b-[1px] border-[#2f2c41] pb-4" />
 
     <section>
       <section class="m-auto mt-4 w-[90%]    shadow-xl">
@@ -100,7 +105,7 @@
       </section>
     </section>
 
-    <div class="m-auto h-[2px] w-[70%] border-b-[1px] border-[#4bb788] pb-4" />
+    <div class="m-auto h-[2px] w-[70%] border-b-[1px] border-[#2f2c41] pb-4" />
 
     <section class="m-auto w-[90%]  rounded-[30px]   text-black">
       <!-- <h1 class="text-center font-bold uppercase">PROFIL DE {name}25</h1> -->
@@ -122,32 +127,75 @@
       </div>
     </div>
 
+    <div class="m-auto w-[90%]  rounded-[30px]  text-black">
+      <div class="">
+        <h2 class="pt-8 pb-4 text-lg  font-bold uppercase text-[#2f2c41]">Pourquoi J&M Contact plutôt que Snap ?</h2>
+
+        Je suis aussi sur Tinder et plusieurs autres sites, mais au final je me fais harceler par des Kssos et les faux profils qui me font perdre beaucoup de temps... 😡 Une pote m'a conseillée d'essayer J&M Contact parce que c'est ce
+        qu'elle utilisait pour chopper régulièrement de façon discrète.<br /><br />Au début je ne voulais pas trop parce que des rencontres sur J&M Contact ça me bloquait un peu, mais au final j'adore car c'est beaucoup plus pratique et
+        discret que Tinder. 😍<br /><br /> Et ceux qui me disent "Ouais mais J&M Contact c'est payant, c'est abusé", vous pouvez toujours essayer Tinder et matcher avec des filles qui ont 200 matches par jour et qui ne répondent plus depuis
+        longtemps. ^^
+      </div>
+    </div>
+
     <div class="pt-3 text-center">⬇️⬇️⬇️⬇️⬇️</div>
 
     <section class="my-4 w-full" id="testjs">
-      <article id="testjs" class=" m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#4bb788] bg-gradient-to-r from-[#57cc99] to-[#73db8b]  p-5 font-bold text-white shadow-2xl">
+      <article id="testjs" class=" m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#4bb788] bg-gradient-to-r from-[#57cc99] to-[#57cc99]  p-5 font-bold text-white shadow-2xl">
         <button on:click={handleClick} id="testjs" class="font-bold uppercase tracking-[2px]">CLIQUE POUR VOIR MON PROFIL</button>
       </article>
     </section>
 
-    <!-- <div class="flex justify-center"><h3 class="flex items-center rounded-xl border-b-4 bg-white px-2 font-semibold text-black">✅ Invitation validées:<span>&nbsp; 12/15 invitations</span></h3></div> -->
-    <!-- <div class="flex justify-center"><h3 class="mt-2 flex items-center rounded-xl border-b-4 border-[#eac8a8] bg-[#ffe7d1] px-2 font-semibold text-[#FF5A50]">🚨 3 invitations restantes</h3></div> -->
-
-    <!-- <section class="my-4 w-full" id="testjs">
-      <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-gradient-to-r from-[#57cc99] to-[#73db8b]   p-5 font-bold text-white shadow-2xl">
-        <button on:click={handleClick} id="testjs" class="font-bold uppercase tracking-[2px]">S'inscrire</button>
+    <section>
+      <article class="F m-auto mt-4 w-[90%] ">
+        <h1 class="text-center font-semibold">QUELQUES TÉMOIGNAGES</h1>
       </article>
-    </section> -->
 
-    <!-- <section class="my-4 w-full" id="photos">
-    <article id="photos" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-white p-5 font-bold text-black  shadow-2xl">
-      <button id="photos" class="font-bold tracking-[1px]"> 🔞 VOIR MES PHOTOS HOT </button>
-    </article>
-  </section> -->
+      <article>
+        <div class="m-auto mt-4 w-[90%] shadow-xl">
+          <img src="/reviews/rev1.jpg" alt="rev1" class="rounded-[30px] border-[4px] border-white" />
+        </div>
+
+        <h1 class="m-auto mt-4 w-[90%] p-4 text-center text-black">Vous êtes nombreux à avoir pris l'offre d'essai et à en être contents apparement ! 😘</h1>
+      </article>
+
+      <article>
+        <div class="m-auto mt-4 w-[90%]  shadow-xl">
+          <img src="/reviews/rev2.jpg" alt="rev1" class="rounded-[30px] border-[4px] border-white" />
+        </div>
+        <div class="m-auto mt-4  w-[90%]  p-4 text-center  text-black">Pour ceux qui sont aussi sceptiques, testez au moins avec l'offre d'essai vous verrez que ça fonctionne vraiment ! 💯🔥</div>
+      </article>
+
+      <article>
+        <div class="m-auto   w-[90%]   shadow-xl ">
+          <img src="/reviews/rev3.jpg" alt="rev1" class="rounded-[30px] border-[4px] border-white" />
+        </div>
+        <div class="m-auto rounded-[30px]   p-2 text-center  text-black">
+          <div class="m-auto w-[90%] rounded-[30px] text-center text-black">Avec plaisir ! Y'a plein de jolies filles comme elle qui s'amusent à dépuceler des mecs 😏👅</div>
+        </div>
+      </article>
+    </section>
+
+    <div class="m-auto w-[90%]">
+      <div class="py-4 text-center font-bold  ">Tu veux nous rejoindre ?</div>
+      <div class="text-center ">
+        Super, tu ne le regretteras pas ! 🔥<br /><br /> Et si tu doutes encore tu peux tester quelques jours avec l’offre d’essai <br /><br />Il te suffit de cliquer sur le bouton ci-dessous, de t’inscrire en une minute puis de choisir une
+        offre !
+      </div>
+    </div>
+    <div class="pt-3 text-center">⬇️⬇️⬇️⬇️⬇️</div>
+
+    <a href={link}>
+      <section class="my-4 w-full" id="testjs">
+        <article id="testjs" class=" m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#4bb788] bg-gradient-to-r from-[#57cc99] to-[#57cc99]  p-5 font-bold text-white shadow-2xl">
+          <button on:click={handleClick} id="testjs" class="font-bold uppercase tracking-[2px]">S'INSCRIRE SUR J&M CONTACT</button>
+        </article>
+      </section></a
+    >
   </main>
 </div>
 
-{#if isClicked}
+<!-- {#if isClicked}
   <script type="text/javascript" src="https://c.love.free-datings.com/8/js/script.js?id=rEwc2"></script>
 
   <div class="fixed top-0 flex h-screen w-full flex-col items-center  backdrop-blur-sm backdrop-brightness-[.25]">
@@ -165,4 +213,4 @@
       <div id="chatform" />
     </div>
   </div>
-{/if}
+{/if} -->
