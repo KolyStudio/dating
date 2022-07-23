@@ -63,7 +63,7 @@
       </div>
     </div>
     <div class="relative h-full">
-      <div class="absolute bottom-[110px] left-3  mb-3 text-3xl font-medium text-white">
+      <div class="absolute bottom-[100px] left-3  mb-3 text-3xl font-medium text-white">
         <div class="flex items-center space-x-2">
           <div>Lisa25, 22 ans</div>
           <div><img src="/check.svg" alt="check" class="mt-1 w-6" /></div>
@@ -122,7 +122,7 @@
 
     <section class="m-auto w-[90%]  rounded-[30px]   text-black">
       <!-- <h1 class="text-center font-bold uppercase">PROFIL DE {name}25</h1> -->
-      <h2 class=" pt-6 pb-4 text-lg font-bold uppercase text-[#cdb4db]">JE NE SUIS PAS UNE ESCORTE !! ❌</h2>
+      <h2 class=" pt-6 pb-4 text-lg font-bold uppercase text-[#af93c0]">JE NE SUIS PAS UNE ESCORTE !! ❌</h2>
 
       <p>
         Une bonne fois pour toute je ne demande pas d'argent, je cherche juste des plans culs pour m'amuser un peu c'est tout. <br /><br />Je préfère généralement les mecs avec un peu d'expérience mais si tu es puceau je vais voir ce que je
@@ -133,7 +133,7 @@
 
     <div class="m-auto w-[90%]  rounded-[30px]  text-black">
       <div class="">
-        <h2 class="pt-8 pb-4 text-lg  font-bold uppercase text-[#cdb4db]">Comment me rencontrer en réel ?</h2>
+        <h2 class="pt-8 pb-4 text-lg  font-bold uppercase text-[#af93c0]">Comment me rencontrer en réel ?</h2>
 
         Envoies moi une petite photo sur<a href="a" class="pl-1 text-blue-600 underline underline-offset-2"> J&M Contact en cliquant ici</a> et dis moi quand t'es dispo.<br /><br /> Je reçois les notifs quand j'ai un message donc habituellement
         je réponds en quelques minutes. Je préviens l'inscription (essai) coûte quelque chose comme 1 ou 2 euros mais ensuite t'es tranquile tu peux contacter gratuitement autant de filles que tu veux.
@@ -142,7 +142,7 @@
 
     <div class="m-auto w-[90%]  rounded-[30px]  text-black">
       <div class="">
-        <h2 class="pt-8 pb-4 text-lg  font-bold uppercase text-[#cdb4db]">Pourquoi J&M Contact plutôt que Snap ?</h2>
+        <h2 class="pt-8 pb-4 text-lg  font-bold uppercase text-[#af93c0]">Pourquoi J&M Contact plutôt que Snap ?</h2>
 
         Je suis aussi sur Tinder et plusieurs autres sites, mais au final je me fais harceler par des Kssos et les faux profils qui me font perdre beaucoup de temps... 😡 Une pote m'a conseillée d'essayer J&M Contact parce que c'est ce
         qu'elle utilisait pour chopper régulièrement de façon discrète.<br /><br />Au début je ne voulais pas trop parce que des rencontres sur J&M Contact ça me bloquait un peu, mais au final j'adore car c'est beaucoup plus pratique et
@@ -162,7 +162,7 @@
 
     <section>
       <article class="F m-auto mt-4 w-[90%] ">
-        <h1 class="text-center font-semibold text-[#cdb4db]">QUELQUES TÉMOIGNAGES</h1>
+        <h1 class="text-center font-semibold text-[#af93c0]">QUELQUES TÉMOIGNAGES</h1>
       </article>
 
       <article>
