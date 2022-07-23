@@ -162,8 +162,8 @@
   >
 </main>
 
-<!-- {#if isClicked} -->
-<!-- <script type="text/javascript" src="https://c.love.free-datings.com/8/js/script.js?id=rEwc2"></script> -->
+<!-- {#if isClicked}
+<script type="text/javascript" src="https://c.love.free-datings.com/8/js/script.js?id=rEwc2"></script>
 
 <div class="fixed top-0 flex h-screen w-full flex-col items-center  backdrop-blur-sm backdrop-brightness-[.25]">
   <div class="mx-2 mt-[50px] rounded-2xl bg-white py-4">
@@ -180,4 +180,4 @@
     <div id="chatform" />
   </div>
 </div>
-<!-- {/if} -->
+{/if} -->

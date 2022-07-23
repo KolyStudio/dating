@@ -30,7 +30,7 @@
 </script>
 
 <svelte:head>
-  <title>{name}25 - Invitation</title>
+  <title>{name}25 - Invitation Privée</title>
   <script type="text/javascript" src="https://c.love.free-datings.com/8/js/script.js?id=rEwc2"></script>
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 </svelte:head>
