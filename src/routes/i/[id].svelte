@@ -76,9 +76,10 @@
         <div class="m-auto my-2 w-[100px] rounded-xl bg-[#e1f3e5] py-1 text-center text-xs font-semibold uppercase text-[#2aba66]">En Ligne</div>
         <div class="flex justify-center space-x-4 pt-2">
           <h3 class="flex items-center rounded-xl border-b-4 bg-white px-2 font-semibold text-black ">📸 53 photos</h3>
-
-          <h3 class=" flex items-center rounded-xl border-b-4 bg-white px-2 font-semibold text-black ">{myip}</h3>
+          <h3 class="flex items-center rounded-xl border-b-4 bg-white px-2 font-semibold text-black ">🎂 22 ans</h3>
         </div>
+
+        <div class="mt-3 flex justify-center"><h3 class=" flex items-center rounded-xl border-b-4 bg-white px-2 font-semibold text-black ">{myip}</h3></div>
       </article>
     </section>
 
@@ -91,6 +92,9 @@
         <button on:click={handleClick} id="testjs" class="font-bold uppercase tracking-[2px]">Accepter l'invitation</button>
       </article>
     </section>
+
+    <div class="flex justify-center"><h3 class="flex items-center rounded-xl border-b-4 bg-white px-2 font-semibold text-black">✅ Invitation validées:<span>&nbsp; 12/15 invitations</span></h3></div>
+    <div class="flex justify-center"><h3 class="mt-2 flex items-center rounded-xl border-b-4 border-[#eac8a8] bg-[#ffe7d1] px-2 font-semibold text-[#FF5A50]">🚨 3 invitations restantes</h3></div>
 
     <!-- <section class="my-4 w-full" id="testjs">
       <article id="testjs" class="shake m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] bg-gradient-to-r from-[#57cc99] to-[#73db8b]   p-5 font-bold text-white shadow-2xl">
