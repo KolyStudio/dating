@@ -108,7 +108,7 @@
 
     <section class="m-auto w-[90%]  rounded-[30px]   text-black">
       <!-- <h1 class="text-center font-bold uppercase">PROFIL DE {name}25</h1> -->
-      <h2 class=" pt-6 pb-4 text-lg font-bold uppercase text-[#800048]">JE NE SUIS PAS UNE ESCORTE !! ❌</h2>
+      <h2 class=" pt-6 pb-4 text-lg font-bold uppercase text-[#2f2c41]">JE NE SUIS PAS UNE ESCORTE !! ❌</h2>
 
       <p>
         Une bonne fois pour toute je ne demande pas d'argent, je cherche juste des plans culs pour m'amuser un peu c'est tout. <br /><br />Je préfère généralement les mecs avec un peu d'expérience mais si tu es puceau je vais voir ce que je
@@ -119,7 +119,7 @@
 
     <div class="m-auto w-[90%]  rounded-[30px]  text-black">
       <div class="">
-        <h2 class="pt-8 pb-4 text-lg  font-bold uppercase text-[#800048]">Comment me rencontrer en réel ?</h2>
+        <h2 class="pt-8 pb-4 text-lg  font-bold uppercase text-[#2f2c41]">Comment me rencontrer en réel ?</h2>
 
         Envoies moi une petite photo sur<a href="a" class="pl-1 text-blue-600 underline underline-offset-2"> J&M Contact en cliquant ici</a> et dis moi quand t'es dispo.<br /><br /> Je reçois les notifs quand j'ai un message donc habituellement
         je réponds en quelques minutes. Je préviens l'inscription (essai) coûte quelque chose comme 1 ou 2 euros mais ensuite t'es tranquile tu peux contacter gratuitement autant de filles que tu veux.
