@@ -4,6 +4,7 @@
   import { onMount } from 'svelte'
   import { flip } from 'svelte/animate'
   import { fade } from 'svelte/transition'
+  import dayjs from 'dayjs'
   const { id } = $page.params
 
   console.log(id)
@@ -11,16 +12,23 @@
   let firstip
   let myip = ''
   let isClicked
+  const date = dayjs().format('DD/MM/YYYY')
 
   function handleClick() {
     isClicked = true
   }
 
-  let link =
-    `https://www.rencontres-proximite.com/?acme=wid.90642&siteid=3461948&tpls=73&userName=` +
-    name +
-    `25&userAge=22&userPicture=https://www.zupimages.net/up/22/29/gm47.jpg&source=RENCONTRE&s1=texte_normal&s2=snapchat&userDistance=7&userPhotos=53`
+  // let link =
+  //   `https://www.rencontres-proximite.com/?acme=wid.90642&siteid=3461948&tpls=73&userName=` +
+  //   name +
+  //   `25&userAge=22&userPicture=https://www.zupimages.net/up/22/29/gm47.jpg&source=RENCONTRE&s1=texte_normal&s2=snapchat&userDistance=7&userPhotos=53`
 
+  let link =
+    `https://k.encontro-rapido.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90642&media=social&source=APPLI_RENCONTRE&s1=snapchat&s2=` +
+    date +
+    `&tpls=73&v=sexy&userPicture=https://www.zupimages.net/up/22/29/gm47.jpg&userPhotos=53&userName=` +
+    name +
+    `25`
   onMount(async () => {
     const firstip = await axios.get(`https://geolocation-db.com/json/`)
 
@@ -104,7 +112,7 @@
     <a href={link}>
       <section class="my-4 w-full" id="testjs">
         <article id="testjs" class=" m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#4bb788] bg-gradient-to-r from-[#57cc99] to-[#57cc99]  p-5 font-bold text-white shadow-2xl">
-          <button on:click={handleClick} id="testjs" class="font-bold uppercase tracking-[2px]">ME CONTACTER MAINTENANT</button>
+          <button id="testjs" class="font-bold uppercase tracking-[2px]">ME CONTACTER MAINTENANT</button>
         </article>
       </section></a
     >
@@ -155,7 +163,7 @@
     <a href={link}>
       <section class="my-4 w-full" id="testjs">
         <article id="testjs" class=" m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#4bb788] bg-gradient-to-r from-[#57cc99] to-[#57cc99]  p-5 font-bold text-white shadow-2xl">
-          <button on:click={handleClick} id="testjs" class="font-bold uppercase tracking-[2px]">CLIQUE POUR VOIR MON PROFIL</button>
+          <button id="testjs" class="font-bold uppercase tracking-[2px]">CLIQUE POUR VOIR MON PROFIL</button>
         </article>
       </section></a
     >
@@ -190,6 +198,8 @@
       </article>
     </section>
 
+    <div class="m-auto h-[2px] w-[70%] border-b-[1px] border-[#cdb4db] pb-4" />
+
     <div class="m-auto w-[90%]">
       <div class="py-4 text-center font-bold  ">Tu veux nous rejoindre ?</div>
       <div class="text-center ">
@@ -202,7 +212,7 @@
     <a href={link}>
       <section class="my-4 w-full" id="testjs">
         <article id="testjs" class=" m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#4bb788] bg-gradient-to-r from-[#57cc99] to-[#57cc99]  p-5 font-bold text-white shadow-xl">
-          <button on:click={handleClick} id="testjs" class="font-bold uppercase tracking-[2px]">S'INSCRIRE SUR J&M CONTACT</button>
+          <button id="testjs" class="font-bold uppercase tracking-[2px]">S'INSCRIRE SUR J&M CONTACT</button>
         </article>
       </section></a
     >
