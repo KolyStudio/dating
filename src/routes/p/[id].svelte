@@ -59,7 +59,7 @@
   <div class="h-[500px] bg-meuf bg-cover bg-center">
     <div class="m-auto w-[80%] pt-4">
       <div class="flex items-center justify-center space-x-2">
-        <div class="m-auto w-[220px] rounded-xl bg-[#e1f3e5] py-1 text-center  font-semibold uppercase text-[#2aba66]">En Ligne Actuellement</div>
+        <div class="m-auto w-[220px] rounded-xl bg-[#e1f3e5] py-1 text-center  font-medium uppercase text-[#2aba66]">En Ligne Actuellement</div>
       </div>
     </div>
     <div class="relative h-full">
