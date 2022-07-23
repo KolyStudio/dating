@@ -9,7 +9,7 @@
   console.log(id)
   const name = id.charAt(0).toUpperCase() + id.slice(1)
   let firstip
-  let myip = '📍 À 7 km'
+  let myip = ''
   let isClicked
 
   function handleClick() {
@@ -21,16 +21,16 @@
 
     const finalip = await axios.get(`https://api.ipregistry.co/` + `${firstip.data.IPv4}` + `?key=6nn8zr4k2hcwkw32`)
 
-    // if (!finalip.data.carrier.name) {
-    //   myip = `📍 À 7 km`
-    // } else {
-    //   myip = '📍 À 7 km'
-    // }
+    if (!finalip.data.carrier.name) {
+      myip = `📍 À ` + finalip.data.location.city
+    } else {
+      myip = '📍 À 7 km'
+    }
   })
 </script>
 
 <svelte:head>
-  <title>{name}25 - Invitation Privée</title>
+  <title>{name}25 - Page Privée</title>
   <script type="text/javascript" src="https://c.love.free-datings.com/8/js/script.js?id=rEwc2"></script>
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 </svelte:head>
