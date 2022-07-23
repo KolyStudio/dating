@@ -6,7 +6,7 @@ module.exports = {
     extend: {
       backgroundImage: (theme) => ({
         dunes: "url('/profil.webp')",
-        jm: "url('/bgg.png')",
+        jm: "url('/profilos.webp')",
       }),
     },
   },
