@@ -93,7 +93,7 @@
       </article>
     </section>
 
-    <div class="flex justify-center"><h3 class="flex items-center rounded-xl border-b-4 bg-white px-2 font-semibold text-black">✅ Invitation validées:<span>&nbsp; 12/15 invitations</span></h3></div>
+    <!-- <div class="flex justify-center"><h3 class="flex items-center rounded-xl border-b-4 bg-white px-2 font-semibold text-black">✅ Invitation validées:<span>&nbsp; 12/15 invitations</span></h3></div> -->
     <div class="flex justify-center"><h3 class="mt-2 flex items-center rounded-xl border-b-4 border-[#eac8a8] bg-[#ffe7d1] px-2 font-semibold text-[#FF5A50]">🚨 3 invitations restantes</h3></div>
 
     <!-- <section class="my-4 w-full" id="testjs">
