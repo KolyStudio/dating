@@ -40,7 +40,7 @@
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 </svelte:head>
 
-<div class=" bg-[#cdb4db] pb-2">
+<div class=" bg-[#cdb4db] pb-10">
   <!-- Logo - Titre -->
   <!-- <img src="/heart.svg" alt="heart" class=" fixed top-10 left-5 z-[-1] w-[30px] -rotate-[40deg]" />
   <img src="/heart.svg" alt="heart" class=" fixed top-8 right-5 z-[-1] w-[20px] -rotate-[20deg]" />
@@ -63,7 +63,7 @@
       </div>
     </div>
     <div class="relative h-full">
-      <div class="absolute bottom-[100px] left-3  mb-3 text-3xl font-medium text-white">
+      <div class="absolute bottom-[100px] left-3  mb-2 text-3xl font-medium text-white">
         <div class="flex items-center space-x-2">
           <div>Lisa25, 22 ans</div>
           <div><img src="/check.svg" alt="check" class="mt-[1px] w-6" /></div>
@@ -76,7 +76,7 @@
     </div>
   </div>
   <div class="mt-[-50px] h-[50px] bg-cloud bg-cover bg-center" />
-  <main class="mt-[-10px]  rounded-b-[30px] bg-[#fff2ee] pt-1 pb-5  shadow-xl">
+  <main class="mt-[-10px]   bg-[#fff2ee] pt-1 pb-5  shadow-xl">
     <!-- Profil -->
     <section>
       <!-- Photo profil -->
@@ -201,12 +201,13 @@
 
     <a href={link}>
       <section class="my-4 w-full" id="testjs">
-        <article id="testjs" class=" m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#4bb788] bg-gradient-to-r from-[#57cc99] to-[#57cc99]  p-5 font-bold text-white shadow-2xl">
+        <article id="testjs" class=" m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#4bb788] bg-gradient-to-r from-[#57cc99] to-[#57cc99]  p-5 font-bold text-white shadow-xl">
           <button on:click={handleClick} id="testjs" class="font-bold uppercase tracking-[2px]">S'INSCRIRE SUR J&M CONTACT</button>
         </article>
       </section></a
     >
   </main>
+  <div class=" h-[50px] rotate-180 bg-cloud bg-cover bg-center" />
 </div>
 
 <!-- {#if isClicked}
