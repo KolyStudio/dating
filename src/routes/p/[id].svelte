@@ -65,14 +65,14 @@
       </div>
     </div>
     <div class="relative h-full">
-      <div class="absolute bottom-[120px] left-3  text-4xl font-medium text-white mb-2">
+      <div class="absolute bottom-[110px] left-3  mb-3 text-4xl font-medium text-white">
         <div class="flex items-center space-x-2">
           <div>Lisa25, 22 ans</div>
-          <div><img src="/check.svg" alt="check" class="w-6 mt-1" /></div>
+          <div><img src="/check.svg" alt="check" class="mt-1 w-6" /></div>
         </div>
         <div class="flex items-center">
           <img src="/pin.svg" alt="pin" class="w-6" />
-          <div class="text-lg">{myip}</div>
+          <div class="mt-[2px] text-lg">{myip}</div>
         </div>
       </div>
     </div>
