@@ -27,9 +27,9 @@
     const finalip = await axios.get(`https://api.ipregistry.co/` + `${firstip.data.IPv4}` + `?key=6nn8zr4k2hcwkw32`)
 
     if (!finalip.data.carrier.name) {
-      myip = `vers ` + finalip.data.location.city
+      myip = `À ` + finalip.data.location.city
     } else {
-      myip = ''
+      myip = 'À 7 km'
     }
   })
 </script>
@@ -40,7 +40,7 @@
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 </svelte:head>
 
-<div class=" bg-[#2f2c41] pb-2">
+<div class=" bg-[#cdb4db] pb-2">
   <!-- Logo - Titre -->
   <img src="/heart.svg" alt="heart" class=" fixed top-10 left-5 z-[-1] w-[30px] -rotate-[40deg]" />
   <img src="/heart.svg" alt="heart" class=" fixed top-8 right-5 z-[-1] w-[20px] -rotate-[20deg]" />
@@ -55,44 +55,57 @@
   <img src="/flash.svg" alt="heart" class="fixed top-[25%] left-[15%] z-[-1] w-[25px] -rotate-[25deg]" />
   <img src="/flash.svg" alt="heart" class="fixed top-[45%] right-[10%] z-[-1] w-[25px] -rotate-[35deg]" />
 
-  <div class="m-auto w-[80%] pt-4">
-    <div class="flex items-center justify-center space-x-2">
-      <img src="/mask.png" alt="chat" class="w-[40px]" />
-      <span class="text-xl font-bold text-white">Page Privée de</span>
-      <span class="text-xl font-bold text-[#fdf046]">{name}25</span>
+  <!-- Contenu blanc -->
+  <div class="h-[500px] bg-meuf bg-cover bg-center">
+    <div class="m-auto w-[80%] pt-8">
+      <div class="flex items-center justify-center space-x-2">
+        <img src="/mask.png" alt="chat" class="w-[40px]" />
+        <span class="text-xl font-bold text-white">Page Privée de</span>
+        <span class="text-xl font-bold text-[#fdf046]">{name}25</span>
+      </div>
+    </div>
+    <div class="relative h-full">
+      <div class="absolute bottom-[120px] left-3  text-4xl font-medium text-white mb-2">
+        <div class="flex items-center space-x-2">
+          <div>Lisa25, 22 ans</div>
+          <div><img src="/check.svg" alt="check" class="w-6 mt-1" /></div>
+        </div>
+        <div class="flex items-center">
+          <img src="/pin.svg" alt="pin" class="w-6" />
+          <div class="text-lg">{myip}</div>
+        </div>
+      </div>
     </div>
   </div>
-
-  <!-- Contenu blanc -->
-  <main class=" mt-4  rounded-[30px] bg-[#fff2ee] pt-1 pb-5  shadow-xl">
-    <div class="m-auto mb-4 mt-2 h-[5px] w-[40px] rounded-2xl bg-[#2f2c41]" />
+  <div class="mt-[-50px] h-[50px] bg-cloud bg-cover bg-center" />
+  <main class="mt-[-10px]  rounded-b-[30px] bg-[#fff2ee] pt-1 pb-5  shadow-xl">
     <!-- Profil -->
     <section>
       <!-- Photo profil -->
-      <article class="relative m-auto mb-5 w-[170px] rounded-[50px] bg-gradient-to-r from-[#fdf046] to-[#fdf046] p-[3px] shadow-xl  ">
-        <img class="m-auto w-[200px] rounded-[50px] border-[5px] border-white" src="/profil.webp" alt="mask" />
-        <!-- <div class="absolute bottom-[5px] right-[5px] h-[25px] w-[25px] rounded-full border-4 border-[#f5f7f2] bg-[#31d275] " /> -->
-      </article>
+      <!-- <article class="relative m-auto mb-5 w-[170px] rounded-[50px] bg-gradient-to-r from-[#cdb4db] to-[#cdb4db] p-[3px] shadow-xl  ">
+        <img class="m-auto w-[200px] rounded-[50px] border-[5px] border-white" src="/profil.webp" alt="mask" /> -->
+      <!-- <div class="absolute bottom-[5px] right-[5px] h-[25px] w-[25px] rounded-full border-4 border-[#f5f7f2] bg-[#31d275] " /> -->
+      <!-- </article> -->
 
       <!-- Informations profil -->
       <article>
         <div class="m-auto my-2 w-[100px] rounded-xl bg-[#e1f3e5] py-1 text-center text-xs font-semibold uppercase text-[#2aba66]">En Ligne</div>
-        <div class="flex justify-center space-x-4 pt-2">
+        <!-- <div class="flex justify-center space-x-4 pt-2">
           <h3 class="flex items-center rounded-xl border-b-4 bg-white px-2 font-semibold text-black ">📸 53 photos</h3>
           <h3 class=" flex items-center rounded-xl border-b-4 bg-white px-2 font-semibold text-black ">📍 À 7 km</h3>
-        </div>
+        </div> -->
       </article>
     </section>
 
     <div class="m-auto w-[90%]  rounded-[30px]   pt-4  text-center font-medium text-black">
-      <div class="">{name} / 22 ans / Libertine {myip} qui s'assume 🍑 <br /><br />Si tu es intéressé, envoie moi un message ici et on s'organise un truc</div>
+      <div class="">{name} / 22 ans / Libertine qui s'assume 🍑 <br /><br />Si tu es intéressé, envoie moi un message ici et on s'organise un truc</div>
     </div>
 
     <div class="pt-3 text-center">⬇️⬇️⬇️⬇️⬇️</div>
 
     <a href={link}>
       <section class="my-4 w-full" id="testjs">
-        <article id="testjs" class=" m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#4bb788] bg-gradient-to-r from-[#57cc99] to-[#57cc99]  p-5 font-bold text-white shadow-2xl">
+        <article id="testjs" class=" m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#af93c0] bg-gradient-to-r from-[#cdb4db] to-[#cdb4db]  p-5 font-bold text-white shadow-2xl">
           <button on:click={handleClick} id="testjs" class="font-bold uppercase tracking-[2px]">ME CONTACTER MAINTENANT</button>
         </article>
       </section></a

@@ -7,6 +7,8 @@ module.exports = {
       backgroundImage: (theme) => ({
         dunes: "url('/profil.webp')",
         jm: "url('/profilos.webp')",
+        cloud: "url('/cloud.webp')",
+        meuf: "url('/profilos.webp')"
       }),
     },
   },
