@@ -66,7 +66,7 @@
       <div class="absolute bottom-[100px] left-3  mb-3 text-3xl font-medium text-white">
         <div class="flex items-center space-x-2">
           <div>Lisa25, 22 ans</div>
-          <div><img src="/check.svg" alt="check" class="mt-1 w-6" /></div>
+          <div><img src="/check.svg" alt="check" class="mt-[1px] w-6" /></div>
         </div>
         <div class="flex items-center">
           <img src="/pin.svg" alt="pin" class="w-6" />
@@ -166,7 +166,7 @@
       </article>
 
       <article>
-        <div class="m-auto mt-4 w-[90%] shadow-xl">
+        <div class="m-auto mt-4 w-[90%] ">
           <img src="/reviews/rev1.jpg" alt="rev1" class="rounded-[30px] border-[4px] border-white" />
         </div>
 
@@ -174,14 +174,14 @@
       </article>
 
       <article>
-        <div class="m-auto mt-4 w-[90%]  shadow-xl">
+        <div class="m-auto mt-4 w-[90%] ">
           <img src="/reviews/rev2.jpg" alt="rev1" class="rounded-[30px] border-[4px] border-white" />
         </div>
         <div class="m-auto mt-4  w-[90%]  p-4 text-center  text-black">Pour ceux qui sont aussi sceptiques, testez au moins avec l'offre d'essai vous verrez que ça fonctionne vraiment ! 💯🔥</div>
       </article>
 
       <article>
-        <div class="m-auto   w-[90%]   shadow-xl ">
+        <div class="m-auto   w-[90%]    ">
           <img src="/reviews/rev3.jpg" alt="rev1" class="rounded-[30px] border-[4px] border-white" />
         </div>
         <div class="m-auto rounded-[30px]   p-2 text-center  text-black">
