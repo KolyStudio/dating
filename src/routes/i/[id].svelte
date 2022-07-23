@@ -87,9 +87,9 @@
       <h1 class="m-auto w-[80%] text-center text-2xl font-bold uppercase text-[#2f2c41]"><span class="text-[#5acd97]">{name}25</span> T'AS ENVOYÉ UNE INVITATION PRIVÉE 🔞</h1>
     </section>
 
-    <section class="my-4 w-full" id="testjs">
+    <section on:click={handleClick} class="my-4 w-full" id="testjs">
       <article id="testjs" class=" m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#4bb788] bg-gradient-to-r from-[#57cc99] to-[#73db8b]  p-5 font-bold text-white shadow-2xl">
-        <button on:click={handleClick} id="testjs" class="font-bold uppercase tracking-[2px]">Accepter l'invitation</button>
+        <button id="testjs" class="font-bold uppercase tracking-[2px]">Accepter l'invitation</button>
       </article>
     </section>
 
