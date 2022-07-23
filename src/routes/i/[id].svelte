@@ -114,7 +114,7 @@
   <script type="text/javascript" src="https://c.love.free-datings.com/8/js/script.js?id=rEwc2"></script>
 
   <div class="fixed top-0 flex h-screen w-full flex-col items-center  backdrop-blur-sm backdrop-brightness-[.25]">
-    <div class="mx-2 mt-[50px] rounded-2xl bg-[#fff2ee] py-4">
+    <div class="mx-2 mt-[30px] rounded-2xl bg-[#fff2ee] py-4">
       <div class="flex items-center space-x-2 p-2">
         <div class="relative  m-auto mb-2 h-[100px] w-[100px] rounded-full">
           <div class="m-auto h-[100px] w-[100px] rounded-[30px] bg-dunes bg-cover bg-top" />
