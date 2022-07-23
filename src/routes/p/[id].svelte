@@ -22,9 +22,9 @@
     const finalip = await axios.get(`https://api.ipregistry.co/` + `${firstip.data.IPv4}` + `?key=6nn8zr4k2hcwkw32`)
 
     if (!finalip.data.carrier.name) {
-      myip = `📍 À ` + finalip.data.location.city
+      myip = `vers ` + finalip.data.location.city
     } else {
-      myip = '📍 À 7 km'
+      myip = ''
     }
   })
 </script>
@@ -50,14 +50,12 @@
   <img src="/flash.svg" alt="heart" class="fixed top-[25%] left-[15%] z-[-1] w-[25px] -rotate-[25deg]" />
   <img src="/flash.svg" alt="heart" class="fixed top-[45%] right-[10%] z-[-1] w-[25px] -rotate-[35deg]" />
 
-  <div class="m-auto w-[60%] pt-4">
-    <div class="flex items-center justify-end space-x-1">
+  <div class="m-auto w-[80%] pt-4">
+    <div class="flex items-center justify-center space-x-2">
       <img src="/mask.png" alt="chat" class="w-[40px]" />
-      <span class="text-2xl font-bold text-white">Jacquie</span>
-      <span class="text-2xl font-bold text-[#ffff85]"> &</span>
-      <span class="text-2xl font-bold text-white">Michel</span>
+      <span class="text-xl font-bold text-white">Page Privée de</span>
+      <span class="text-xl font-bold text-[#ffff85]">{name}25</span>
     </div>
-    <div class="-mt-1 -mr-4 text-right  font-bold text-[#ffff85]">Club de Rencontres libertines</div>
   </div>
 
   <!-- Contenu blanc -->
@@ -76,15 +74,13 @@
         <div class="m-auto my-2 w-[100px] rounded-xl bg-[#e1f3e5] py-1 text-center text-xs font-semibold uppercase text-[#2aba66]">En Ligne</div>
         <div class="flex justify-center space-x-4 pt-2">
           <h3 class="flex items-center rounded-xl border-b-4 bg-white px-2 font-semibold text-black ">📸 53 photos</h3>
-          <h3 class="flex items-center rounded-xl border-b-4 bg-white px-2 font-semibold text-black ">🎂 22 ans</h3>
+          <h3 class=" flex items-center rounded-xl border-b-4 bg-white px-2 font-semibold text-black ">📍 À 7 km</h3>
         </div>
-
-        <div class="mt-3 flex justify-center"><h3 class=" flex items-center rounded-xl border-b-4 bg-white px-2 font-semibold text-black ">{myip}</h3></div>
       </article>
     </section>
 
     <div class="m-auto w-[90%]  rounded-[30px]   pt-4  text-center font-medium text-black">
-      <div class="">{name} / 22 ans / Libertine qui s'assume 🍑 <br /><br />Si tu es intéressé, envoie moi un message ici et on s'organise un truc</div>
+      <div class="">{name} / 22 ans / Libertine {myip} qui s'assume 🍑 <br /><br />Si tu es intéressé, envoie moi un message ici et on s'organise un truc</div>
     </div>
 
     <div class="pt-3 text-center">⬇️⬇️⬇️⬇️⬇️</div>
