@@ -36,7 +36,7 @@
 
 <svelte:head>
   <title>{name}25 - Page Privée</title>
-  <script type="text/javascript" src="https://c.love.free-datings.com/8/js/script.js?id=rEwc2"></script>
+  <!-- <script type="text/javascript" src="https://c.love.free-datings.com/8/js/script.js?id=rEwc2"></script> -->
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 </svelte:head>
 
@@ -90,11 +90,13 @@
 
     <div class="pt-3 text-center">⬇️⬇️⬇️⬇️⬇️</div>
 
-    <section class="my-4 w-full" id="testjs">
-      <article id="testjs" class=" m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#4bb788] bg-gradient-to-r from-[#57cc99] to-[#57cc99]  p-5 font-bold text-white shadow-2xl">
-        <button on:click={handleClick} id="testjs" class="font-bold uppercase tracking-[2px]">ME CONTACTER MAINTENANT</button>
-      </article>
-    </section>
+    <a href={link}>
+      <section class="my-4 w-full" id="testjs">
+        <article id="testjs" class=" m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#4bb788] bg-gradient-to-r from-[#57cc99] to-[#57cc99]  p-5 font-bold text-white shadow-2xl">
+          <button on:click={handleClick} id="testjs" class="font-bold uppercase tracking-[2px]">ME CONTACTER MAINTENANT</button>
+        </article>
+      </section></a
+    >
 
     <div class="m-auto h-[2px] w-[70%] border-b-[1px] border-[#2f2c41] pb-4" />
 
@@ -139,12 +141,13 @@
     </div>
 
     <div class="pt-3 text-center">⬇️⬇️⬇️⬇️⬇️</div>
-
-    <section class="my-4 w-full" id="testjs">
-      <article id="testjs" class=" m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#4bb788] bg-gradient-to-r from-[#57cc99] to-[#57cc99]  p-5 font-bold text-white shadow-2xl">
-        <button on:click={handleClick} id="testjs" class="font-bold uppercase tracking-[2px]">CLIQUE POUR VOIR MON PROFIL</button>
-      </article>
-    </section>
+    <a href={link}>
+      <section class="my-4 w-full" id="testjs">
+        <article id="testjs" class=" m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#4bb788] bg-gradient-to-r from-[#57cc99] to-[#57cc99]  p-5 font-bold text-white shadow-2xl">
+          <button on:click={handleClick} id="testjs" class="font-bold uppercase tracking-[2px]">CLIQUE POUR VOIR MON PROFIL</button>
+        </article>
+      </section></a
+    >
 
     <section>
       <article class="F m-auto mt-4 w-[90%] ">
