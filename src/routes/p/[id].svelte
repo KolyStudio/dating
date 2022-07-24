@@ -9,6 +9,7 @@
 
   console.log(id)
   const name = id.charAt(0).toUpperCase() + id.slice(1)
+  const proofname = id
   let firstip
   let myip = ''
   let isClicked
@@ -123,7 +124,7 @@
 
     <section>
       <section class="m-auto mt-4 w-[90%]    shadow-xl">
-        <img src="/proof.webp" alt="proof" class="" />
+        <img src={`/proof/` + proofname + `.jpg`} alt="proof" class="" />
         <!-- <video class="rounded-[30px] border-[4px] border-white" poster="/poster.webp" playinline src="/proof.mp4" type="video/mp4" controls><track kind="captions" /></video> -->
       </section>
     </section>
