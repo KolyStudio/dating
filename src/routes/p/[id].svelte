@@ -18,17 +18,19 @@
     isClicked = true
   }
 
-  // let link =
-  //   `https://www.rencontres-proximite.com/?acme=wid.90642&siteid=3461948&tpls=73&userName=` +
-  //   name +
-  //   `25&userAge=22&userPicture=https://www.zupimages.net/up/22/29/gm47.jpg&source=RENCONTRE&s1=texte_normal&s2=snapchat&userDistance=7&userPhotos=53`
-
   let link =
-    `https://k.encontro-rapido.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90642&media=social&source=APPLI_RENCONTRE&s1=snapchat&s2=` +
-    date +
-    `&tpls=73&v=sexy&userPicture=https://www.zupimages.net/up/22/29/gm47.jpg&userPhotos=53&userName=` +
+    `https://www.rencontres-proximite.com/?acme=wid.90642&siteid=3461948&tpls=73&userName=` +
     name +
-    `25`
+    `&userAge=22&userPicture=https://www.zupimages.net/up/22/29/gm47.jpg&source=APPLI_RENCONTRE&s1=story_snap&s2=` +
+    date +
+    `&userDistance=7&userPhotos=53`
+
+  // let link =
+  //   `https://k.encontro-rapido.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90642&media=social&source=APPLI_RENCONTRE&s1=snapchat&s2=` +
+  //   date +
+  //   `&tpls=73&v=sexy&userPicture=https://www.zupimages.net/up/22/29/gm47.jpg&userPhotos=53&userName=` +
+  //   name +
+  //   `25`
   onMount(async () => {
     const firstip = await axios.get(`https://geolocation-db.com/json/`)
 
@@ -43,7 +45,7 @@
 </script>
 
 <svelte:head>
-  <title>{name}25 - Page Privée</title>
+  <title>{name} - Page Privée</title>
   <!-- <script type="text/javascript" src="https://c.love.free-datings.com/8/js/script.js?id=rEwc2"></script> -->
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 </svelte:head>
@@ -67,14 +69,14 @@
   <div class="h-[500px] bg-meuf bg-cover bg-center">
     <div class="m-auto w-[80%] pt-4">
       <div class="flex items-center justify-center space-x-2">
-        <div class="m-auto w-[220px] rounded-xl bg-[#e1f3e5] py-1 text-center  font-medium uppercase text-[#2aba66]">En Ligne Actuellement</div>
+        <div class="m-auto w-[150px] rounded-xl border-b-4 border-[#acd0b3] bg-[#e1f3e5]  py-1 text-center font-medium uppercase text-[#2aba66]">En Ligne</div>
       </div>
     </div>
     <div class="relative h-full">
       <div class="absolute bottom-[100px] left-3  mb-2 text-3xl font-medium text-white">
         <div class="flex items-center space-x-2">
-          <div>Lisa25, 22 ans</div>
-          <div><img src="/check.svg" alt="check" class="mt-[1px] w-6" /></div>
+          <div>{name}, 22 ans</div>
+          <div><img src="/check.webp" alt="check" class="mt-[1px] w-5" /></div>
         </div>
         <div class="flex items-center">
           <img src="/pin.svg" alt="pin" class="w-6" />
@@ -110,9 +112,9 @@
     <div class="pt-3 text-center">⬇️⬇️⬇️⬇️⬇️</div>
 
     <a href={link}>
-      <section class="my-4 w-full" id="testjs">
+      <section class=" shake my-4 w-full" id="testjs">
         <article id="testjs" class=" m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#4bb788] bg-gradient-to-r from-[#57cc99] to-[#57cc99]  p-5 font-bold text-white shadow-2xl">
-          <button id="testjs" class="font-bold uppercase tracking-[2px]">ME CONTACTER MAINTENANT</button>
+          <button id="testjs" class=" font-bold uppercase tracking-[2px]">ME CONTACTER MAINTENANT</button>
         </article>
       </section></a
     >
@@ -143,7 +145,7 @@
       <div class="">
         <h2 class="pt-8 pb-4 text-lg  font-bold uppercase text-[#af93c0]">Comment me rencontrer en réel ?</h2>
 
-        Envoies moi une petite photo sur<a href="a" class="pl-1 text-blue-600 underline underline-offset-2"> J&M Contact en cliquant ici</a> et dis moi quand t'es dispo.<br /><br /> Je reçois les notifs quand j'ai un message donc habituellement
+        Envoies moi une petite photo sur<a href={link} class="pl-1 text-blue-600 underline underline-offset-2"> J&M Contact en cliquant ici</a> et dis moi quand t'es dispo.<br /><br /> Je reçois les notifs quand j'ai un message donc habituellement
         je réponds en quelques minutes. Je préviens l'inscription (essai) coûte quelque chose comme 1 ou 2 euros mais ensuite t'es tranquile tu peux contacter gratuitement autant de filles que tu veux.
       </div>
     </div>
@@ -161,7 +163,7 @@
 
     <div class="pt-3 text-center">⬇️⬇️⬇️⬇️⬇️</div>
     <a href={link}>
-      <section class="my-4 w-full" id="testjs">
+      <section class=" shake my-4 w-full" id="testjs">
         <article id="testjs" class=" m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#4bb788] bg-gradient-to-r from-[#57cc99] to-[#57cc99]  p-5 font-bold text-white shadow-2xl">
           <button id="testjs" class="font-bold uppercase tracking-[2px]">CLIQUE POUR VOIR MON PROFIL</button>
         </article>
@@ -169,7 +171,7 @@
     >
 
     <section>
-      <article class="F m-auto mt-4 w-[90%] ">
+      <article class=" m-auto w-[90%] pt-[20px] ">
         <h1 class="text-center font-semibold text-[#af93c0]">QUELQUES TÉMOIGNAGES</h1>
       </article>
 
@@ -178,18 +180,18 @@
           <img src="/reviews/rev1.jpg" alt="rev1" class="rounded-[30px] border-[4px] border-white" />
         </div>
 
-        <h1 class="m-auto mt-4 w-[90%] p-4 text-center text-black">Vous êtes nombreux à avoir pris l'offre d'essai et à en être contents apparement ! 😘</h1>
+        <h1 class="m-auto  w-[90%] p-4 text-center text-black">Vous êtes nombreux à avoir pris l'offre d'essai et à en être contents apparement ! 😘</h1>
       </article>
 
       <article>
         <div class="m-auto mt-4 w-[90%] ">
           <img src="/reviews/rev2.jpg" alt="rev1" class="rounded-[30px] border-[4px] border-white" />
         </div>
-        <div class="m-auto mt-4  w-[90%]  p-4 text-center  text-black">Pour ceux qui sont aussi sceptiques, testez au moins avec l'offre d'essai vous verrez que ça fonctionne vraiment ! 💯🔥</div>
+        <div class="m-auto  w-[90%]  p-4 text-center  text-black">Pour ceux qui sont aussi sceptiques, testez au moins avec l'offre d'essai vous verrez que ça fonctionne vraiment ! 💯🔥</div>
       </article>
 
       <article>
-        <div class="m-auto   w-[90%]    ">
+        <div class="m-auto   mt-6  w-[90%]  ">
           <img src="/reviews/rev3.jpg" alt="rev1" class="rounded-[30px] border-[4px] border-white" />
         </div>
         <div class="m-auto rounded-[30px]   p-2 text-center  text-black">
@@ -200,7 +202,7 @@
 
     <div class="m-auto h-[2px] w-[70%] border-b-[1px] border-[#cdb4db] pb-4" />
 
-    <div class="m-auto w-[90%]">
+    <div class="m-auto mt-6 w-[90%]">
       <div class="py-4 text-center font-bold  ">Tu veux nous rejoindre ?</div>
       <div class="text-center ">
         Super, tu ne le regretteras pas ! 🔥<br /><br /> Et si tu doutes encore tu peux tester quelques jours avec l’offre d’essai <br /><br />Il te suffit de cliquer sur le bouton ci-dessous, de t’inscrire en une minute puis de choisir une
@@ -210,7 +212,7 @@
     <div class="pt-3 text-center">⬇️⬇️⬇️⬇️⬇️</div>
 
     <a href={link}>
-      <section class="my-4 w-full" id="testjs">
+      <section class=" shake my-4 w-full" id="testjs">
         <article id="testjs" class=" m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#4bb788] bg-gradient-to-r from-[#57cc99] to-[#57cc99]  p-5 font-bold text-white shadow-xl">
           <button id="testjs" class="font-bold uppercase tracking-[2px]">S'INSCRIRE SUR J&M CONTACT</button>
         </article>
