@@ -67,7 +67,7 @@
   <img src="/flash.svg" alt="heart" class="fixed top-[45%] right-[10%] z-[-1] w-[25px] -rotate-[35deg]" /> -->
 
   <!-- Contenu blanc -->
-  <div class="h-[500px] bg-meuf bg-cover bg-center">
+  <div class="h-[500px] bg-meuf bg-cover bg-center bg-no-repeat">
     <div class="m-auto w-[80%] pt-4">
       <div class="flex items-center justify-center space-x-2">
         <div class="m-auto w-[150px] rounded-xl border-b-4 border-[#acd0b3] bg-[#e1f3e5]  py-1 text-center font-medium uppercase text-[#2aba66]">En Ligne</div>
