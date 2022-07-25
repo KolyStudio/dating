@@ -63,12 +63,12 @@
     <h1 class="text-center text-2xl font-bold uppercase text-white">{name}26</h1>
     <div class="m-auto my-2 w-[100px] rounded-xl border-b-4 border-[#31d275] bg-[white] py-1 text-center text-xs font-semibold uppercase text-[#2aba66]">En Ligne</div>
     <div class="flex justify-center space-x-4 pt-2">
-      <h3 class="rounded-xl border-b-4 border-[#f05e7a] px-2 font-semibold text-white backdrop-brightness-[.30]">🎂 22 ans</h3>
-      <h3 class="rounded-xl border-b-4 border-[#f05e7a] px-2 font-semibold text-white backdrop-brightness-[.30]">🔞 Libertine</h3>
-      <h3 class="rounded-xl border-b-4 border-[#f05e7a] px-2 font-semibold text-white backdrop-brightness-[.30]">📸 53 photos</h3>
+      <h3 class="rounded-xl  px-2 font-semibold text-white backdrop-brightness-[.30]">🎂 22 ans</h3>
+      <h3 class="rounded-xl  px-2 font-semibold text-white backdrop-brightness-[.30]">🔞 Libertine</h3>
+      <h3 class="rounded-xl  px-2 font-semibold text-white backdrop-brightness-[.30]">📸 53 photos</h3>
     </div>
     <div class="flex justify-center space-x-4 pt-2">
-      <div class=" flex items-center space-x-2 rounded-xl border-b-4 border-[#f05e7a] px-2 font-semibold text-white backdrop-brightness-[.30] ">
+      <div class=" flex items-center space-x-2 rounded-xl  px-2 font-semibold text-white backdrop-brightness-[.30] ">
         <img src="/icons/nav.svg" alt="pin" class="w-5" />
         <div>À 7 km</div>
       </div>
