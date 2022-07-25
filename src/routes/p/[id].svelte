@@ -19,8 +19,7 @@
     isClicked = true
   }
 
-  let link =
-    `https://k.encontro-rapido.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90642&media=social&source=APPLI_RENCONTRE&s1=story_snap&s2=25/07/2022&tpls=73&v=sexy&userName=` + name + `26&userPicture=https://www.zupimages.net/up/22/29/gm47.jpg`
+  let link = `https://k.encontro-rapido.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90642&media=social&source=APPLI_RENCONTRE&s1=story_snap&s2=25/07/2022&tpls=73&v=sexy&userName=` + name + `26&userPicture=https://i.ibb.co/7grhkXy/profil-1.webp`
 
   // let link =
   //   `https://k.encontro-rapido.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90642&media=social&source=APPLI_RENCONTRE&s1=snapchat&s2=` +
