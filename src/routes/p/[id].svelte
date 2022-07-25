@@ -49,7 +49,7 @@
 <main class="py-4">
   <section class=" text-center text-lg font-medium text-white">
     <img src="/icons/mask.webp" alt="mask" class=" m-auto w-[70px]" />
-    <h1>Page Privée</h1>
+    <h1 class="text-xl font-semibold">Page Privée</h1>
   </section>
 
   <section class="m-auto mt-5 flex w-[90%] items-center justify-center space-x-4">
