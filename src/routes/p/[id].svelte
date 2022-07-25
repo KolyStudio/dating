@@ -53,7 +53,7 @@
   </section>
 
   <section class="m-auto mt-5 flex w-[90%] items-center justify-center space-x-4">
-    <article class=" relative m-auto mb-5 w-[180px]  rounded-[50px] bg-gradient-to-r from-[#cbcbcb] to-[#cbcbcb] p-[5px] shadow-xl  ">
+    <article class=" relative m-auto mb-5 w-[180px]  rounded-[50px] bg-gradient-to-r from-[#fc8c9d] to-[#fc8c9d] p-[5px] shadow-xl  ">
       <img src="/profil.webp" alt="profil" class="w-[180px] rounded-[50px] border-[4px] border-white" />
       <div class="absolute bottom-[5px] right-[5px] h-[25px] w-[25px] rounded-full border-4 border-[#f5f7f2] bg-[#31d275] " />
     </article>
@@ -68,38 +68,37 @@
       <h3 class="rounded-xl  px-2 font-semibold text-white backdrop-brightness-[.30]">📸 53 photos</h3>
     </div>
     <div class="flex justify-center space-x-4 pt-2">
-      <div class=" flex items-center space-x-2 rounded-xl  px-2 font-semibold text-white backdrop-brightness-[.30] ">
+      <div class=" mt-2 flex items-center space-x-2 rounded-xl px-2 font-semibold text-white backdrop-brightness-[.30] ">
         <img src="/icons/nav.svg" alt="pin" class="w-5" />
-        <div>À 7 km</div>
+        <div>{myip}</div>
       </div>
     </div>
   </article>
+
+  <section class="m-auto my-4 w-[90%] rounded-3xl p-3 py-4 text-white shadow-xl backdrop-brightness-[.30]">
+    <!-- <h1 class="pb-2 text-center text-lg font-semibold uppercase text-[white]">PROFIL DE {name}26</h1> -->
+    Je suis à la recherche de mecs discrets pour des <b>plans cul réguliers.</b> J'ai un appartement depuis peu, et
+    <b>j'ai très envie de m'amuser.</b>
+    <br /><br />Si tu es <b>intéressé</b>, envoie-moi un message on <b>s'organise une soirée dans la semaine.</b>
+  </section>
 
   <div class="pt-3 text-center">⬇️⬇️⬇️⬇️⬇️</div>
 
   <a href={link}>
     <section class=" shake my-4 w-full" id="testjs">
       <article id="testjs" class=" m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[20px] border-b-4 border-[#48af78] bg-gradient-to-r from-[#59cd90] to-[#62dc9b]  p-5 font-bold text-white shadow-2xl">
-        <img src="/icons/chat.webp" alt="chat" class="w-7" />
-        <button id="testjs" class=" font-bold uppercase tracking-[2px]">ME CONTACTER MAINTENANT</button>
+        <button id="testjs" class=" font-bold uppercase tracking-[2px]">🔞 ME CONTACTER MAINTENANT</button>
       </article>
     </section></a
   >
 
   <section>
     <section class="m-auto mt-4 w-[90%]    ">
-      <article class=" relative m-auto mb-5 rounded-[50px] bg-gradient-to-r from-[#cbcbcb] to-[#cbcbcb] p-[3px] shadow-xl  ">
+      <article class=" relative m-auto mb-5 rounded-[50px] bg-gradient-to-r from-[#fc8c9d] to-[#fc8c9d] p-[3px] shadow-xl  ">
         <img src={`/proof/` + proofname + `.webp`} alt="proof" class="rounded-[50px] border-[4px] border-white shadow-xl" />
         <!-- <video class="rounded-[30px] border-[4px] border-white" poster="/poster.webp" playinline src="/proof.mp4" type="video/mp4" controls><track kind="captions" /></video> -->
       </article>
     </section>
-  </section>
-
-  <section class="m-auto my-4 w-[90%] rounded-3xl p-3 py-4 text-white shadow-xl backdrop-brightness-[.30]">
-    <h1 class="pb-2 text-center text-lg font-semibold uppercase text-[white]">PROFIL DE {name}26</h1>
-    Coucou, je m'appelle&nbsp;<b>{name}, j'ai 22 ans.</b> Je suis passionnée de <b>fitness et de danse.</b><br /><br /> Je suis à la recherche de mecs discrets pour des <b>plans cul réguliers.</b> J'ai un appartement depuis peu, et
-    <b>j'ai très envie de m'amuser.</b>
-    <br /><br />Si tu es <b>intéressé</b>, envoie-moi un message on <b>s'organise une soirée dans la semaine.</b>
   </section>
 
   <section class="m-auto my-4 w-[90%] rounded-3xl p-3 py-4 text-white shadow-xl backdrop-brightness-[.30]">
@@ -110,24 +109,17 @@
 
   <section class="m-auto my-4 w-[90%] rounded-3xl p-3 py-4 text-white shadow-xl backdrop-brightness-[.30]">
     <h1 class="pb-2 text-center text-lg font-semibold text-[white]">COMMENT ME RENCONTRER EN RÉEL ?</h1>
-    Envoies moi une petite photo sur J&M Contact et&nbsp;<b>dis moi quand t'es dispo.</b> Je reçois les notifs quand j'ai un message donc habituellement <b>je réponds en quelques minutes.</b><br /><br /> Je préviens l'inscription (essai)
-    coûte quelque chose comme 1 ou 2 euros mais ensuite t'es tranquille tu peux contacter gratuitement <b>autant de filles que tu veux.</b> <br /><br />Et au moins je me fais pas harceler comme sur&nbsp;<b
-      >Tinder, Badoo ou Snap ça permet de parler sans se faire spammer</b
-    > par des milliers de gros relous. 😘
-  </section>
-
-  <section class="m-auto my-4 w-[90%] rounded-3xl p-3 py-4 text-white shadow-xl backdrop-brightness-[.30]">
-    <h1 class="pb-2 text-center text-lg font-semibold text-[white]">POURQUOI J&M CONTACT PLUTÔT QUE SNAP, BADOO OU TINDER ?</h1>
-    Je suis aussi sur Tinder et plusieurs autres sites, mais au final&nbsp;<b>je me fais harceler par des Kssos et les faux profils</b> qui me font perdre beaucoup de temps… 😡
+    Je reçois énormément de messages pour me voir sur&nbsp;<b>snapchat c'est ingérable,</b> alors je me suis crée un <b>profil libertin sur J&M Contact</b> pour ne pas tomber sur des <b>mineurs et des pervers.</b> Et ça me rend plus
+    discrète qu'avant. <br /><br />Si tu veux me rencontrer, <b>inscris-toi sur J&M Contact</b>, je t'ai mis le lien direct de mon profil comme ça tu peux <b>m'envoyer un message directement.</b><br /><br /> J'ai les notifications activées,
+    <b>je réponds en quelques minutes. 😘</b>
   </section>
 
   <div class="pt-3 text-center">⬇️⬇️⬇️⬇️⬇️</div>
 
   <a href={link}>
     <section class=" shake my-4 w-full" id="testjs">
-      <article id="testjs" class=" m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[20px] border-b-4 border-[#48af78] bg-gradient-to-r from-[#59cd90] to-[#62dc9b]   p-5 font-bold text-white shadow-2xl">
-        <img src="/icons/chat.webp" alt="chat" class="w-7" />
-        <button id="testjs" class=" font-bold uppercase tracking-[2px]">ME CONTACTER MAINTENANT</button>
+      <article id="testjs" class=" m-auto flex  w-[90%] items-center justify-center  rounded-[20px] border-b-4 border-[#48af78] bg-gradient-to-r from-[#59cd90] to-[#62dc9b]   p-5 px-2 font-bold text-white shadow-2xl">
+        <button id="testjs" class=" font-bold uppercase tracking-[2px]">🔞 VOIR MON PROFIL J&M CONTACT</button>
       </article>
     </section></a
   >
@@ -177,8 +169,7 @@
   <a href={link}>
     <section class=" shake my-4 w-full" id="testjs">
       <article id="testjs" class=" m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[20px] border-b-4 border-[#48af78] bg-gradient-to-r from-[#59cd90] to-[#62dc9b]    p-5 font-bold text-white shadow-2xl">
-        <img src="/icons/chat.webp" alt="chat" class="w-7" />
-        <button id="testjs" class=" font-bold uppercase tracking-[2px]">ME CONTACTER MAINTENANT</button>
+        <button id="testjs" class=" font-bold uppercase tracking-[2px]">🔞 S'INSCRIRE SUR J&M CONTACT</button>
       </article>
     </section></a
   >
