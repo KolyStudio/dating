@@ -46,15 +46,33 @@ body {
 @keyframes fadeIn {
     0% {
         opacity: 0;
+        width: 85%;
     }
 
     100% {
         opacity: 1;
+        width: 90%;
     }
 }
 
 .fade-inn {
-    animation: fadeIn 3s;
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeInForm {
+    0% {
+        opacity: 0;
+        width: 85%;
+    }
+
+    100% {
+        opacity: 1;
+        width: 90%;
+    }
+}
+
+.fade-innForm {
+    animation: fadeIn 2.5s;
 }
 
 @font-face {
@@ -200,7 +218,7 @@ body {
     border-radius: 10px !important;
     font-weight: bold !important;
     text-transform: uppercase !important;
-    background: linear-gradient(90deg, #57cc99 0%, #59ce75 100%);
+    background: linear-gradient(90deg, #59cd90 0%, #59cd90 100%);
     box-shadow: 0px 4px 10px rgb(156, 156, 156);
     border: none !important;
     color: #ffffff !important;
@@ -208,11 +226,13 @@ body {
 }
 
 .ptprelinker-content-inner {
-    background-color: #fff2ee !important;
+    background-color: white !important;
+    border-radius: 100px !important;
 }
 
 .ptprelinker-legend-form {
-    background-color: #fff2ee !important;
+    background-color: white !important;
+    border-radius: 100px !important;
 }
 
 .ptprelinker-containers-fullpage-default.ptprelinker-show .ptprelinker-content .ptprelinker-content-inner {
@@ -259,4 +279,12 @@ body {
 
 .ptprelinker-input-group:first-child {
     display: none !important;
+}
+
+.ptprelinker-contents-register-form-default .ptprelinker-checkbox .ptprelinker-input-checkbox:checked+.ptprelinker-label-checkbox::before {
+    font-family: "fontello";
+    background-color: #59cd90 !important;
+    font-size: .8rem;
+    border: none !important;
+    content: "";
 }

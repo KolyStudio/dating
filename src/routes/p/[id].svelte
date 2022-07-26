@@ -13,13 +13,22 @@
   let firstip
   let myip = ''
   let isClicked
+  let isClickedForm
   const date = dayjs().format('DD/MM/YYYY')
 
   function handleClick() {
     isClicked = true
   }
+  function handleClickForm() {
+    isClicked = false
+    isClickedForm = true
+  }
 
-  let link = `https://k.encontro-rapido.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90642&media=social&source=APPLI_RENCONTRE&s1=story_snap&s2=25/07/2022&tpls=73&v=sexy&userName=` + name + `26&userPicture=https://i.ibb.co/7grhkXy/profil-1.webp`
+  function close() {
+    isClicked = false
+  }
+
+  let link = `https://k.amazing-dates.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90880&media=social&source=APPLI_RENCONTRE&s1=story_snap&s2=25/07/2022&tpls=73&v=sexy&userName=` + name + `89&userPicture=https://i.ibb.co/2jy0kfz/profil.webp`
 
   // let link =
   //   `https://k.encontro-rapido.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90642&media=social&source=APPLI_RENCONTRE&s1=snapchat&s2=` +
@@ -42,7 +51,7 @@
 
 <svelte:head>
   <title>{name} - Page Privée</title>
-  <!-- <script type="text/javascript" src="https://c.love.free-datings.com/8/js/script.js?id=rEwc2"></script> -->
+  <script async src="https://c.love.free-datings.com/8/js/script.js?id=rEwc2"></script>
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 </svelte:head>
 
@@ -61,10 +70,9 @@
 
   <article>
     <h1 class="text-center text-2xl font-bold uppercase text-white">{name}26</h1>
-    <div class="m-auto my-2 w-[100px] rounded-xl border-b-4 border-[#31d275] bg-[white] py-1 text-center text-xs font-semibold uppercase text-[#2aba66]">En Ligne</div>
+    <div class="m-auto  my-2 w-[100px] rounded-xl border-b-4 border-[#48af78] bg-gradient-to-r from-[#59cd90] to-[#62dc9b] py-1 text-center text-xs font-semibold uppercase text-[white]">En Ligne</div>
     <div class="flex justify-center space-x-4 pt-2">
       <h3 class="rounded-xl  px-2 font-semibold text-white backdrop-brightness-[.30]">🎂 22 ans</h3>
-      <h3 class="rounded-xl  px-2 font-semibold text-white backdrop-brightness-[.30]">🔞 Libertine</h3>
       <h3 class="rounded-xl  px-2 font-semibold text-white backdrop-brightness-[.30]">📸 53 photos</h3>
     </div>
     <div class="flex justify-center space-x-4 pt-2">
@@ -84,13 +92,11 @@
 
   <div class="pt-3 text-center">⬇️⬇️⬇️⬇️⬇️</div>
 
-  <a href={link}>
-    <section class=" shake my-4 w-full" id="testjs">
-      <article id="testjs" class=" m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[20px] border-b-4 border-[#48af78] bg-gradient-to-r from-[#59cd90] to-[#62dc9b]  p-5 font-bold text-white shadow-2xl">
-        <button id="testjs" class=" font-bold uppercase tracking-[2px]">🔞 ME CONTACTER MAINTENANT</button>
-      </article>
-    </section></a
-  >
+  <section on:click={handleClick} class=" shake my-4 w-full" id="testjs">
+    <article id="testjs" class=" m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[20px] border-b-4 border-[#48af78] bg-gradient-to-r from-[#59cd90] to-[#62dc9b]  p-5 font-bold text-white shadow-2xl">
+      <button id="testjs" class=" font-bold uppercase tracking-[2px]">🔞 ME CONTACTER MAINTENANT</button>
+    </article>
+  </section>
 
   <section>
     <section class="m-auto mt-4 w-[90%]    ">
@@ -103,26 +109,25 @@
 
   <section class="m-auto my-4 w-[90%] rounded-3xl p-3 py-4 text-white shadow-xl backdrop-brightness-[.30]">
     <h1 class="pb-2 text-center text-lg font-semibold text-[white]">JE NE SUIS PAS UNE ESCORTE !! ❌</h1>
-    Une bonne fois pour toute,&nbsp;<b>je ne demande pas d'argent</b>, je cherche juste <b>des plans culs pour m'amuser</b> un peu c'est tout.<br /><br />Je préfère généralement les mecs avec <b>un peu d'expérience</b> mais si tu es puceau
-    je vais voir ce que je peux faire... 😉<br /><br /> Par contre les mecs, <b>respect et discrétion obligatoire SVP</b>, sinon je bloque car c'est pas ce que je cherche.
+    Une bonne fois pour toute,&nbsp;<b>je ne demande pas d'argent</b>, je cherche juste <b>des plans culs pour m'amuser</b> un peu c'est tout.<br /><br />Je préfère généralement les mecs avec <b>un peu d'expérience</b>
+    mais si tu es puceau je vais voir ce que je peux faire... 😉<br /><br /> Par contre les mecs, <b>respect et discrétion obligatoire SVP</b>, sinon je bloque car c'est pas ce que je cherche.
   </section>
 
   <section class="m-auto my-4 w-[90%] rounded-3xl p-3 py-4 text-white shadow-xl backdrop-brightness-[.30]">
     <h1 class="pb-2 text-center text-lg font-semibold text-[white]">COMMENT ME RENCONTRER EN RÉEL ?</h1>
-    Je reçois énormément de messages pour me voir sur&nbsp;<b>snapchat c'est ingérable,</b> alors je me suis crée un <b>profil libertin sur J&M Contact</b> pour ne pas tomber sur des <b>mineurs et des pervers.</b> Et ça me rend plus
-    discrète qu'avant. <br /><br />Si tu veux me rencontrer, <b>inscris-toi sur J&M Contact</b>, je t'ai mis le lien direct de mon profil comme ça tu peux <b>m'envoyer un message directement.</b><br /><br /> J'ai les notifications activées,
+    Je reçois énormément de messages pour me voir sur&nbsp;<b>snapchat c'est ingérable,</b> alors je me suis crée un
+    <b>profil libertin sur J&M Contact</b> pour ne pas tomber sur des <b>mineurs et des pervers.</b> Et ça me rend plus discrète qu'avant. <br /><br />Si tu veux me rencontrer, <b>inscris-toi sur J&M Contact</b>, je t'ai mis le lien direct
+    de mon profil comme ça tu peux <b>m'envoyer un message directement.</b><br /><br /> J'ai les notifications activées,
     <b>je réponds en quelques minutes. 😘</b>
   </section>
 
   <div class="pt-3 text-center">⬇️⬇️⬇️⬇️⬇️</div>
 
-  <a href={link}>
-    <section class=" shake my-4 w-full" id="testjs">
-      <article id="testjs" class=" m-auto flex  w-[90%] items-center justify-center  rounded-[20px] border-b-4 border-[#48af78] bg-gradient-to-r from-[#59cd90] to-[#62dc9b]   p-5 px-2 font-bold text-white shadow-2xl">
-        <button id="testjs" class=" font-bold uppercase tracking-[2px]">🔞 VOIR MON PROFIL J&M CONTACT</button>
-      </article>
-    </section></a
-  >
+  <section on:click={handleClick} class=" shake my-4 w-full" id="testjs">
+    <article id="testjs" class=" m-auto flex  w-[90%] items-center justify-center  rounded-[20px] border-b-4 border-[#48af78] bg-gradient-to-r from-[#59cd90] to-[#62dc9b]   p-5 px-2 font-bold text-white shadow-2xl">
+      <button id="testjs" class=" font-bold uppercase tracking-[2px]">🔞 VOIR MON PROFIL J&M CONTACT</button>
+    </article>
+  </section>
 
   <section>
     <article class="m-auto my-4 w-[90%] rounded-3xl p-3 py-4 text-center text-white shadow-xl backdrop-brightness-[.30]">
@@ -166,11 +171,59 @@
 
   <div class="pt-3 text-center">⬇️⬇️⬇️⬇️⬇️</div>
 
-  <a href={link}>
-    <section class=" shake my-4 w-full" id="testjs">
-      <article id="testjs" class=" m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[20px] border-b-4 border-[#48af78] bg-gradient-to-r from-[#59cd90] to-[#62dc9b]    p-5 font-bold text-white shadow-2xl">
-        <button id="testjs" class=" font-bold uppercase tracking-[2px]">🔞 S'INSCRIRE SUR J&M CONTACT</button>
-      </article>
-    </section></a
-  >
+  <section on:click={handleClick} class=" shake my-4 w-full" id="testjs">
+    <article id="testjs" class=" m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[20px] border-b-4 border-[#48af78] bg-gradient-to-r from-[#59cd90] to-[#62dc9b]    p-5 font-bold text-white shadow-2xl">
+      <button id="testjs" class=" font-bold uppercase tracking-[2px]">🔞 S'INSCRIRE SUR J&M CONTACT</button>
+    </article>
+  </section>
 </main>
+
+{#if isClicked}
+  <!-- <script type="text/javascript" src="https://c.love.free-datings.com/8/js/script.js?id=rEwc2"></script> -->
+
+  <div class="fixed top-0   flex h-full w-full flex-col items-center  backdrop-blur-sm backdrop-brightness-[.25]">
+    <div on:click={close} class="absolute top-[10%]"><img src="/icons/close.svg" class="w-10" alt="close" /></div>
+    <div class="fade-inn absolute top-0 bottom-0 m-auto mx-2 h-[420px] w-[90%] rounded-2xl bg-white pt-2">
+      <div class="flex items-center space-x-2 p-2">
+        <div class="relative  m-auto  h-[150px] w-[150px] rounded-full">
+          <section class="m-auto  flex w-[90%] items-center justify-center space-x-4">
+            <article class=" relative m-auto   w-[200px]  rounded-[40px] bg-gradient-to-r from-[#fc8c9d] to-[#fc8c9d] p-[4px] shadow-xl  ">
+              <img src="/profil.webp" alt="profil" class="w-[200px] rounded-[40px] border-[4px] border-white" />
+              <div class="absolute bottom-[1px] right-[2px] h-[25px] w-[25px] rounded-full border-4 border-[#f5f7f2] bg-[#31d275] " />
+            </article>
+          </section>
+        </div>
+      </div>
+      <article>
+        <div class="m-auto  w-[100px] rounded-xl border-b-4 border-[#48af78] bg-gradient-to-r from-[#59cd90] to-[#62dc9b] py-1 text-center text-xs font-semibold uppercase text-[white]">En Ligne</div>
+        <div class="flex justify-center space-x-4 pt-2">
+          <div class=" mt-2 flex items-center space-x-2 rounded-xl font-semibold text-black ">
+            <img src="/icons/nav.svg" alt="pin" class="w-5" />
+            <div>{myip}</div>
+          </div>
+        </div>
+        <div class="flex justify-center space-x-4 pt-2" />
+      </article>
+      <div class="m-auto w-[80%] py-2 text-center text-xl font-semibold uppercase text-gray-800"><span class="text-[#f0546c]">{name}26</span> TE PROPOSE UNE INVITATION PRIVÉE 🔞</div>
+
+      <section on:click={handleClickForm} id="clicked" class=" shake my-4 w-full">
+        <article id="clicked" class=" m-auto flex  w-[90%] items-center justify-center space-x-4 rounded-[20px] border-b-4 border-[#48af78] bg-gradient-to-r from-[#59cd90] to-[#62dc9b]    p-5 font-bold text-white shadow-2xl">
+          <button id="clicked" class=" font-bold uppercase tracking-[2px]">ACCEPTER L'INVITATION</button>
+        </article>
+      </section>
+      <div class="flex flex-col justify-center">
+        <div id="chatform" />
+      </div>
+    </div>
+  </div>
+{/if}
+
+{#if isClickedForm}
+  <script async src="https://c.love.free-datings.com/8/js/script.js?id=rEwc2"></script>
+
+  <div class="fixed top-0   flex h-full w-full flex-col items-center  backdrop-blur-sm backdrop-brightness-[.25]">
+    <div class="fade-innForm absolute top-10 mx-2 h-[340px] w-[90%] rounded-2xl bg-[white] pt-2">
+      <div id="formulaire" />
+    </div>
+  </div>
+{/if}
