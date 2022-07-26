@@ -75,6 +75,20 @@ body {
     animation: fadeIn 2.5s;
 }
 
+@keyframes fadeInVille {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.fade-innVille {
+    animation: fadeIn 2.5s;
+}
+
 @font-face {
     font-family: 'Platform';
     src: url('fonts/Platform-Regular.eot');
