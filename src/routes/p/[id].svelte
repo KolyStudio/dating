@@ -9,7 +9,7 @@
 
   console.log(id)
   const name = id.charAt(0).toUpperCase() + id.slice(1)
-  const proofname = id
+  const proofname = id.toLowerCase()
   let firstip
   let myip = 'À 7 km'
   let isClicked
