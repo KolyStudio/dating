@@ -76,7 +76,7 @@
       <h3 class="rounded-xl  px-2 font-semibold text-white backdrop-brightness-[.30]">📸 53 photos</h3>
     </div>
     <div class="flex justify-center space-x-4 pt-2">
-      <div class="fade-innVille mt-2 flex items-center space-x-2 rounded-xl px-2 font-semibold text-white backdrop-brightness-[.30] ">
+      <div class="  mt-2 flex items-center space-x-2 rounded-xl px-2 font-semibold text-white backdrop-brightness-[.30] ">
         <img src="/icons/nav.svg" alt="pin" class="w-5" />
         <div>{myip}</div>
       </div>
