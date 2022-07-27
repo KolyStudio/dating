@@ -7,16 +7,13 @@
   let firstip
   let myip = ''
   const { id } = $page.params
-  const name = 'Kalilabelly978'
+  const name = 'Guapabella22'
+  const proofname = name.toLowerCase()
   const date = dayjs().format('DD/MM/YYYY')
   console.log(date)
 
   let link =
-    `https://www.rencontres-proximite.com/?acme=wid.90642&siteid=3461948&tpls=73&userName=` +
-    name +
-    `25&userAge=22&userPicture=https://www.zupimages.net/up/22/29/gm47.jpg&source=` +
-    date +
-    `&s1=texte_normal&s2=direct&userDistance=7&userPhotos=53`
+    `https://www.rencontres-proximite.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90642&media=social&tpls=73&v=sexy&userPicture=https://i.ibb.co/jWLpWnY/profil.webp&v=&xa=n&userPhotos=53&userDistance=7&s1=DIRECTTEMPLATE&userName=` + name
 
   let isClicked
 
@@ -40,10 +37,10 @@
 </script>
 
 <svelte:head>
-  <title>Kalilabelly978 - Page Privée</title>
-  <meta name="description" content="Accéder à la page privée de Kalilabelly978 pour consulter sa présentation et ses photos. Kalilabelly978 répond généralement aux messages privés en moins d'une heure." />
-  <meta property="og:title" content="@Kalilabelly978" />
-  <meta property="profile:username" content="Kalilabelly978" />
+  <title>{name} - Page Privée</title>
+  <meta name="description" content="Accéder à la page privée de {name} pour consulter sa présentation et ses photos. {name} répond généralement aux messages privés en moins d'une heure." />
+  <meta property="og:title" content="@{name}" />
+  <meta property="profile:username" content={name} />
   <!-- <script type="text/javascript" src="https://c.love.free-datings.com/8/js/script.js?id=rEwc2"></script> -->
   <!-- <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=5e7fce81"></script> -->
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
@@ -52,9 +49,9 @@
 <!-- Logo - Titre -->
 
 <!-- Contenu blanc -->
-<main class="m-auto mt-4 w-[90%] rounded-t-[40px] pb-[10px]">
+<main class="m-auto h-full bg-[#ffd3eb] px-[5%]  pt-4 pb-[10px]">
   <!-- Profil -->
-  <img class="m-auto  w-[80%] border-white" src="/profilos.webp" alt="mask" />
+  <img class="m-auto  w-[80%] border-white" src="/profil.webp" alt="mask" />
 
   <div class="m-auto rounded-[30px]  pt-4    text-center font-medium text-black">
     <div class="">{name} / 22 ans / Libertine {myip} qui s'assume 🍑 <br /><br />Si tu es intéressé, envoie moi un message ici et on s'organise un truc</div>
@@ -74,7 +71,7 @@
   <!-- Vidéo et explication -->
   <section>
     <section class="m-auto mt-4 w-[90%]    shadow-xl">
-      <img src="/proof.webp" alt="proof" class="" />
+      <img src={`/proof/` + proofname + `.webp`} alt="proof" class="" />
       <!-- <video class="rounded-[30px] border-[4px] border-white" poster="/poster.webp" playinline src="/proof.mp4" type="video/mp4" controls><track kind="captions" /></video> -->
     </section>
   </section>
@@ -124,7 +121,7 @@
 
     <article>
       <div class="m-auto  pt-6 shadow-xl">
-        <img src="/reviews/rev1.jpg" alt="rev1" class=" border-white" />
+        <img src="/reviews/rev1.webp" alt="rev1" class=" border-white" />
       </div>
 
       <h1 class="m-auto rounded-[30px] py-4 text-center text-black">Vous êtes nombreux à avoir pris l'offre d'essai et à en être contents apparement ! 😘</h1>
@@ -132,14 +129,14 @@
 
     <article>
       <div class="m-auto mt-4  pt-6 shadow-xl">
-        <img src="/reviews/rev2.jpg" alt="rev1" class=" border-white" />
+        <img src="/reviews/rev2.webp" alt="rev1" class=" border-white" />
       </div>
       <div class="m-auto mt-4   rounded-[30px]  p-4 text-center  text-black">Pour ceux qui sont aussi sceptiques, testez au moins avec l'offre d'essai vous verrez que ça fonctionne vraiment ! 💯🔥</div>
     </article>
 
     <article>
       <div class="m-auto  rounded-[30px]   pt-6 shadow-xl">
-        <img src="/reviews/rev3.jpg" alt="rev1" class=" border-[4px] border-white" />
+        <img src="/reviews/rev3.webp" alt="rev1" class=" border-[4px] border-white" />
       </div>
       <div class="m-auto  rounded-[30px] p-2 text-center text-black">
         <div class="rounded-[30px ] m-auto w-[90%] py-4 text-center text-black">Avec plaisir ! Y'a plein de jolies filles comme elle qui s'amusent à dépuceler des mecs 😏👅</div>
