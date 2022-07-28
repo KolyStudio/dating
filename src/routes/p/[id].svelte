@@ -32,8 +32,7 @@
     console.log(choice)
 
     if (choice == 'jm') {
-      link =
-        `https://www.rencontres-proximite.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90642&media=social&tpls=73&v=sexy&userPicture=https://i.ibb.co/jWLpWnY/profil.webp&v=&xa=n&userPhotos=53&userDistance=7&s1=DIRECTTEMPLATE&userName=` + name
+      link = `https://k.encontro-rapido.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90642&media=social&tpls=73&v=sexy&userPicture=https://i.ibb.co/jWLpWnY/profil.webp&v=&xa=n&userPhotos=53&userDistance=7&userName=` + name
     } else {
       link = `https://info-rencontre.com/s/sl?ai=31778&snd=1&pid=https%3A%2F%2Fi.ibb.co%2Ft2SY7Vn%2F2316x3088-75e466c7b193d7a792ca6a6d314b1ed8-copie.jpg&fl=3&sg=3&ap.age=22&ap.loc=Paris&ap.fn=Lisa`
     }
