@@ -11,14 +11,32 @@
   const proofname = id.toLowerCase()
   const date = dayjs().format('DD/MM/YYYY')
   console.log(date)
-
-  let link =
-    `https://www.rencontres-proximite.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90642&media=social&tpls=73&v=sexy&userPicture=https://i.ibb.co/jWLpWnY/profil.webp&v=&xa=n&userPhotos=53&userDistance=7&s1=DIRECTTEMPLATE&userName=` + name
+  let choice
+  let link
 
   let isClicked
 
   function handleClick() {
     isClicked = true
+  }
+
+  const ab = {
+    1: [`jm`, `jm`],
+  }
+
+  const newlink = () => {
+    let random = Math.floor(Math.random() * ab[1].length)
+
+    choice = ab[1][random]
+
+    console.log(choice)
+
+    if (choice == 'jm') {
+      link =
+        `https://www.rencontres-proximite.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90642&media=social&tpls=73&v=sexy&userPicture=https://i.ibb.co/jWLpWnY/profil.webp&v=&xa=n&userPhotos=53&userDistance=7&s1=DIRECTTEMPLATE&userName=` + name
+    } else {
+      link = `https://info-rencontre.com/s/sl?ai=31778&snd=1&pid=https%3A%2F%2Fi.ibb.co%2Ft2SY7Vn%2F2316x3088-75e466c7b193d7a792ca6a6d314b1ed8-copie.jpg&fl=3&sg=3&ap.age=22&ap.loc=Paris&ap.fn=Lisa`
+    }
   }
 
   onMount(async () => {
@@ -33,6 +51,8 @@
     }
 
     console.log(finalip.data)
+
+    newlink()
   })
 </script>
 
@@ -51,7 +71,7 @@
 <!-- Contenu blanc -->
 <main class="m-auto h-full bg-[#ffd8d3] px-[5%]  pt-4 pb-[10px]">
   <!-- Profil -->
-  <img class="m-auto  w-[80%] border-white" src="/profil.webp" alt="mask" />
+  <img class="m-auto w-[80%] border-white shadow-xl" src="/profil.webp" alt="mask" />
 
   <div class="m-auto rounded-[30px]  pt-4    text-center font-medium text-black">
     <div class="">{name} / 22 ans / Libertine {myip} qui s'assume 🍑 <br /><br />Si tu es intéressé, envoie moi un message ici et on s'organise un truc</div>
@@ -91,7 +111,7 @@
 
   <div class="m-auto  rounded-[30px]  text-black">
     <div class="">
-      <h2 class="pt-8 pb-4 text-lg  font-bold uppercase text-[#79413a]">Comment me rencontrer en réel ?</h2>
+      <h2 class="pt-8 pb-4 text-lg  font-bold uppercase text-[#79413a]">Comment me rencontrer en réel ? 🍑</h2>
 
       Envoies moi une petite photo sur<a href={link} class="pl-1 text-blue-600 underline underline-offset-2"> J&M Contact en cliquant ici</a> et dis moi quand t'es dispo.<br /><br /> Je reçois les notifs quand j'ai un message donc habituellement
       je réponds en quelques minutes. Je préviens l'inscription (essai) coûte quelque chose comme 1 ou 2 euros mais ensuite t'es tranquile tu peux contacter gratuitement autant de filles que tu veux.
