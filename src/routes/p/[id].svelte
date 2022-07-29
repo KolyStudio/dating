@@ -10,7 +10,7 @@
   import Reviews from '../components/reviews/reviews.svelte'
 
   let firstip
-  let myip = '📍 À 3.9 km'
+  let myip = '📍 À 7 km'
   const { id } = $page.params
   const name = id.charAt(0).toUpperCase() + id.slice(1)
   const proofname = id.toLowerCase()
