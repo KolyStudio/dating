@@ -6,8 +6,9 @@
   import Profil from '../components/profil/profil.svelte'
   import Header from '../components/header/header.svelte'
   import Proof from '../components/proof/proof.svelte'
-  import Description from '../components/description/description.svelte'
-  import Reviews from '../components/reviews/reviews.svelte'
+  import Descriptionjm from '../components/description/description_jm.svelte'
+  import Descriptionex from '../components/description/description_ex.svelte'
+  import Reviewsex from '../components/reviews/reviews_ex.svelte'
 
   let firstip
   let myip = 'À 7 km'
@@ -43,6 +44,6 @@
   <Header />
   <Profil prenom={name} ville={myip} />
   <Proof proofname2={proofname} />
-  <Description prenom={name} />
-  <Reviews prenom={name} />
+  <Descriptionex prenom={name} />
+  <Reviewsex prenom={name} />
 </main>

@@ -1,5 +1,5 @@
 <script>
-  import Popup from '../popup/popup.svelte'
+  import Popupex from '../popup/popup_ex.svelte'
   let isClicked
 
   function handleClick() {
@@ -14,4 +14,4 @@
   <span id="clicked">ENVOIE-MOI UN MESSAGE</span>
 </section>
 
-<Popup isClick={isClicked} prenom={prenombutton} />
+<Popupex isClick={isClicked} prenom={prenombutton} />
