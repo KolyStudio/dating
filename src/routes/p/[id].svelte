@@ -36,7 +36,7 @@
   <meta property="og:title" content="{name} - Page Privée" />
   <meta property="profile:username" content={name} />
   <script type="text/javascript" src="https://c.love.free-datings.com/8/js/script.js?id=rEwc2"></script>
-  <!-- <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=5e7fce81"></script> -->
+  <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=c836eadf"></script>
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 </svelte:head>
 
