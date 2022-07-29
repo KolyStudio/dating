@@ -39,4 +39,4 @@
   <p>Avec plaisir, j'avoue que j'ai kiffée 🙈🍑</p>
 </section>
 
-<!-- <Button prenombutton={prenom} /> -->
+<Button prenombutton={prenom} />

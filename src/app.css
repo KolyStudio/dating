@@ -218,7 +218,8 @@ body {
 
 .ptprelinker-contents-register-form-default .ptprelinker-content .ptprelinker-content-inner .ptprelinker-register-form .ptprelinker-legend-form {
     color: #57cc99 !important;
-    font-weight: bold;
+    font-weight: 500;
+    letter-spacing: 2.2px !important;
 
 }
 
@@ -230,13 +231,13 @@ body {
 
 .ptprelinker-contents-register-form-default .ptprelinker-content .ptprelinker-content-inner .ptprelinker-register-form .ptprelinker-buttons .ptprelinker-button {
     border-radius: 10px !important;
-    font-weight: bold !important;
+    font-weight: 500 !important;
     text-transform: uppercase !important;
     background: linear-gradient(90deg, #59cd90 0%, #59cd90 100%);
     box-shadow: 0px 4px 10px rgb(156, 156, 156);
     border: none !important;
     color: #ffffff !important;
-    letter-spacing: 1.1px !important;
+    letter-spacing: 2.2px !important;
 }
 
 .ptprelinker-content-inner {
@@ -301,4 +302,9 @@ body {
     font-size: .8rem;
     border: none !important;
     content: "";
+}
+
+.ptprelinker-contents-register-form-default .ptprelinker-content {
+    max-width: 500px;
+    font-family: Platform !important;
 }

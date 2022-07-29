@@ -21,4 +21,4 @@
   <div class="flex justify-center space-x-4 pt-4"><div class="fade-inn flex items-center rounded-xl border-b-4 border-[#d2d2d2] bg-white px-2 font-semibold "><div>{ville}</div></div></div>
 </section>
 
-<!-- <Button prenombutton={prenom} /> -->
+<Button prenombutton={prenom} />

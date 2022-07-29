@@ -28,4 +28,4 @@
   </p>
 </section>
 
-<!-- <Button prenombutton={prenom} /> -->
+<Button prenombutton={prenom} />
