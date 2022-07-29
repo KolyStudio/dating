@@ -317,3 +317,8 @@ body {
 .ptprelinker-cgu-link {
     color: black !important;
 }
+
+.btn .continue btn-plain {
+    padding: 10px !important;
+    height: 100px !important;
+}
