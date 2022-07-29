@@ -62,17 +62,17 @@ body {
 @keyframes fadeInForm {
     0% {
         opacity: 0;
-        width: 85%;
+
     }
 
     100% {
         opacity: 1;
-        width: 90%;
+
     }
 }
 
 .fadeInForm {
-    animation: fadeIn 2.5s;
+    animation: fadeIn 1.5s;
 }
 
 @keyframes fadeInVille {
@@ -270,7 +270,7 @@ body {
 
 
 .ptprelinker-contents-register-form-default .ptprelinker-content .ptprelinker-content-inner .ptprelinker-register-form .ptprelinker-cgu-link {
-    color: #ceb4db !important;
+    color: black !important;
     text-decoration: none;
     transition: all 0.4s;
 }
@@ -302,9 +302,18 @@ body {
     font-size: .8rem;
     border: none !important;
     content: "";
+
 }
 
 .ptprelinker-contents-register-form-default .ptprelinker-content {
     max-width: 500px;
     font-family: Platform !important;
+}
+
+.ptprelinker-contents-register-form-default .ptprelinker-checkbox .ptprelinker-label-checkbox {
+    color: black !important;
+}
+
+.ptprelinker-cgu-link {
+    color: black !important;
 }
