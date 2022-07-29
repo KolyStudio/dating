@@ -42,7 +42,7 @@
 <main class="pb-2 ">
   <Header />
   <Profil prenom={name} ville={myip} />
-  <Proof />
+  <Proof proofname2={proofname} />
   <Description prenom={name} />
   <Reviews prenom={name} />
 </main>
