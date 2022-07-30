@@ -11,17 +11,17 @@
 
 <section>
   <h1 class="pt-3 text-center text-3xl font-bold uppercase text-white">{prenom}26</h1>
-  <article class="m-auto my-2 w-[100px] rounded-xl border-b-4 border-[#add3b5] bg-[#e1f3e5] py-1 text-center text-xs font-semibold uppercase text-[#31d275]">EN LIGNE</article>
+  <article class="m-auto my-2 w-[100px] rounded-xl  border-b-4 border-[#229351] bg-[#31d275] py-1 text-center text-xs font-semibold uppercase text-white">EN LIGNE</article>
 
   <div class="flex justify-center space-x-4 pt-2">
     <div class="rounded-xl border-b-4 border-[#d2d2d2] bg-white px-2 font-semibold">🎂 22 ans</div>
     <div class="rounded-xl border-b-4 border-[#d2d2d2] bg-white px-2 font-semibold">🔞 Libertine</div>
   </div>
 
-  <div class="flex justify-center space-x-4 pt-4">
+  <div class="mb-3 flex justify-center space-x-4 pt-4 ">
     <div class="fade-inn flex items-center space-x-2 rounded-xl border-b-4 border-[#d2d2d2] bg-white px-2 font-semibold ">
       <img src="/icons/nav.svg" alt="nav" class="w-6" />
-      <div class="pt-[2px]">{ville}</div>
+      <div class="pt-[2px]">À 7 km</div>
     </div>
   </div>
 </section>

@@ -11,8 +11,10 @@
   }
 </script>
 
+<div class="flex justify-center pt-2">⬇️⬇️⬇️⬇️⬇️</div>
+
 <a href={link}
-  ><section class="shake m-auto mx-[3%] my-4 flex items-center justify-center space-x-4 rounded-3xl bg-black py-4 font-semibold text-white shadow-xl">
+  ><section class="shake m-auto mx-[3%] my-4 flex items-center justify-center space-x-4 rounded-[30px] border-b-4 border-[#229351] bg-[#31d275] py-5 text-lg font-semibold text-white shadow-xl">
     <img src="/icons/chat.webp" alt="chat" class="w-10" />
     <span>ENVOIE-MOI UN MESSAGE</span>
   </section></a
