@@ -23,8 +23,8 @@
 <section class="mx-[3%] my-4 rounded-[30px] border-b-4 border-[#d2d2d2] bg-white px-6 py-4">
   <h2 class="text-l mb-2 text-center font-semibold">COMMENT ME RENCONTRER EN RÉEL ?</h2>
   <p>
-    Envoie-moi une petite photo sur J&amp;M Contact et <b>dis moi quand t'es dispo.</b> Je reçois les notifs quand j'ai un message donc habituellement <b>je réponds en quelques minutes.</b><br /><br /> Je préviens l'inscription (essai)
-    coûte quelque chose comme 1 ou 2 euros mais ensuite t'es tranquille <b>tu peux contacter gratuitement autant de filles que tu veux.</b> <br /><br />
+    Envoie-moi une petite photo sur J&amp;M Contact et <b>dis moi quand t'es dispo.</b> Je reçois les notifs quand j'ai un message donc habituellement <b>je réponds en quelques minutes.</b><br /><br /> Je préviens l'inscription coûte
+    quelque chose comme 1 mais ensuite t'es tranquille <b>tu peux contacter gratuitement autant de filles que tu veux.</b> <br /><br />
     Et au moins je me fais pas harceler comme sur
     <b>Tinder, Badoo ou Snap ça permet de parler sans se faire spammer</b> par des milliers de gros relous. 😘
   </p>

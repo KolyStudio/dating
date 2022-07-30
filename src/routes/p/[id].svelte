@@ -31,7 +31,7 @@
 </script>
 
 <svelte:head>
-  <title>{name} - Page Privée</title>
+  <title>{name}26 - Page Privée</title>
   <meta name="description" content="Accéder à la page privée de {name} pour consulter sa présentation et ses photos. {name} répond généralement aux messages privés en moins d'une heure." />
   <meta property="og:title" content="{name} - Page Privée" />
   <meta property="profile:username" content={name} />
@@ -40,7 +40,7 @@
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 </svelte:head>
 
-<main class="pb-2 ">
+<main class="pb-2">
   <Header />
   <Profil prenom={name} ville={myip} />
   <Proof proofname2={proofname} />
